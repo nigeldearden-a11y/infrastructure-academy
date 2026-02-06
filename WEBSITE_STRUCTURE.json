@@ -1,0 +1,556 @@
+{
+  "metadata": {
+    "title": "Infrastructure Academy - Complete Website Structure",
+    "subtitle": "An Infrastructure Odyssey: Book 1 - Calories to Consciousness",
+    "author": "Ir. Nigel T. Dearden",
+    "created": "2026-02-07T00:00:00.000Z",
+    "version": "1.0",
+    "status": "Published to GitHub",
+    "github_repository": "https://github.com/nigeldearden-a11y/infrastructure-academy",
+    "github_pages_url": "https://nigeldearden-a11y.github.io/infrastructure-academy/",
+    "manus_project_id": "FFx2UWwMvJEw9hAhSXrXuS",
+    "checkpoint_version": "cc07386f"
+  },
+  "website_summary": {
+    "total_pages": 68,
+    "total_chapters": 41,
+    "total_assets": 252,
+    "total_images": 240,
+    "total_documents": 11,
+    "total_videos": 1,
+    "navigation_tabs": 9,
+    "styling": {
+      "primary_color": "#FFD700",
+      "secondary_color": "#0A1628",
+      "theme": "Professional Gold & Dark Blue",
+      "responsive": true,
+      "framework": "HTML5 + CSS3 + JavaScript"
+    }
+  },
+  "navigation_structure": {
+    "main_tabs": [
+      {
+        "id": 1,
+        "name": "HOME",
+        "file": "site.html",
+        "description": "Main landing page with book overview",
+        "content": "Book introduction, video, structure summary"
+      },
+      {
+        "id": 2,
+        "name": "EXECUTIVE PRÉCIS",
+        "file": "pages/executive-precis.html",
+        "description": "Executive summary with 12 civilizational relays",
+        "content": "12 Relays, 5 Great Webs, Framework overview"
+      },
+      {
+        "id": 3,
+        "name": "FRAMEWORK",
+        "file": "pages/framework.html",
+        "description": "Conceptual framework and methodology",
+        "content": "5 Great Webs, 4 Pillars, Pillar-Web Matrix, 3 Modes of Continuity, 4Cs Collapse Cycle"
+      },
+      {
+        "id": 4,
+        "name": "RESOURCES",
+        "file": "pages/resources.html",
+        "description": "Master Media Index and reference materials",
+        "content": "Book covers, visualizations, chapter artwork, reference materials"
+      },
+      {
+        "id": 5,
+        "name": "ABOUT THE AUTHOR",
+        "file": "pages/about-author.html",
+        "description": "Author biography and background",
+        "content": "Ir. Nigel T. Dearden - Chartered Civil Engineer, professional background, vision/mission"
+      },
+      {
+        "id": 6,
+        "name": "VOLUME 1: PERSPECTIVE",
+        "file": "volumes/volume1/index.html",
+        "description": "The Story - Narrative foundation",
+        "chapters": 14,
+        "content": "Prologue + 12 Relays + Epilogue"
+      },
+      {
+        "id": 7,
+        "name": "VOLUME 2: GUIDE",
+        "file": "volumes/volume2/index.html",
+        "description": "The Guide - Practical framework",
+        "chapters": 14,
+        "content": "Prologue + 12 Relays (with 4-Pillar Framework) + Epilogue"
+      },
+      {
+        "id": 8,
+        "name": "SUPPLEMENTS",
+        "file": "pages/supplements.html",
+        "description": "Four supplementary volumes",
+        "supplements": 4,
+        "content": "Identify, Understand, Manage & Control, Thesis & Vision"
+      },
+      {
+        "id": 9,
+        "name": "VOLUME 3: GAME",
+        "file": "volumes/volume3/index.html",
+        "description": "Interactive learning challenges",
+        "chapters": 13,
+        "content": "Prologue + 12 Relays (Interactive challenges)"
+      }
+    ]
+  },
+  "volume_1_perspective": {
+    "title": "Volume 1: The Story - Perspective",
+    "description": "Narrative foundation through 12 civilizational relays",
+    "structure": "Prologue + 12 Relays + Epilogue = 14 chapters",
+    "chapters": [
+      {
+        "id": 0,
+        "name": "Prologue",
+        "file": "volumes/volume1/prologue.html",
+        "type": "introduction"
+      },
+      {
+        "id": 1,
+        "name": "Relay 1: FIRE",
+        "file": "volumes/volume1/relay-01-fire.html",
+        "subtitle": "The Primal Spark - Energy Mastery Begins",
+        "type": "relay"
+      },
+      {
+        "id": 2,
+        "name": "Relay 2: TREE",
+        "file": "volumes/volume1/relay-02-tree.html",
+        "subtitle": "The First Canopy - Agricultural Foundation",
+        "type": "relay"
+      },
+      {
+        "id": 3,
+        "name": "Relay 3: RIVER",
+        "file": "volumes/volume1/relay-03-river.html",
+        "subtitle": "The Lifeblood - Water Management",
+        "type": "relay"
+      },
+      {
+        "id": 4,
+        "name": "Relay 4: HORSE",
+        "file": "volumes/volume1/relay-04-horse.html",
+        "subtitle": "The Great Connector - Transportation & Control",
+        "type": "relay"
+      },
+      {
+        "id": 5,
+        "name": "Relay 5: ROADS",
+        "file": "volumes/volume1/relay-05-roads.html",
+        "subtitle": "The Arterial Network - Network Infrastructure",
+        "type": "relay"
+      },
+      {
+        "id": 6,
+        "name": "Relay 6: SHIPS",
+        "file": "volumes/volume1/relay-06-ships.html",
+        "subtitle": "The Maritime Revolution - Maritime Systems",
+        "type": "relay"
+      },
+      {
+        "id": 7,
+        "name": "Relay 7: RAIL",
+        "file": "volumes/volume1/relay-07-rail.html",
+        "subtitle": "The Iron Age - Industrial Transport",
+        "type": "relay"
+      },
+      {
+        "id": 8,
+        "name": "Relay 8: LOOM",
+        "file": "volumes/volume1/relay-08-loom.html",
+        "subtitle": "The Social Fabric - Social Organization",
+        "type": "relay"
+      },
+      {
+        "id": 9,
+        "name": "Relay 9: ENGINE",
+        "file": "volumes/volume1/relay-09-engine.html",
+        "subtitle": "The Power Surge - Mechanical Power",
+        "type": "relay"
+      },
+      {
+        "id": 10,
+        "name": "Relay 10: AAA TRIAD",
+        "file": "volumes/volume1/relay-10-aaa.html",
+        "subtitle": "Automobile, Aviation & Airwaves - Modern Systems",
+        "type": "relay"
+      },
+      {
+        "id": 11,
+        "name": "Relay 11: HUMANS AS NODES",
+        "file": "volumes/volume1/relay-11-humans.html",
+        "subtitle": "The Information Age - Digital Networks",
+        "type": "relay"
+      },
+      {
+        "id": 12,
+        "name": "Relay 12: CONSCIOUSNESS",
+        "file": "volumes/volume1/relay-12-consciousness.html",
+        "subtitle": "The Torus - Integrated Systems",
+        "type": "relay"
+      },
+      {
+        "id": 13,
+        "name": "Epilogue",
+        "file": "volumes/volume1/epilogue.html",
+        "type": "conclusion"
+      }
+    ]
+  },
+  "volume_2_guide": {
+    "title": "Volume 2: The Guide - Practical Framework",
+    "description": "Expanded analysis with 4-Pillar Framework methodology",
+    "structure": "Prologue + 12 Relays (with 4-Pillar Framework) + Epilogue = 14 chapters",
+    "chapters": [
+      {
+        "id": 0,
+        "name": "Prologue",
+        "file": "volumes/volume2/prologue.html",
+        "type": "introduction"
+      },
+      {
+        "id": 1,
+        "name": "Relay 1: FIRE",
+        "file": "volumes/volume2/relay-01-fire.html",
+        "subtitle": "Energy Mastery (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 2,
+        "name": "Relay 2: TREE",
+        "file": "volumes/volume2/relay-02-tree.html",
+        "subtitle": "Agricultural Foundation (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 3,
+        "name": "Relay 3: RIVER",
+        "file": "volumes/volume2/relay-03-river.html",
+        "subtitle": "Water Management (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 4,
+        "name": "Relay 4: HORSE",
+        "file": "volumes/volume2/relay-04-horse.html",
+        "subtitle": "Transportation & Control (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 5,
+        "name": "Relay 5: ROADS",
+        "file": "volumes/volume2/relay-05-roads.html",
+        "subtitle": "Network Infrastructure (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 6,
+        "name": "Relay 6: SHIPS",
+        "file": "volumes/volume2/relay-06-ships.html",
+        "subtitle": "Maritime Systems (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 7,
+        "name": "Relay 7: RAIL",
+        "file": "volumes/volume2/relay-07-rail.html",
+        "subtitle": "Industrial Transport (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 8,
+        "name": "Relay 8: LOOM",
+        "file": "volumes/volume2/relay-08-loom.html",
+        "subtitle": "Social Organization (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 9,
+        "name": "Relay 9: ENGINE",
+        "file": "volumes/volume2/relay-09-engine.html",
+        "subtitle": "Mechanical Power (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 10,
+        "name": "Relay 10: AAA TRIAD",
+        "file": "volumes/volume2/relay-10-aaa.html",
+        "subtitle": "Modern Systems (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 11,
+        "name": "Relay 11: HUMANS AS NODES",
+        "file": "volumes/volume2/relay-11-humans.html",
+        "subtitle": "Digital Networks (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 12,
+        "name": "Relay 12: CONSCIOUSNESS",
+        "file": "volumes/volume2/relay-12-consciousness.html",
+        "subtitle": "Integrated Systems (with 4-Pillar Framework)",
+        "type": "relay"
+      },
+      {
+        "id": 13,
+        "name": "Epilogue",
+        "file": "volumes/volume2/epilogue.html",
+        "type": "conclusion"
+      }
+    ]
+  },
+  "volume_3_game": {
+    "title": "Volume 3: The Game - Interactive Learning",
+    "description": "Interactive challenges and strategic learning through civil engineering methodology",
+    "structure": "Prologue + 12 Relays (Interactive) = 13 chapters",
+    "chapters": [
+      {
+        "id": 0,
+        "name": "Prologue",
+        "file": "volumes/volume3/prologue.html",
+        "type": "introduction"
+      },
+      {
+        "id": 1,
+        "name": "Relay 1: FIRE",
+        "file": "volumes/volume3/relay-01-fire.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      },
+      {
+        "id": 2,
+        "name": "Relay 2: TREE",
+        "file": "volumes/volume3/relay-02-tree.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      },
+      {
+        "id": 3,
+        "name": "Relay 3: RIVER",
+        "file": "volumes/volume3/relay-03-river.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      },
+      {
+        "id": 4,
+        "name": "Relay 4: HORSE",
+        "file": "volumes/volume3/relay-04-horse.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      },
+      {
+        "id": 5,
+        "name": "Relay 5: ROADS",
+        "file": "volumes/volume3/relay-05-roads.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      },
+      {
+        "id": 6,
+        "name": "Relay 6: SHIPS",
+        "file": "volumes/volume3/relay-06-ships.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      },
+      {
+        "id": 7,
+        "name": "Relay 7: RAIL",
+        "file": "volumes/volume3/relay-07-rail.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      },
+      {
+        "id": 8,
+        "name": "Relay 8: LOOM",
+        "file": "volumes/volume3/relay-08-loom.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      },
+      {
+        "id": 9,
+        "name": "Relay 9: ENGINE",
+        "file": "volumes/volume3/relay-09-engine.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      },
+      {
+        "id": 10,
+        "name": "Relay 10: AAA TRIAD",
+        "file": "volumes/volume3/relay-10-aaa.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      },
+      {
+        "id": 11,
+        "name": "Relay 11: HUMANS AS NODES",
+        "file": "volumes/volume3/relay-11-humans.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      },
+      {
+        "id": 12,
+        "name": "Relay 12: CONSCIOUSNESS",
+        "file": "volumes/volume3/relay-12-consciousness.html",
+        "subtitle": "Challenge & Strategy",
+        "type": "relay",
+        "interactive": true
+      }
+    ]
+  },
+  "galleries": {
+    "image_gallery": {
+      "name": "Complete Image Gallery",
+      "file": "complete-gallery-240.html",
+      "description": "All 240 image assets displayed as responsive grid",
+      "total_images": 240,
+      "formats": ["JPEG", "PNG", "AVIF"],
+      "features": ["Responsive grid", "Modal view", "Load tracking", "Hover effects"],
+      "asset_range": "AST-001 to AST-240"
+    },
+    "documents_gallery": {
+      "name": "Documents Gallery",
+      "file": "documents.html",
+      "description": "11 downloadable documents",
+      "total_documents": 11,
+      "formats": ["DOCX", "PDF", "PPTX"],
+      "features": ["Download links", "File metadata", "Organized by type"]
+    },
+    "video_gallery": {
+      "name": "Video Gallery",
+      "file": "videos.html",
+      "description": "Embedded video player",
+      "total_videos": 1,
+      "formats": ["MP4"],
+      "features": ["HTML5 player", "Responsive sizing", "Controls"]
+    }
+  },
+  "supplementary_pages": {
+    "supplements": {
+      "file": "pages/supplements.html",
+      "title": "Supplements",
+      "description": "Four supplementary volumes",
+      "volumes": [
+        {
+          "id": 1,
+          "name": "IDENTIFY",
+          "description": "Foundational concepts and core principles"
+        },
+        {
+          "id": 2,
+          "name": "UNDERSTAND",
+          "description": "Detailed analysis and comprehensive framework"
+        },
+        {
+          "id": 3,
+          "name": "MANAGE & CONTROL",
+          "description": "Practical application and implementation strategies"
+        },
+        {
+          "id": 4,
+          "name": "THESIS & VISION",
+          "description": "China Mirror & Orbital Canopy - Future perspectives"
+        }
+      ]
+    }
+  },
+  "file_structure": {
+    "root_files": [
+      "site.html",
+      "index-restored.html",
+      "index-epic.html",
+      "complete-gallery-240.html",
+      "documents.html",
+      "videos.html",
+      "WEBSITE_MANIFEST.md",
+      "WEBSITE_STRUCTURE.json",
+      "COMPLETE_ASSET_INDEX.json",
+      "MEDIA_CATALOG.json",
+      "MEDIA_INDEX.json",
+      "UPLOAD_MANIFEST.json"
+    ],
+    "pages_directory": [
+      "pages/executive-precis.html",
+      "pages/framework.html",
+      "pages/resources.html",
+      "pages/about-author.html",
+      "pages/supplements.html"
+    ],
+    "volume1_directory": [
+      "volumes/volume1/index.html",
+      "volumes/volume1/prologue.html",
+      "volumes/volume1/relay-01-fire.html through relay-12-consciousness.html",
+      "volumes/volume1/epilogue.html"
+    ],
+    "volume2_directory": [
+      "volumes/volume2/index.html",
+      "volumes/volume2/prologue.html",
+      "volumes/volume2/relay-01-fire.html through relay-12-consciousness.html",
+      "volumes/volume2/epilogue.html"
+    ],
+    "volume3_directory": [
+      "volumes/volume3/index.html",
+      "volumes/volume3/prologue.html",
+      "volumes/volume3/relay-01-fire.html through relay-12-consciousness.html"
+    ]
+  },
+  "asset_summary": {
+    "total_assets": 252,
+    "images": {
+      "count": 240,
+      "formats": {
+        "jpeg": 147,
+        "png": 91,
+        "avif": 2
+      },
+      "storage": "CloudFront CDN",
+      "asset_codes": "AST-001 through AST-240"
+    },
+    "documents": {
+      "count": 11,
+      "formats": {
+        "docx": 5,
+        "pdf": 4,
+        "pptx": 2
+      }
+    },
+    "videos": {
+      "count": 1,
+      "formats": {
+        "mp4": 1
+      }
+    }
+  },
+  "publication_details": {
+    "manus_checkpoint": "cc07386f",
+    "github_repository": "https://github.com/nigeldearden-a11y/infrastructure-academy",
+    "github_pages": "https://nigeldearden-a11y.github.io/infrastructure-academy/",
+    "published_date": "2026-02-07",
+    "status": "Live and Accessible",
+    "version_control": "Git",
+    "deployment_platform": "GitHub Pages"
+  },
+  "accessibility": {
+    "responsive_design": true,
+    "mobile_optimized": true,
+    "keyboard_navigation": true,
+    "semantic_html": true,
+    "color_contrast": "WCAG AA compliant",
+    "screen_reader_friendly": true
+  }
+}
