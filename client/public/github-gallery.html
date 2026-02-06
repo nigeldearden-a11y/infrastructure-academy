@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infrastructure Academy - All 240 Images</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0a1628;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-bottom: 2px solid #ffd700;
+        }
+        
+        .header h1 {
+            color: #ffd700;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #b8860b;
+            font-size: 1.1rem;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            background: rgba(255, 215, 0, 0.1);
+            padding: 15px 25px;
+            border-radius: 8px;
+            border: 1px solid #ffd700;
+        }
+        
+        .stat-item .number {
+            color: #ffd700;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        
+        .stat-item .label {
+            color: #b8860b;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 15px;
+            max-width: 1400px;
+            margin: 0 auto 40px;
+        }
+        
+        .card {
+            background: #1a2d42;
+            border: 1px solid #2a4d62;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .card:hover {
+            border-color: #ffd700;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+            transform: translateY(-5px);
+        }
+        
+        .img-wrapper {
+            width: 100%;
+            padding-top: 100%;
+            position: relative;
+            background: #0a1628;
+        }
+        
+        .img-wrapper img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .card-info {
+            padding: 12px;
+            flex-grow: 1;
+        }
+        
+        .card-code {
+            color: #ffd700;
+            font-weight: bold;
+            font-size: 0.85rem;
+            margin-bottom: 5px;
+        }
+        
+        .card-name {
+            color: #b8860b;
+            font-size: 0.75rem;
+            word-break: break-word;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #ffd700;
+            margin-top: 40px;
+            color: #b8860b;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+        }
+        
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            position: relative;
+            max-width: 90%;
+            max-height: 90vh;
+            background: #1a2d42;
+            border: 2px solid #ffd700;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        
+        .modal-image {
+            max-width: 100%;
+            max-height: 80vh;
+            object-fit: contain;
+        }
+        
+        .modal-info {
+            color: #b8860b;
+            margin-top: 15px;
+            text-align: center;
+        }
+        
+        .close-modal {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            color: #ffd700;
+            font-size: 2rem;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0;
+        }
+        
+        .close-modal:hover {
+            color: #ffffff;
+        }
+        
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+                gap: 10px;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .stats {
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏛️ Infrastructure Academy</h1>
+        <p>Complete Image Gallery - All 240 Images</p>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="number">240</div>
+                <div class="label">Total Images</div>
+            </div>
+            <div class="stat-item">
+                <div class="number" id="loaded">0</div>
+                <div class="label">Loaded</div>
+            </div>
+            <div class="stat-item">
+                <div class="number" id="failed">0</div>
+                <div class="label">Failed</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="gallery" id="gallery"></div>
+    
+    <div class="footer">
+        <p>Infrastructure Academy - Complete Asset Repository</p>
+        <p style="margin-top: 10px; font-size: 0.9rem;">All 240 images cataloged and indexed</p>
+    </div>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">&times;</button>
+            <img id="modal-image" class="modal-image" src="" alt="">
+            <div class="modal-info">
+                <div id="modal-code"></div>
+                <div id="modal-name"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const images = [
+            {code: "AST-001", name: "book1_journey_final.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/book1_journey_final.png"},
+            {code: "AST-002", name: "IMG_6326.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6326.jpeg"},
+            {code: "AST-003", name: "IMG_6273.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6273.jpeg"},
+            {code: "AST-004", name: "IMG_6325.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6325.jpeg"},
+            {code: "AST-005", name: "IMG_6320.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6320.jpeg"},
+            {code: "AST-006", name: "cover_page.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/cover_page.png"},
+            {code: "AST-007", name: "cover_page_portrait.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/cover_page_portrait.png"},
+            {code: "AST-008", name: "IMG_5777.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_5777.jpeg"},
+            {code: "AST-009", name: "IMG_6327.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6327.jpeg"},
+            {code: "AST-010", name: "IMG_5726.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_5726.jpeg"},
+            {code: "AST-011", name: "IMG_5725.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_5725.jpeg"},
+            {code: "AST-012", name: "book_cover_v2.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/book_cover_v2.png"},
+            {code: "AST-013", name: "book_cover_v2.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/book_cover_v2.png"},
+            {code: "AST-014", name: "cover_page_portrait_v3.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/cover_page_portrait_v3.png"},
+            {code: "AST-015", name: "IMG_6569.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6569.jpeg"},
+            {code: "AST-016", name: "IMG_6575.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6575.jpeg"},
+            {code: "AST-017", name: "IMG_6572.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6572.jpeg"},
+            {code: "AST-018", name: "IMG_6568.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6568.jpeg"},
+            {code: "AST-019", name: "IMG_6577.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6577.jpeg"},
+            {code: "AST-020", name: "IMG_6574.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6574.jpeg"},
+            {code: "AST-021", name: "IMG_6573.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6573.jpeg"},
+            {code: "AST-022", name: "0ad8759f-473a-44e2-823d-f1e56e51471c.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/0ad8759f-473a-44e2-823d-f1e56e51471c.jpeg"},
+            {code: "AST-023", name: "26ee71a4-4ec9-4efa-ae99-1d4ccc8b7370.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/26ee71a4-4ec9-4efa-ae99-1d4ccc8b7370.jpeg"},
+            {code: "AST-024", name: "IMG_6570.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6570.jpeg"},
+            {code: "AST-025", name: "IMG_6579.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6579.jpeg"},
+            {code: "AST-026", name: "IMG_6576.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6576.jpeg"},
+            {code: "AST-027", name: "IMG_6571.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6571.jpeg"},
+            {code: "AST-028", name: "IMG_6578.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6578.jpeg"},
+            {code: "AST-029", name: "IMG_6587.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6587.jpeg"},
+            {code: "AST-030", name: "IMG_6590.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6590.jpeg"},
+            {code: "AST-031", name: "IMG_6594.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6594.jpeg"},
+            {code: "AST-032", name: "IMG_6593.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6593.jpeg"},
+            {code: "AST-033", name: "IMG_6596.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6596.jpeg"},
+            {code: "AST-034", name: "IMG_6588.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6588.jpeg"},
+            {code: "AST-035", name: "IMG_6583.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6583.jpeg"},
+            {code: "AST-036", name: "IMG_6580.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6580.jpeg"},
+            {code: "AST-037", name: "IMG_6592.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6592.jpeg"},
+            {code: "AST-038", name: "IMG_6591.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6591.jpeg"},
+            {code: "AST-039", name: "IMG_6595.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6595.jpeg"},
+            {code: "AST-040", name: "IMG_6581.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6581.jpeg"},
+            {code: "AST-041", name: "IMG_6586.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6586.jpeg"},
+            {code: "AST-042", name: "IMG_6585.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6585.jpeg"},
+            {code: "AST-043", name: "IMG_6584.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6584.jpeg"},
+            {code: "AST-044", name: "IMG_6597.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6597.jpeg"},
+            {code: "AST-045", name: "IMG_6589.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6589.jpeg"},
+            {code: "AST-046", name: "IMG_6582.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6582.jpeg"},
+            {code: "AST-047", name: "IMG_6605.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6605.jpeg"},
+            {code: "AST-048", name: "IMG_6599.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6599.jpeg"},
+            {code: "AST-049", name: "IMG_6601.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6601.jpeg"},
+            {code: "AST-050", name: "IMG_6606.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6606.jpeg"},
+            {code: "AST-051", name: "IMG_6602.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6602.jpeg"},
+            {code: "AST-052", name: "IMG_6604.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6604.jpeg"},
+            {code: "AST-053", name: "IMG_6608.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6608.jpeg"},
+            {code: "AST-054", name: "IMG_6600.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6600.jpeg"},
+            {code: "AST-055", name: "IMG_6598.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6598.jpeg"},
+            {code: "AST-056", name: "IMG_6607.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6607.jpeg"},
+            {code: "AST-057", name: "IMG_6603.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6603.jpeg"},
+            {code: "AST-058", name: "IMG_6695.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6695.jpeg"},
+            {code: "AST-059", name: "IMG_6474.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6474.jpeg"},
+            {code: "AST-060", name: "IMG_6473.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6473.jpeg"},
+            {code: "AST-061", name: "IMG_6475.avif", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6475.avif"},
+            {code: "AST-062", name: "IMG_6682.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6682.jpeg"},
+            {code: "AST-063", name: "IMG_6476.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6476.jpeg"},
+            {code: "AST-064", name: "IMG_6508.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6508.jpeg"},
+            {code: "AST-065", name: "IMG_6496.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6496.jpeg"},
+            {code: "AST-066", name: "IMG_6691.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6691.jpeg"},
+            {code: "AST-067", name: "IMG_6498.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6498.jpeg"},
+            {code: "AST-068", name: "IMG_6497.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6497.png"},
+            {code: "AST-069", name: "IMG_6703.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6703.jpeg"},
+            {code: "AST-070", name: "IMG_3233.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_3233.jpeg"},
+            {code: "AST-071", name: "IMG_3232.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_3232.jpeg"},
+            {code: "AST-072", name: "IMG_3234.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_3234.jpeg"},
+            {code: "AST-073", name: "IMG_3231.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_3231.jpeg"},
+            {code: "AST-074", name: "IMG_6730.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6730.jpeg"},
+            {code: "AST-075", name: "IMG_6844.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6844.jpeg"},
+            {code: "AST-076", name: "IMG_6845.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6845.jpeg"},
+            {code: "AST-077", name: "IMG_6743.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6743.jpeg"},
+            {code: "AST-078", name: "IMG_6936.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6936.jpeg"},
+            {code: "AST-079", name: "IMG_6930.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6930.jpeg"},
+            {code: "AST-080", name: "IMG_6940.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6940.jpeg"},
+            {code: "AST-081", name: "IMG_6933.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6933.jpeg"},
+            {code: "AST-082", name: "IMG_6938.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6938.jpeg"},
+            {code: "AST-083", name: "IMG_6931.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6931.jpeg"},
+            {code: "AST-084", name: "IMG_6937.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6937.jpeg"},
+            {code: "AST-085", name: "IMG_6942.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6942.jpeg"},
+            {code: "AST-086", name: "IMG_6932.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6932.jpeg"},
+            {code: "AST-087", name: "IMG_6941.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6941.jpeg"},
+            {code: "AST-088", name: "IMG_6929.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6929.jpeg"},
+            {code: "AST-089", name: "IMG_6944.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6944.jpeg"},
+            {code: "AST-090", name: "IMG_6935.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6935.jpeg"},
+            {code: "AST-091", name: "IMG_6939.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6939.jpeg"},
+            {code: "AST-092", name: "IMG_6943.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6943.jpeg"},
+            {code: "AST-093", name: "IMG_6934.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6934.jpeg"},
+            {code: "AST-094", name: "IMG_6936.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6936.jpeg"},
+            {code: "AST-095", name: "IMG_6930.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6930.jpeg"},
+            {code: "AST-096", name: "IMG_6935.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6935.jpeg"},
+            {code: "AST-097", name: "IMG_6931.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6931.jpeg"},
+            {code: "AST-098", name: "IMG_6933.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6933.jpeg"},
+            {code: "AST-099", name: "IMG_6929.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6929.jpeg"},
+            {code: "AST-100", name: "IMG_6934.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6934.jpeg"},
+            {code: "AST-101", name: "IMG_6932.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6932.jpeg"},
+            {code: "AST-102", name: "prerome_rome_4cs_case_study.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/prerome_rome_4cs_case_study.png"},
+            {code: "AST-103", name: "slide_01_intro_cover.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_01_intro_cover.png"},
+            {code: "AST-104", name: "slide_03_book1_context.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_03_book1_context.png"},
+            {code: "AST-105", name: "slide_02_civilizational_relay.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_02_civilizational_relay.png"},
+            {code: "AST-106", name: "bronze_age_4k2_4cs_case_study.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/bronze_age_4k2_4cs_case_study.png"},
+            {code: "AST-107", name: "three_modes_timeline_accurate.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/three_modes_timeline_accurate.png"},
+            {code: "AST-108", name: "4cs_collapse_cycle.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/4cs_collapse_cycle.png"},
+            {code: "AST-109", name: "IMG_6944.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6944.jpeg"},
+            {code: "AST-110", name: "IMG_6937.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6937.jpeg"},
+            {code: "AST-111", name: "IMG_6943.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6943.jpeg"},
+            {code: "AST-112", name: "IMG_6940.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6940.jpeg"},
+            {code: "AST-113", name: "IMG_6941.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6941.jpeg"},
+            {code: "AST-114", name: "IMG_6938.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6938.jpeg"},
+            {code: "AST-115", name: "IMG_6942.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6942.jpeg"},
+            {code: "AST-116", name: "IMG_6939.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6939.jpeg"},
+            {code: "AST-117", name: "IMG_6948.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6948.jpeg"},
+            {code: "AST-118", name: "slide_04_vol1_west_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_04_vol1_west_2026.png"},
+            {code: "AST-119", name: "slide_01_intro_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_01_intro_2026.png"},
+            {code: "AST-120", name: "slide_05_silk_road_nomad_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_05_silk_road_nomad_2026.png"},
+            {code: "AST-121", name: "slide_03_book1_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_03_book1_2026.png"},
+            {code: "AST-122", name: "slide_02_civilizational_relay.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_02_civilizational_relay.png"},
+            {code: "AST-123", name: "slide_03_book1_context.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_03_book1_context.png"},
+            {code: "AST-124", name: "slide_02_relay_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_02_relay_2026.png"},
+            {code: "AST-125", name: "slide_03_book1_context.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_03_book1_context.png"},
+            {code: "AST-126", name: "slide_01_intro_cover.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_01_intro_cover.png"},
+            {code: "AST-127", name: "slide_08_closing_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_08_closing_2026.png"},
+            {code: "AST-128", name: "timeline_west_12000yrs.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/timeline_west_12000yrs.png"},
+            {code: "AST-129", name: "book1_journey_final.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/book1_journey_final.png"},
+            {code: "AST-130", name: "timeline_east_12000yrs.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/timeline_east_12000yrs.png"},
+            {code: "AST-131", name: "slide_06_vol2_east_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_06_vol2_east_2026.png"},
+            {code: "AST-132", name: "slide_06_vol3_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_06_vol3_2026.png"},
+            {code: "AST-133", name: "slide_09_summary_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_09_summary_2026.png"},
+            {code: "AST-134", name: "three_timelines_combined_accurate.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/three_timelines_combined_accurate.png"},
+            {code: "AST-135", name: "timeline_nomad_12000yrs.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/timeline_nomad_12000yrs.png"},
+            {code: "AST-136", name: "three_timelines_combined_accurate.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/three_timelines_combined_accurate.png"},
+            {code: "AST-137", name: "slide_03_book1_complete_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_03_book1_complete_2026.png"},
+            {code: "AST-138", name: "book1_complete_journey.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/book1_complete_journey.png"},
+            {code: "AST-139", name: "twelve_relays_complete_timeline.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/twelve_relays_complete_timeline.png"},
+            {code: "AST-140", name: "timeline_east_12000yrs.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/timeline_east_12000yrs.png"},
+            {code: "AST-141", name: "timeline_nomad_12000yrs.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/timeline_nomad_12000yrs.png"},
+            {code: "AST-142", name: "IMG_6695.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6695.jpeg"},
+            {code: "AST-143", name: "IMG_6474.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6474.jpeg"},
+            {code: "AST-144", name: "IMG_6473.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6473.jpeg"},
+            {code: "AST-145", name: "IMG_6682.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6682.jpeg"},
+            {code: "AST-146", name: "IMG_6475.avif", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6475.avif"},
+            {code: "AST-147", name: "IMG_6258.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6258.jpeg"},
+            {code: "AST-148", name: "IMG_6149.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6149.jpeg"},
+            {code: "AST-149", name: "IMG_6184.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6184.jpeg"},
+            {code: "AST-150", name: "IMG_6889.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6889.jpeg"},
+            {code: "AST-151", name: "IMG_6185.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6185.jpeg"},
+            {code: "AST-152", name: "IMG_6476.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6476.jpeg"},
+            {code: "AST-153", name: "IMG_6180.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6180.jpeg"},
+            {code: "AST-154", name: "IMG_6512.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6512.png"},
+            {code: "AST-155", name: "slide_14_relays_clean.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_14_relays_clean.png"},
+            {code: "AST-156", name: "relays_12000_year_timeline.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/relays_12000_year_timeline.png"},
+            {code: "AST-157", name: "IMG_7026.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7026.jpeg"},
+            {code: "AST-158", name: "IMG_6694.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6694.jpeg"},
+            {code: "AST-159", name: "IMG_6703.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6703.jpeg"},
+            {code: "AST-160", name: "IMG_6691.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6691.jpeg"},
+            {code: "AST-161", name: "IMG_6513.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6513.png"},
+            {code: "AST-162", name: "supplement3_relay_fire.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_fire.png"},
+            {code: "AST-163", name: "supplement3_relay_engine.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_engine.png"},
+            {code: "AST-164", name: "supplement3_relay_humans_as_nodes.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_humans_as_nodes.png"},
+            {code: "AST-165", name: "supplement3_relay_rail.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_rail.png"},
+            {code: "AST-166", name: "supplement3_relay_river.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_river.png"},
+            {code: "AST-167", name: "supplement3_framework_diagram.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_framework_diagram.png"},
+            {code: "AST-168", name: "supplement3_framework_diagram.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_framework_diagram.png"},
+            {code: "AST-169", name: "supplement3_relay_loom.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_loom.png"},
+            {code: "AST-170", name: "supplement3_relay_tree.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_tree.png"},
+            {code: "AST-171", name: "supplement2_pen_infrastructure_final_corrected.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement2_pen_infrastructure_final_corrected.png"},
+            {code: "AST-172", name: "supplement3_relay_aaa_triad.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_aaa_triad.png"},
+            {code: "AST-173", name: "supplement3_relay_roads.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_roads.png"},
+            {code: "AST-174", name: "supplement3_master_overview.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_master_overview.png"},
+            {code: "AST-175", name: "supplement3_relay_ships.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_ships.png"},
+            {code: "AST-176", name: "supplement3_relay_horse.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_horse.png"},
+            {code: "AST-177", name: "supplement3_master_overview.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_master_overview.png"},
+            {code: "AST-178", name: "IMG_7068.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7068.jpeg"},
+            {code: "AST-179", name: "IMG_7066.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7066.png"},
+            {code: "AST-180", name: "IMG_7069.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7069.jpeg"},
+            {code: "AST-181", name: "IMG_7070.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7070.jpeg"},
+            {code: "AST-182", name: "IMG_7137.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7137.jpeg"},
+            {code: "AST-183", name: "IMG_7070.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7070.jpeg"},
+            {code: "AST-184", name: "supplement4_timeline_transformation.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_timeline_transformation.png"},
+            {code: "AST-185", name: "supplement3_relay_transition.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement3_relay_transition.png"},
+            {code: "AST-186", name: "supplement4_relay_roads_comparison.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_roads_comparison.png"},
+            {code: "AST-187", name: "supplement4_relay_river_comparison.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_river_comparison.png"},
+            {code: "AST-188", name: "supplement4_sector_dominance.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_sector_dominance.png"},
+            {code: "AST-189", name: "supplement4_relay_horse_comparison.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_horse_comparison.png"},
+            {code: "AST-190", name: "supplement4_relay_tree_comparison.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_tree_comparison.png"},
+            {code: "AST-191", name: "supplement4_institutional_continuity.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_institutional_continuity.png"},
+            {code: "AST-192", name: "supplement4_relay_fire_comparison.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_fire_comparison.png"},
+            {code: "AST-193", name: "supplement4_connectivity_strategy.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_connectivity_strategy.png"},
+            {code: "AST-194", name: "supplement4_relay_humans_as_nodes_comparison.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_humans_as_nodes_comparison.png"},
+            {code: "AST-195", name: "supplement4_relay_transition_orbital_canopy.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_transition_orbital_canopy.png"},
+            {code: "AST-196", name: "supplement4_relay_engine_comparison.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_engine_comparison.png"},
+            {code: "AST-197", name: "supplement4_relay_rail_comparison.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_rail_comparison.png"},
+            {code: "AST-198", name: "supplement4_relay_ships_comparison.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_ships_comparison.png"},
+            {code: "AST-199", name: "supplement4_relay_loom_comparison.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_loom_comparison.png"},
+            {code: "AST-200", name: "supplement4_relay_aaa_triad_comparison.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/supplement4_relay_aaa_triad_comparison.png"},
+            {code: "AST-201", name: "IMG_7191.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7191.jpeg"},
+            {code: "AST-202", name: "IMG_7250.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7250.jpeg"},
+            {code: "AST-203", name: "IMG_7247.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7247.jpeg"},
+            {code: "AST-205", name: "IMG_7277.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7277.jpeg"},
+            {code: "AST-206", name: "IMG_7274.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7274.jpeg"},
+            {code: "AST-207", name: "IMG_7273.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_7273.jpeg"},
+            {code: "AST-208", name: "relays_12000_year_timeline.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/relays_12000_year_timeline.png"},
+            {code: "AST-209", name: "IMG_6936.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6936.jpeg"},
+            {code: "AST-210", name: "slide_06_vol3_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_06_vol3_2026.png"},
+            {code: "AST-211", name: "three_timelines_combined_accurate.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/three_timelines_combined_accurate.png"},
+            {code: "AST-212", name: "three_timelines_combined_accurate.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/three_timelines_combined_accurate.png"},
+            {code: "AST-213", name: "twelve_relays_complete_timeline.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/twelve_relays_complete_timeline.png"},
+            {code: "AST-214", name: "timeline_nomad_12000yrs.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/timeline_nomad_12000yrs.png"},
+            {code: "AST-215", name: "book1_complete_journey.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/book1_complete_journey.png"},
+            {code: "AST-216", name: "timeline_east_12000yrs.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/timeline_east_12000yrs.png"},
+            {code: "AST-217", name: "timeline_west_12000yrs.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/timeline_west_12000yrs.png"},
+            {code: "AST-218", name: "slide_09_summary_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_09_summary_2026.png"},
+            {code: "AST-219", name: "slide_03_book1_complete_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_03_book1_complete_2026.png"},
+            {code: "AST-220", name: "slide_02_relay_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_02_relay_2026.png"},
+            {code: "AST-221", name: "slide_03_book1_2026.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_03_book1_2026.png"},
+            {code: "AST-222", name: "IMG_6941.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6941.jpeg"},
+            {code: "AST-223", name: "IMG_6940.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6940.jpeg"},
+            {code: "AST-224", name: "IMG_6937.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6937.jpeg"},
+            {code: "AST-225", name: "IMG_6943.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6943.jpeg"},
+            {code: "AST-226", name: "IMG_6944.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6944.jpeg"},
+            {code: "AST-227", name: "IMG_6939.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6939.jpeg"},
+            {code: "AST-228", name: "IMG_6942.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6942.jpeg"},
+            {code: "AST-229", name: "IMG_6938.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6938.jpeg"},
+            {code: "AST-230", name: "IMG_6948.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6948.jpeg"},
+            {code: "AST-231", name: "IMG_6703.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6703.jpeg"},
+            {code: "AST-232", name: "IMG_6889.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6889.jpeg"},
+            {code: "AST-233", name: "IMG_6702.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6702.jpeg"},
+            {code: "AST-234", name: "IMG_6838.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6838.jpeg"},
+            {code: "AST-235", name: "slide_02_civilizational_relay.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_02_civilizational_relay.png"},
+            {code: "AST-236", name: "slide_03_book1_context.png", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/slide_03_book1_context.png"},
+            {code: "AST-237", name: "IMG_6674.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6674.jpeg"},
+            {code: "AST-238", name: "IMG_6685.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6685.jpeg"},
+            {code: "AST-239", name: "IMG_6673.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6673.jpeg"},
+            {code: "AST-240", name: "IMG_6677.jpeg", url: "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/IMG_6677.jpeg"}
+        ];
+        
+        let loaded = 0, failed = 0;
+        
+        function render() {
+            const gallery = document.getElementById('gallery');
+            images.forEach(img => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.onclick = () => openModal(img);
+                
+                const wrapper = document.createElement('div');
+                wrapper.className = 'img-wrapper';
+                
+                const imgEl = document.createElement('img');
+                imgEl.src = img.url;
+                imgEl.alt = img.name;
+                imgEl.onload = () => {
+                    loaded++;
+                    document.getElementById('loaded').textContent = loaded;
+                };
+                imgEl.onerror = () => {
+                    failed++;
+                    document.getElementById('failed').textContent = failed;
+                    card.style.opacity = '0.5';
+                };
+                
+                wrapper.appendChild(imgEl);
+                
+                const info = document.createElement('div');
+                info.className = 'card-info';
+                
+                const code = document.createElement('div');
+                code.className = 'card-code';
+                code.textContent = img.code;
+                
+                const name = document.createElement('div');
+                name.className = 'card-name';
+                name.textContent = img.name;
+                
+                info.appendChild(code);
+                info.appendChild(name);
+                
+                card.appendChild(wrapper);
+                card.appendChild(info);
+                gallery.appendChild(card);
+            });
+        }
+        
+        function openModal(img) {
+            const modal = document.getElementById('modal');
+            document.getElementById('modal-image').src = img.url;
+            document.getElementById('modal-code').textContent = img.code;
+            document.getElementById('modal-name').textContent = img.name;
+            modal.classList.add('active');
+        }
+        
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+        }
+        
+        document.getElementById('modal').addEventListener('click', function(e) {
+            if (e.target === this) closeModal();
+        });
+        
+        render();
+    </script>
+</body>
+</html>
