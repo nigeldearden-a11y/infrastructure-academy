@@ -1,0 +1,24 @@
+# GitHub Pages configuration for Infrastructure Academy
+title: Infrastructure Academy
+description: An Infrastructure Odyssey - Book 1 Calories to Consciousness
+author: Ir. Nigel T. Dearden
+
+# Serve from the client/public directory
+source: client/public
+destination: _site
+
+# Theme
+theme: jekyll-theme-minimal
+
+# Exclude files
+exclude:
+  - .git
+  - .gitignore
+  - node_modules
+  - package.json
+  - package-lock.json
+  - drizzle
+  - server
+  - .manus
+  - dist
+  - build
