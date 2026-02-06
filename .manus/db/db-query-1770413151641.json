@@ -1,0 +1,1930 @@
+{
+  "query": "SELECT id, fileName, fileUrl, fileSize, mimeType, createdAt FROM assets WHERE mimeType LIKE 'image/%' ORDER BY id ASC LIMIT 240",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2GX11Pnc2Gj5TH4.ab1ece9ffb5d --database kUQZAex2uPvgKcHnt7bmh3 --execute SELECT id, fileName, fileUrl, fileSize, mimeType, createdAt FROM assets WHERE mimeType LIKE 'image/%' ORDER BY id ASC LIMIT 240",
+  "rows": [
+    {
+      "id": "1",
+      "fileName": "book1_journey_final.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770399844482-book1_journey_final.png",
+      "fileSize": "1047245",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:44:06"
+    },
+    {
+      "id": "2",
+      "fileName": "IMG_6326.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014234-IMG_6326.jpeg",
+      "fileSize": "184662",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:46:55"
+    },
+    {
+      "id": "3",
+      "fileName": "IMG_6273.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014226-IMG_6273.jpeg",
+      "fileSize": "169018",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:46:55"
+    },
+    {
+      "id": "4",
+      "fileName": "IMG_6325.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014230-IMG_6325.jpeg",
+      "fileSize": "193555",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:46:55"
+    },
+    {
+      "id": "5",
+      "fileName": "IMG_6320.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014233-IMG_6320.jpeg",
+      "fileSize": "539097",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:46:56"
+    },
+    {
+      "id": "6",
+      "fileName": "cover_page.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014228-cover_page.png",
+      "fileSize": "1408715",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:46:56"
+    },
+    {
+      "id": "7",
+      "fileName": "cover_page_portrait.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014231-cover_page_portrait.png",
+      "fileSize": "1193041",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:46:56"
+    },
+    {
+      "id": "8",
+      "fileName": "IMG_5777.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400015419-IMG_5777.jpeg",
+      "fileSize": "77412",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:46:56"
+    },
+    {
+      "id": "9",
+      "fileName": "IMG_6327.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014235-IMG_6327.jpeg",
+      "fileSize": "246385",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "10",
+      "fileName": "IMG_5726.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014236-IMG_5726.jpeg",
+      "fileSize": "282801",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "11",
+      "fileName": "IMG_5725.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400015413-IMG_5725.jpeg",
+      "fileSize": "266842",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "12",
+      "fileName": "book_cover_v2.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400015423-book_cover_v2.png",
+      "fileSize": "1288715",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "13",
+      "fileName": "book_cover_v2.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400015420-book_cover_v2.png",
+      "fileSize": "1288715",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "14",
+      "fileName": "cover_page_portrait_v3.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400015416-cover_page_portrait_v3.png",
+      "fileSize": "1188017",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "15",
+      "fileName": "IMG_6569.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067363-IMG_6569.jpeg",
+      "fileSize": "66737",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "16",
+      "fileName": "IMG_6575.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067506-IMG_6575.jpeg",
+      "fileSize": "76051",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "17",
+      "fileName": "IMG_6572.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067505-IMG_6572.jpeg",
+      "fileSize": "80864",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "18",
+      "fileName": "IMG_6568.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067362-IMG_6568.jpeg",
+      "fileSize": "137935",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "19",
+      "fileName": "IMG_6577.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067507-IMG_6577.jpeg",
+      "fileSize": "150655",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "20",
+      "fileName": "IMG_6574.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067506-IMG_6574.jpeg",
+      "fileSize": "105107",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "21",
+      "fileName": "IMG_6573.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067504-IMG_6573.jpeg",
+      "fileSize": "146868",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:49"
+    },
+    {
+      "id": "22",
+      "fileName": "0ad8759f-473a-44e2-823d-f1e56e51471c.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067360-0ad8759f-473a-44e2-823d-f1e56e51471c.jpeg",
+      "fileSize": "383031",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:49"
+    },
+    {
+      "id": "23",
+      "fileName": "26ee71a4-4ec9-4efa-ae99-1d4ccc8b7370.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067361-26ee71a4-4ec9-4efa-ae99-1d4ccc8b7370.jpeg",
+      "fileSize": "468521",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:49"
+    },
+    {
+      "id": "24",
+      "fileName": "IMG_6570.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067503-IMG_6570.jpeg",
+      "fileSize": "162782",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:50"
+    },
+    {
+      "id": "25",
+      "fileName": "IMG_6579.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067508-IMG_6579.jpeg",
+      "fileSize": "105888",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:50"
+    },
+    {
+      "id": "26",
+      "fileName": "IMG_6576.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067507-IMG_6576.jpeg",
+      "fileSize": "149631",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:50"
+    },
+    {
+      "id": "27",
+      "fileName": "IMG_6571.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067504-IMG_6571.jpeg",
+      "fileSize": "139113",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:50"
+    },
+    {
+      "id": "28",
+      "fileName": "IMG_6578.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067508-IMG_6578.jpeg",
+      "fileSize": "211619",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:47:50"
+    },
+    {
+      "id": "29",
+      "fileName": "IMG_6587.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122477-IMG_6587.jpeg",
+      "fileSize": "91928",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "30",
+      "fileName": "IMG_6590.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122479-IMG_6590.jpeg",
+      "fileSize": "64898",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "31",
+      "fileName": "IMG_6594.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122481-IMG_6594.jpeg",
+      "fileSize": "79011",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "32",
+      "fileName": "IMG_6593.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122480-IMG_6593.jpeg",
+      "fileSize": "85482",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "33",
+      "fileName": "IMG_6596.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122482-IMG_6596.jpeg",
+      "fileSize": "71358",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "34",
+      "fileName": "IMG_6588.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122478-IMG_6588.jpeg",
+      "fileSize": "140301",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "35",
+      "fileName": "IMG_6583.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122474-IMG_6583.jpeg",
+      "fileSize": "124308",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "36",
+      "fileName": "IMG_6580.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122476-IMG_6580.jpeg",
+      "fileSize": "125850",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "37",
+      "fileName": "IMG_6592.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122480-IMG_6592.jpeg",
+      "fileSize": "129981",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "38",
+      "fileName": "IMG_6591.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122479-IMG_6591.jpeg",
+      "fileSize": "154659",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "39",
+      "fileName": "IMG_6595.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122481-IMG_6595.jpeg",
+      "fileSize": "126409",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "40",
+      "fileName": "IMG_6581.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122476-IMG_6581.jpeg",
+      "fileSize": "119391",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "41",
+      "fileName": "IMG_6586.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122477-IMG_6586.jpeg",
+      "fileSize": "136578",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "42",
+      "fileName": "IMG_6585.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122475-IMG_6585.jpeg",
+      "fileSize": "99737",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "43",
+      "fileName": "IMG_6584.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122475-IMG_6584.jpeg",
+      "fileSize": "158957",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "44",
+      "fileName": "IMG_6597.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122482-IMG_6597.jpeg",
+      "fileSize": "169587",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "45",
+      "fileName": "IMG_6589.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122478-IMG_6589.jpeg",
+      "fileSize": "191531",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "46",
+      "fileName": "IMG_6582.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122473-IMG_6582.jpeg",
+      "fileSize": "186190",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "47",
+      "fileName": "IMG_6605.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168180-IMG_6605.jpeg",
+      "fileSize": "81539",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "48",
+      "fileName": "IMG_6599.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168177-IMG_6599.jpeg",
+      "fileSize": "131816",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "49",
+      "fileName": "IMG_6601.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168178-IMG_6601.jpeg",
+      "fileSize": "148626",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "50",
+      "fileName": "IMG_6606.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168182-IMG_6606.jpeg",
+      "fileSize": "126154",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "51",
+      "fileName": "IMG_6602.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168179-IMG_6602.jpeg",
+      "fileSize": "147406",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "52",
+      "fileName": "IMG_6604.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168180-IMG_6604.jpeg",
+      "fileSize": "204210",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "53",
+      "fileName": "IMG_6608.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168181-IMG_6608.jpeg",
+      "fileSize": "174093",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "54",
+      "fileName": "IMG_6600.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168177-IMG_6600.jpeg",
+      "fileSize": "213857",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "55",
+      "fileName": "IMG_6598.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168175-IMG_6598.jpeg",
+      "fileSize": "163110",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "56",
+      "fileName": "IMG_6607.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168181-IMG_6607.jpeg",
+      "fileSize": "136845",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "57",
+      "fileName": "IMG_6603.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168179-IMG_6603.jpeg",
+      "fileSize": "219494",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:49:30"
+    },
+    {
+      "id": "58",
+      "fileName": "IMG_6695.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236188-IMG_6695.jpeg",
+      "fileSize": "68999",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "59",
+      "fileName": "IMG_6474.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236184-IMG_6474.jpeg",
+      "fileSize": "88064",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "60",
+      "fileName": "IMG_6473.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236183-IMG_6473.jpeg",
+      "fileSize": "88739",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "61",
+      "fileName": "IMG_6475.avif",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236184-IMG_6475.avif",
+      "fileSize": "150920",
+      "mimeType": "image/avif",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "62",
+      "fileName": "IMG_6682.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236188-IMG_6682.jpeg",
+      "fileSize": "127633",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "63",
+      "fileName": "IMG_6476.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236185-IMG_6476.jpeg",
+      "fileSize": "231277",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "64",
+      "fileName": "IMG_6508.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236187-IMG_6508.jpeg",
+      "fileSize": "218898",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "65",
+      "fileName": "IMG_6496.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236186-IMG_6496.jpeg",
+      "fileSize": "253104",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "66",
+      "fileName": "IMG_6691.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236189-IMG_6691.jpeg",
+      "fileSize": "369559",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "67",
+      "fileName": "IMG_6498.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236187-IMG_6498.jpeg",
+      "fileSize": "351520",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "68",
+      "fileName": "IMG_6497.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236186-IMG_6497.png",
+      "fileSize": "283447",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:50:38"
+    },
+    {
+      "id": "69",
+      "fileName": "IMG_6703.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236190-IMG_6703.jpeg",
+      "fileSize": "329248",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:50:38"
+    },
+    {
+      "id": "70",
+      "fileName": "IMG_3233.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286036-IMG_3233.jpeg",
+      "fileSize": "76672",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "71",
+      "fileName": "IMG_3232.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286035-IMG_3232.jpeg",
+      "fileSize": "69989",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "72",
+      "fileName": "IMG_3234.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286036-IMG_3234.jpeg",
+      "fileSize": "86096",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "73",
+      "fileName": "IMG_3231.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286035-IMG_3231.jpeg",
+      "fileSize": "78051",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "74",
+      "fileName": "IMG_6730.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286032-IMG_6730.jpeg",
+      "fileSize": "125144",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "75",
+      "fileName": "IMG_6844.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286037-IMG_6844.jpeg",
+      "fileSize": "260665",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "76",
+      "fileName": "IMG_6845.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286037-IMG_6845.jpeg",
+      "fileSize": "258323",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "77",
+      "fileName": "IMG_6743.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286034-IMG_6743.jpeg",
+      "fileSize": "465005",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:51:28"
+    },
+    {
+      "id": "78",
+      "fileName": "IMG_6936.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477549-IMG_6936.jpeg",
+      "fileSize": "96238",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:38"
+    },
+    {
+      "id": "79",
+      "fileName": "IMG_6930.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477546-IMG_6930.jpeg",
+      "fileSize": "81557",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:38"
+    },
+    {
+      "id": "80",
+      "fileName": "IMG_6940.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477552-IMG_6940.jpeg",
+      "fileSize": "170694",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "81",
+      "fileName": "IMG_6933.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477548-IMG_6933.jpeg",
+      "fileSize": "103283",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "82",
+      "fileName": "IMG_6938.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477551-IMG_6938.jpeg",
+      "fileSize": "179424",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "83",
+      "fileName": "IMG_6931.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477547-IMG_6931.jpeg",
+      "fileSize": "106177",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "84",
+      "fileName": "IMG_6937.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477550-IMG_6937.jpeg",
+      "fileSize": "165434",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "85",
+      "fileName": "IMG_6942.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477553-IMG_6942.jpeg",
+      "fileSize": "178541",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "86",
+      "fileName": "IMG_6932.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477548-IMG_6932.jpeg",
+      "fileSize": "118324",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "87",
+      "fileName": "IMG_6941.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477552-IMG_6941.jpeg",
+      "fileSize": "166074",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "88",
+      "fileName": "IMG_6929.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477545-IMG_6929.jpeg",
+      "fileSize": "118291",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "89",
+      "fileName": "IMG_6944.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477554-IMG_6944.jpeg",
+      "fileSize": "142200",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "90",
+      "fileName": "IMG_6935.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477548-IMG_6935.jpeg",
+      "fileSize": "173768",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "91",
+      "fileName": "IMG_6939.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477551-IMG_6939.jpeg",
+      "fileSize": "168721",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "92",
+      "fileName": "IMG_6943.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477553-IMG_6943.jpeg",
+      "fileSize": "187167",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "93",
+      "fileName": "IMG_6934.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477549-IMG_6934.jpeg",
+      "fileSize": "137869",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:54:40"
+    },
+    {
+      "id": "94",
+      "fileName": "IMG_6936.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539150-IMG_6936.jpeg",
+      "fileSize": "96238",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "95",
+      "fileName": "IMG_6930.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539148-IMG_6930.jpeg",
+      "fileSize": "81557",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "96",
+      "fileName": "IMG_6935.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539150-IMG_6935.jpeg",
+      "fileSize": "173768",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "97",
+      "fileName": "IMG_6931.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539148-IMG_6931.jpeg",
+      "fileSize": "106177",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "98",
+      "fileName": "IMG_6933.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539149-IMG_6933.jpeg",
+      "fileSize": "103283",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "99",
+      "fileName": "IMG_6929.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539147-IMG_6929.jpeg",
+      "fileSize": "118291",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "100",
+      "fileName": "IMG_6934.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539150-IMG_6934.jpeg",
+      "fileSize": "137869",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "101",
+      "fileName": "IMG_6932.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539149-IMG_6932.jpeg",
+      "fileSize": "118324",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "102",
+      "fileName": "prerome_rome_4cs_case_study.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539156-prerome_rome_4cs_case_study.png",
+      "fileSize": "1425153",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "103",
+      "fileName": "slide_01_intro_cover.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539151-slide_01_intro_cover.png",
+      "fileSize": "924334",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "104",
+      "fileName": "slide_03_book1_context.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539152-slide_03_book1_context.png",
+      "fileSize": "1002379",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "105",
+      "fileName": "slide_02_civilizational_relay.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539153-slide_02_civilizational_relay.png",
+      "fileSize": "1161427",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "106",
+      "fileName": "bronze_age_4k2_4cs_case_study.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539159-bronze_age_4k2_4cs_case_study.png",
+      "fileSize": "1629879",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "107",
+      "fileName": "three_modes_timeline_accurate.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539155-three_modes_timeline_accurate.png",
+      "fileSize": "1147239",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "108",
+      "fileName": "4cs_collapse_cycle.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539157-4cs_collapse_cycle.png",
+      "fileSize": "1475604",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "109",
+      "fileName": "IMG_6944.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595111-IMG_6944.jpeg",
+      "fileSize": "142200",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "110",
+      "fileName": "IMG_6937.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595107-IMG_6937.jpeg",
+      "fileSize": "165434",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "111",
+      "fileName": "IMG_6943.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595111-IMG_6943.jpeg",
+      "fileSize": "187167",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "112",
+      "fileName": "IMG_6940.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595109-IMG_6940.jpeg",
+      "fileSize": "170694",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "113",
+      "fileName": "IMG_6941.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595110-IMG_6941.jpeg",
+      "fileSize": "166074",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "114",
+      "fileName": "IMG_6938.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595108-IMG_6938.jpeg",
+      "fileSize": "179424",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "115",
+      "fileName": "IMG_6942.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595110-IMG_6942.jpeg",
+      "fileSize": "178541",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "116",
+      "fileName": "IMG_6939.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595109-IMG_6939.jpeg",
+      "fileSize": "168721",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "117",
+      "fileName": "IMG_6948.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595112-IMG_6948.jpeg",
+      "fileSize": "272003",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "118",
+      "fileName": "slide_04_vol1_west_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595116-slide_04_vol1_west_2026.png",
+      "fileSize": "964159",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "119",
+      "fileName": "slide_01_intro_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595115-slide_01_intro_2026.png",
+      "fileSize": "996732",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "120",
+      "fileName": "slide_05_silk_road_nomad_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595120-slide_05_silk_road_nomad_2026.png",
+      "fileSize": "1450427",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "121",
+      "fileName": "slide_03_book1_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595119-slide_03_book1_2026.png",
+      "fileSize": "1183649",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "122",
+      "fileName": "slide_02_civilizational_relay.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595117-slide_02_civilizational_relay.png",
+      "fileSize": "1161427",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "123",
+      "fileName": "slide_03_book1_context.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595114-slide_03_book1_context.png",
+      "fileSize": "1002379",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "124",
+      "fileName": "slide_02_relay_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595121-slide_02_relay_2026.png",
+      "fileSize": "1772403",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "125",
+      "fileName": "slide_03_book1_context.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595113-slide_03_book1_context.png",
+      "fileSize": "1002379",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "126",
+      "fileName": "slide_01_intro_cover.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595112-slide_01_intro_cover.png",
+      "fileSize": "924334",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "127",
+      "fileName": "slide_08_closing_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631648-slide_08_closing_2026.png",
+      "fileSize": "1321716",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "128",
+      "fileName": "timeline_west_12000yrs.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631668-timeline_west_12000yrs.png",
+      "fileSize": "1502973",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "129",
+      "fileName": "book1_journey_final.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631656-book1_journey_final.png",
+      "fileSize": "1047245",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "130",
+      "fileName": "timeline_east_12000yrs.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631682-timeline_east_12000yrs.png",
+      "fileSize": "1795209",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "131",
+      "fileName": "slide_06_vol2_east_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631644-slide_06_vol2_east_2026.png",
+      "fileSize": "1327079",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "132",
+      "fileName": "slide_06_vol3_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631647-slide_06_vol3_2026.png",
+      "fileSize": "1087598",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "133",
+      "fileName": "slide_09_summary_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631650-slide_09_summary_2026.png",
+      "fileSize": "1051674",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "134",
+      "fileName": "three_timelines_combined_accurate.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631675-three_timelines_combined_accurate.png",
+      "fileSize": "1325744",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "135",
+      "fileName": "timeline_nomad_12000yrs.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631670-timeline_nomad_12000yrs.png",
+      "fileSize": "1523454",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "136",
+      "fileName": "three_timelines_combined_accurate.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631674-three_timelines_combined_accurate.png",
+      "fileSize": "1325744",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "137",
+      "fileName": "slide_03_book1_complete_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631652-slide_03_book1_complete_2026.png",
+      "fileSize": "1353521",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "138",
+      "fileName": "book1_complete_journey.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631678-book1_complete_journey.png",
+      "fileSize": "1395882",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "139",
+      "fileName": "twelve_relays_complete_timeline.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631677-twelve_relays_complete_timeline.png",
+      "fileSize": "1367385",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "140",
+      "fileName": "timeline_east_12000yrs.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631680-timeline_east_12000yrs.png",
+      "fileSize": "1795209",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "141",
+      "fileName": "timeline_nomad_12000yrs.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631672-timeline_nomad_12000yrs.png",
+      "fileSize": "1523454",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "142",
+      "fileName": "IMG_6695.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659520-IMG_6695.jpeg",
+      "fileSize": "68999",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:57:40"
+    },
+    {
+      "id": "143",
+      "fileName": "IMG_6474.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659528-IMG_6474.jpeg",
+      "fileSize": "88064",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:57:40"
+    },
+    {
+      "id": "144",
+      "fileName": "IMG_6473.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659528-IMG_6473.jpeg",
+      "fileSize": "88739",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:57:40"
+    },
+    {
+      "id": "145",
+      "fileName": "IMG_6682.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659521-IMG_6682.jpeg",
+      "fileSize": "127633",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "146",
+      "fileName": "IMG_6475.avif",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659529-IMG_6475.avif",
+      "fileSize": "150920",
+      "mimeType": "image/avif",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "147",
+      "fileName": "IMG_6258.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659526-IMG_6258.jpeg",
+      "fileSize": "212519",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "148",
+      "fileName": "IMG_6149.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659526-IMG_6149.jpeg",
+      "fileSize": "209457",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "149",
+      "fileName": "IMG_6184.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659527-IMG_6184.jpeg",
+      "fileSize": "166101",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "150",
+      "fileName": "IMG_6889.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659525-IMG_6889.jpeg",
+      "fileSize": "352266",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "151",
+      "fileName": "IMG_6185.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659527-IMG_6185.jpeg",
+      "fileSize": "256364",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "152",
+      "fileName": "IMG_6476.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659529-IMG_6476.jpeg",
+      "fileSize": "231277",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "153",
+      "fileName": "IMG_6180.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659523-IMG_6180.jpeg",
+      "fileSize": "218255",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "154",
+      "fileName": "IMG_6512.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659530-IMG_6512.png",
+      "fileSize": "596534",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "155",
+      "fileName": "slide_14_relays_clean.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659522-slide_14_relays_clean.png",
+      "fileSize": "973314",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "156",
+      "fileName": "relays_12000_year_timeline.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659524-relays_12000_year_timeline.png",
+      "fileSize": "1420129",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "157",
+      "fileName": "IMG_7026.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706744-IMG_7026.jpeg",
+      "fileSize": "52951",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "158",
+      "fileName": "IMG_6694.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706742-IMG_6694.jpeg",
+      "fileSize": "237487",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "159",
+      "fileName": "IMG_6703.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706743-IMG_6703.jpeg",
+      "fileSize": "329248",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "160",
+      "fileName": "IMG_6691.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706741-IMG_6691.jpeg",
+      "fileSize": "369559",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "161",
+      "fileName": "IMG_6513.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706744-IMG_6513.png",
+      "fileSize": "546431",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "162",
+      "fileName": "supplement3_relay_fire.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706746-supplement3_relay_fire.png",
+      "fileSize": "1374561",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "163",
+      "fileName": "supplement3_relay_engine.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706767-supplement3_relay_engine.png",
+      "fileSize": "1526471",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "164",
+      "fileName": "supplement3_relay_humans_as_nodes.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706770-supplement3_relay_humans_as_nodes.png",
+      "fileSize": "1207560",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "165",
+      "fileName": "supplement3_relay_rail.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706764-supplement3_relay_rail.png",
+      "fileSize": "1555795",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "166",
+      "fileName": "supplement3_relay_river.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706752-supplement3_relay_river.png",
+      "fileSize": "1332032",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "167",
+      "fileName": "supplement3_framework_diagram.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706748-supplement3_framework_diagram.png",
+      "fileSize": "1656438",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "168",
+      "fileName": "supplement3_framework_diagram.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706760-supplement3_framework_diagram.png",
+      "fileSize": "1656438",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "169",
+      "fileName": "supplement3_relay_loom.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706765-supplement3_relay_loom.png",
+      "fileSize": "1536465",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "170",
+      "fileName": "supplement3_relay_tree.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706762-supplement3_relay_tree.png",
+      "fileSize": "1627978",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "171",
+      "fileName": "supplement2_pen_infrastructure_final_corrected.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706745-supplement2_pen_infrastructure_final_corrected.png",
+      "fileSize": "1438458",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "172",
+      "fileName": "supplement3_relay_aaa_triad.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706769-supplement3_relay_aaa_triad.png",
+      "fileSize": "1406255",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "173",
+      "fileName": "supplement3_relay_roads.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706755-supplement3_relay_roads.png",
+      "fileSize": "1538855",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "174",
+      "fileName": "supplement3_master_overview.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706750-supplement3_master_overview.png",
+      "fileSize": "1755028",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "175",
+      "fileName": "supplement3_relay_ships.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706757-supplement3_relay_ships.png",
+      "fileSize": "1533638",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "176",
+      "fileName": "supplement3_relay_horse.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706753-supplement3_relay_horse.png",
+      "fileSize": "1398207",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "177",
+      "fileName": "supplement3_master_overview.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706759-supplement3_master_overview.png",
+      "fileSize": "1755028",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "178",
+      "fileName": "IMG_7068.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771611-IMG_7068.jpeg",
+      "fileSize": "74021",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:59:32"
+    },
+    {
+      "id": "179",
+      "fileName": "IMG_7066.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771610-IMG_7066.png",
+      "fileSize": "76083",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:32"
+    },
+    {
+      "id": "180",
+      "fileName": "IMG_7069.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771608-IMG_7069.jpeg",
+      "fileSize": "252667",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "181",
+      "fileName": "IMG_7070.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771611-IMG_7070.jpeg",
+      "fileSize": "309085",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "182",
+      "fileName": "IMG_7137.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771613-IMG_7137.jpeg",
+      "fileSize": "316609",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "183",
+      "fileName": "IMG_7070.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771609-IMG_7070.jpeg",
+      "fileSize": "309085",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "184",
+      "fileName": "supplement4_timeline_transformation.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771614-supplement4_timeline_transformation.png",
+      "fileSize": "1545266",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "185",
+      "fileName": "supplement3_relay_transition.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771612-supplement3_relay_transition.png",
+      "fileSize": "1317521",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "186",
+      "fileName": "supplement4_relay_roads_comparison.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774166-supplement4_relay_roads_comparison.png",
+      "fileSize": "1233255",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:34"
+    },
+    {
+      "id": "187",
+      "fileName": "supplement4_relay_river_comparison.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774162-supplement4_relay_river_comparison.png",
+      "fileSize": "1541541",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:35"
+    },
+    {
+      "id": "188",
+      "fileName": "supplement4_sector_dominance.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774152-supplement4_sector_dominance.png",
+      "fileSize": "1340292",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:35"
+    },
+    {
+      "id": "189",
+      "fileName": "supplement4_relay_horse_comparison.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774164-supplement4_relay_horse_comparison.png",
+      "fileSize": "1300476",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:35"
+    },
+    {
+      "id": "190",
+      "fileName": "supplement4_relay_tree_comparison.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774161-supplement4_relay_tree_comparison.png",
+      "fileSize": "1344809",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:35"
+    },
+    {
+      "id": "191",
+      "fileName": "supplement4_institutional_continuity.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774154-supplement4_institutional_continuity.png",
+      "fileSize": "1480904",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:35"
+    },
+    {
+      "id": "192",
+      "fileName": "supplement4_relay_fire_comparison.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774158-supplement4_relay_fire_comparison.png",
+      "fileSize": "1516998",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "193",
+      "fileName": "supplement4_connectivity_strategy.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774156-supplement4_connectivity_strategy.png",
+      "fileSize": "1515373",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "194",
+      "fileName": "supplement4_relay_humans_as_nodes_comparison.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774177-supplement4_relay_humans_as_nodes_comparison.png",
+      "fileSize": "1291657",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "195",
+      "fileName": "supplement4_relay_transition_orbital_canopy.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774178-supplement4_relay_transition_orbital_canopy.png",
+      "fileSize": "1105355",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "196",
+      "fileName": "supplement4_relay_engine_comparison.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774173-supplement4_relay_engine_comparison.png",
+      "fileSize": "1167733",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "197",
+      "fileName": "supplement4_relay_rail_comparison.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774169-supplement4_relay_rail_comparison.png",
+      "fileSize": "1304055",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "198",
+      "fileName": "supplement4_relay_ships_comparison.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774168-supplement4_relay_ships_comparison.png",
+      "fileSize": "1183953",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "199",
+      "fileName": "supplement4_relay_loom_comparison.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774171-supplement4_relay_loom_comparison.png",
+      "fileSize": "1370625",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "200",
+      "fileName": "supplement4_relay_aaa_triad_comparison.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774175-supplement4_relay_aaa_triad_comparison.png",
+      "fileSize": "1486801",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "201",
+      "fileName": "IMG_7191.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400810070-IMG_7191.jpeg",
+      "fileSize": "62426",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:00:11"
+    },
+    {
+      "id": "202",
+      "fileName": "IMG_7250.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400810073-IMG_7250.jpeg",
+      "fileSize": "69638",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:00:11"
+    },
+    {
+      "id": "203",
+      "fileName": "IMG_7247.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400810072-IMG_7247.jpeg",
+      "fileSize": "242511",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:00:11"
+    },
+    {
+      "id": "205",
+      "fileName": "IMG_7277.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400839794-IMG_7277.jpeg",
+      "fileSize": "398327",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:00:41"
+    },
+    {
+      "id": "206",
+      "fileName": "IMG_7274.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400839793-IMG_7274.jpeg",
+      "fileSize": "284151",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:00:41"
+    },
+    {
+      "id": "207",
+      "fileName": "IMG_7273.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400839792-IMG_7273.jpeg",
+      "fileSize": "282502",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:00:41"
+    },
+    {
+      "id": "208",
+      "fileName": "relays_12000_year_timeline.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400839795-relays_12000_year_timeline.png",
+      "fileSize": "1420129",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:00:42"
+    },
+    {
+      "id": "209",
+      "fileName": "IMG_6936.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885769-IMG_6936.jpeg",
+      "fileSize": "96238",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:27"
+    },
+    {
+      "id": "210",
+      "fileName": "slide_06_vol3_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885778-slide_06_vol3_2026.png",
+      "fileSize": "1087598",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:27"
+    },
+    {
+      "id": "211",
+      "fileName": "three_timelines_combined_accurate.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885773-three_timelines_combined_accurate.png",
+      "fileSize": "1325744",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:27"
+    },
+    {
+      "id": "212",
+      "fileName": "three_timelines_combined_accurate.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885770-three_timelines_combined_accurate.png",
+      "fileSize": "1325744",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "213",
+      "fileName": "twelve_relays_complete_timeline.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885768-twelve_relays_complete_timeline.png",
+      "fileSize": "1367385",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "214",
+      "fileName": "timeline_nomad_12000yrs.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885771-timeline_nomad_12000yrs.png",
+      "fileSize": "1523454",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "215",
+      "fileName": "book1_complete_journey.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885765-book1_complete_journey.png",
+      "fileSize": "1395882",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "216",
+      "fileName": "timeline_east_12000yrs.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885781-timeline_east_12000yrs.png",
+      "fileSize": "1795209",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "217",
+      "fileName": "timeline_west_12000yrs.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885775-timeline_west_12000yrs.png",
+      "fileSize": "1502973",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "218",
+      "fileName": "slide_09_summary_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885780-slide_09_summary_2026.png",
+      "fileSize": "1051674",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "219",
+      "fileName": "slide_03_book1_complete_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885774-slide_03_book1_complete_2026.png",
+      "fileSize": "1353521",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "220",
+      "fileName": "slide_02_relay_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885783-slide_02_relay_2026.png",
+      "fileSize": "1772403",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "221",
+      "fileName": "slide_03_book1_2026.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885777-slide_03_book1_2026.png",
+      "fileSize": "1183649",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "222",
+      "fileName": "IMG_6941.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914982-IMG_6941.jpeg",
+      "fileSize": "166074",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "223",
+      "fileName": "IMG_6940.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914982-IMG_6940.jpeg",
+      "fileSize": "170694",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "224",
+      "fileName": "IMG_6937.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914979-IMG_6937.jpeg",
+      "fileSize": "165434",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "225",
+      "fileName": "IMG_6943.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914983-IMG_6943.jpeg",
+      "fileSize": "187167",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "226",
+      "fileName": "IMG_6944.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914984-IMG_6944.jpeg",
+      "fileSize": "142200",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "227",
+      "fileName": "IMG_6939.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914981-IMG_6939.jpeg",
+      "fileSize": "168721",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "228",
+      "fileName": "IMG_6942.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914983-IMG_6942.jpeg",
+      "fileSize": "178541",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "229",
+      "fileName": "IMG_6938.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914980-IMG_6938.jpeg",
+      "fileSize": "179424",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "230",
+      "fileName": "IMG_6948.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914985-IMG_6948.jpeg",
+      "fileSize": "272003",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "231",
+      "fileName": "IMG_6703.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914986-IMG_6703.jpeg",
+      "fileSize": "329248",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "232",
+      "fileName": "IMG_6889.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914985-IMG_6889.jpeg",
+      "fileSize": "352266",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "233",
+      "fileName": "IMG_6702.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914986-IMG_6702.jpeg",
+      "fileSize": "218530",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "234",
+      "fileName": "IMG_6838.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914988-IMG_6838.jpeg",
+      "fileSize": "657334",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:01:57"
+    },
+    {
+      "id": "235",
+      "fileName": "slide_02_civilizational_relay.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914989-slide_02_civilizational_relay.png",
+      "fileSize": "1161427",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:57"
+    },
+    {
+      "id": "236",
+      "fileName": "slide_03_book1_context.png",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914987-slide_03_book1_context.png",
+      "fileSize": "1002379",
+      "mimeType": "image/png",
+      "createdAt": "2026-02-06 18:01:57"
+    },
+    {
+      "id": "237",
+      "fileName": "IMG_6674.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400955079-IMG_6674.jpeg",
+      "fileSize": "111759",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:02:36"
+    },
+    {
+      "id": "238",
+      "fileName": "IMG_6685.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400955081-IMG_6685.jpeg",
+      "fileSize": "160020",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:02:36"
+    },
+    {
+      "id": "239",
+      "fileName": "IMG_6673.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400955077-IMG_6673.jpeg",
+      "fileSize": "141218",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:02:36"
+    },
+    {
+      "id": "240",
+      "fileName": "IMG_6677.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400955079-IMG_6677.jpeg",
+      "fileSize": "458155",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:02:37"
+    },
+    {
+      "id": "241",
+      "fileName": "IMG_6683.jpeg",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400955080-IMG_6683.jpeg",
+      "fileSize": "495220",
+      "mimeType": "image/jpeg",
+      "createdAt": "2026-02-06 18:02:37"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tfileName\tfileUrl\tfileSize\tmimeType\tcreatedAt\n1\tbook1_journey_final.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770399844482-book1_journey_final.png\t1047245\timage/png\t2026-02-06 17:44:06\n2\tIMG_6326.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014234-IMG_6326.jpeg\t184662\timage/jpeg\t2026-02-06 17:46:55\n3\tIMG_6273.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014226-IMG_6273.jpeg\t169018\timage/jpeg\t2026-02-06 17:46:55\n4\tIMG_6325.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014230-IMG_6325.jpeg\t193555\timage/jpeg\t2026-02-06 17:46:55\n5\tIMG_6320.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014233-IMG_6320.jpeg\t539097\timage/jpeg\t2026-02-06 17:46:56\n6\tcover_page.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014228-cover_page.png\t1408715\timage/png\t2026-02-06 17:46:56\n7\tcover_page_portrait.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014231-cover_page_portrait.png\t1193041\timage/png\t2026-02-06 17:46:56\n8\tIMG_5777.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400015419-IMG_5777.jpeg\t77412\timage/jpeg\t2026-02-06 17:46:56\n9\tIMG_6327.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014235-IMG_6327.jpeg\t246385\timage/jpeg\t2026-02-06 17:46:57\n10\tIMG_5726.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400014236-IMG_5726.jpeg\t282801\timage/jpeg\t2026-02-06 17:46:57\n11\tIMG_5725.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400015413-IMG_5725.jpeg\t266842\timage/jpeg\t2026-02-06 17:46:57\n12\tbook_cover_v2.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400015423-book_cover_v2.png\t1288715\timage/png\t2026-02-06 17:46:57\n13\tbook_cover_v2.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400015420-book_cover_v2.png\t1288715\timage/png\t2026-02-06 17:46:57\n14\tcover_page_portrait_v3.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400015416-cover_page_portrait_v3.png\t1188017\timage/png\t2026-02-06 17:46:57\n15\tIMG_6569.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067363-IMG_6569.jpeg\t66737\timage/jpeg\t2026-02-06 17:47:48\n16\tIMG_6575.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067506-IMG_6575.jpeg\t76051\timage/jpeg\t2026-02-06 17:47:48\n17\tIMG_6572.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067505-IMG_6572.jpeg\t80864\timage/jpeg\t2026-02-06 17:47:48\n18\tIMG_6568.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067362-IMG_6568.jpeg\t137935\timage/jpeg\t2026-02-06 17:47:48\n19\tIMG_6577.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067507-IMG_6577.jpeg\t150655\timage/jpeg\t2026-02-06 17:47:48\n20\tIMG_6574.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067506-IMG_6574.jpeg\t105107\timage/jpeg\t2026-02-06 17:47:48\n21\tIMG_6573.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067504-IMG_6573.jpeg\t146868\timage/jpeg\t2026-02-06 17:47:49\n22\t0ad8759f-473a-44e2-823d-f1e56e51471c.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067360-0ad8759f-473a-44e2-823d-f1e56e51471c.jpeg\t383031\timage/jpeg\t2026-02-06 17:47:49\n23\t26ee71a4-4ec9-4efa-ae99-1d4ccc8b7370.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067361-26ee71a4-4ec9-4efa-ae99-1d4ccc8b7370.jpeg\t468521\timage/jpeg\t2026-02-06 17:47:49\n24\tIMG_6570.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067503-IMG_6570.jpeg\t162782\timage/jpeg\t2026-02-06 17:47:50\n25\tIMG_6579.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067508-IMG_6579.jpeg\t105888\timage/jpeg\t2026-02-06 17:47:50\n26\tIMG_6576.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067507-IMG_6576.jpeg\t149631\timage/jpeg\t2026-02-06 17:47:50\n27\tIMG_6571.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067504-IMG_6571.jpeg\t139113\timage/jpeg\t2026-02-06 17:47:50\n28\tIMG_6578.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400067508-IMG_6578.jpeg\t211619\timage/jpeg\t2026-02-06 17:47:50\n29\tIMG_6587.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122477-IMG_6587.jpeg\t91928\timage/jpeg\t2026-02-06 17:48:43\n30\tIMG_6590.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122479-IMG_6590.jpeg\t64898\timage/jpeg\t2026-02-06 17:48:43\n31\tIMG_6594.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122481-IMG_6594.jpeg\t79011\timage/jpeg\t2026-02-06 17:48:43\n32\tIMG_6593.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122480-IMG_6593.jpeg\t85482\timage/jpeg\t2026-02-06 17:48:43\n33\tIMG_6596.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122482-IMG_6596.jpeg\t71358\timage/jpeg\t2026-02-06 17:48:43\n34\tIMG_6588.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122478-IMG_6588.jpeg\t140301\timage/jpeg\t2026-02-06 17:48:43\n35\tIMG_6583.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122474-IMG_6583.jpeg\t124308\timage/jpeg\t2026-02-06 17:48:43\n36\tIMG_6580.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122476-IMG_6580.jpeg\t125850\timage/jpeg\t2026-02-06 17:48:43\n37\tIMG_6592.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122480-IMG_6592.jpeg\t129981\timage/jpeg\t2026-02-06 17:48:44\n38\tIMG_6591.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122479-IMG_6591.jpeg\t154659\timage/jpeg\t2026-02-06 17:48:44\n39\tIMG_6595.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122481-IMG_6595.jpeg\t126409\timage/jpeg\t2026-02-06 17:48:44\n40\tIMG_6581.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122476-IMG_6581.jpeg\t119391\timage/jpeg\t2026-02-06 17:48:44\n41\tIMG_6586.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122477-IMG_6586.jpeg\t136578\timage/jpeg\t2026-02-06 17:48:44\n42\tIMG_6585.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122475-IMG_6585.jpeg\t99737\timage/jpeg\t2026-02-06 17:48:44\n43\tIMG_6584.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122475-IMG_6584.jpeg\t158957\timage/jpeg\t2026-02-06 17:48:44\n44\tIMG_6597.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122482-IMG_6597.jpeg\t169587\timage/jpeg\t2026-02-06 17:48:44\n45\tIMG_6589.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122478-IMG_6589.jpeg\t191531\timage/jpeg\t2026-02-06 17:48:44\n46\tIMG_6582.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400122473-IMG_6582.jpeg\t186190\timage/jpeg\t2026-02-06 17:48:44\n47\tIMG_6605.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168180-IMG_6605.jpeg\t81539\timage/jpeg\t2026-02-06 17:49:29\n48\tIMG_6599.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168177-IMG_6599.jpeg\t131816\timage/jpeg\t2026-02-06 17:49:29\n49\tIMG_6601.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168178-IMG_6601.jpeg\t148626\timage/jpeg\t2026-02-06 17:49:29\n50\tIMG_6606.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168182-IMG_6606.jpeg\t126154\timage/jpeg\t2026-02-06 17:49:29\n51\tIMG_6602.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168179-IMG_6602.jpeg\t147406\timage/jpeg\t2026-02-06 17:49:29\n52\tIMG_6604.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168180-IMG_6604.jpeg\t204210\timage/jpeg\t2026-02-06 17:49:29\n53\tIMG_6608.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168181-IMG_6608.jpeg\t174093\timage/jpeg\t2026-02-06 17:49:29\n54\tIMG_6600.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168177-IMG_6600.jpeg\t213857\timage/jpeg\t2026-02-06 17:49:29\n55\tIMG_6598.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168175-IMG_6598.jpeg\t163110\timage/jpeg\t2026-02-06 17:49:29\n56\tIMG_6607.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168181-IMG_6607.jpeg\t136845\timage/jpeg\t2026-02-06 17:49:29\n57\tIMG_6603.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400168179-IMG_6603.jpeg\t219494\timage/jpeg\t2026-02-06 17:49:30\n58\tIMG_6695.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236188-IMG_6695.jpeg\t68999\timage/jpeg\t2026-02-06 17:50:37\n59\tIMG_6474.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236184-IMG_6474.jpeg\t88064\timage/jpeg\t2026-02-06 17:50:37\n60\tIMG_6473.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236183-IMG_6473.jpeg\t88739\timage/jpeg\t2026-02-06 17:50:37\n61\tIMG_6475.avif\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236184-IMG_6475.avif\t150920\timage/avif\t2026-02-06 17:50:37\n62\tIMG_6682.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236188-IMG_6682.jpeg\t127633\timage/jpeg\t2026-02-06 17:50:37\n63\tIMG_6476.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236185-IMG_6476.jpeg\t231277\timage/jpeg\t2026-02-06 17:50:37\n64\tIMG_6508.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236187-IMG_6508.jpeg\t218898\timage/jpeg\t2026-02-06 17:50:37\n65\tIMG_6496.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236186-IMG_6496.jpeg\t253104\timage/jpeg\t2026-02-06 17:50:37\n66\tIMG_6691.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236189-IMG_6691.jpeg\t369559\timage/jpeg\t2026-02-06 17:50:37\n67\tIMG_6498.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236187-IMG_6498.jpeg\t351520\timage/jpeg\t2026-02-06 17:50:37\n68\tIMG_6497.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236186-IMG_6497.png\t283447\timage/png\t2026-02-06 17:50:38\n69\tIMG_6703.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400236190-IMG_6703.jpeg\t329248\timage/jpeg\t2026-02-06 17:50:38\n70\tIMG_3233.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286036-IMG_3233.jpeg\t76672\timage/jpeg\t2026-02-06 17:51:27\n71\tIMG_3232.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286035-IMG_3232.jpeg\t69989\timage/jpeg\t2026-02-06 17:51:27\n72\tIMG_3234.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286036-IMG_3234.jpeg\t86096\timage/jpeg\t2026-02-06 17:51:27\n73\tIMG_3231.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286035-IMG_3231.jpeg\t78051\timage/jpeg\t2026-02-06 17:51:27\n74\tIMG_6730.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286032-IMG_6730.jpeg\t125144\timage/jpeg\t2026-02-06 17:51:27\n75\tIMG_6844.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286037-IMG_6844.jpeg\t260665\timage/jpeg\t2026-02-06 17:51:27\n76\tIMG_6845.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286037-IMG_6845.jpeg\t258323\timage/jpeg\t2026-02-06 17:51:27\n77\tIMG_6743.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400286034-IMG_6743.jpeg\t465005\timage/jpeg\t2026-02-06 17:51:28\n78\tIMG_6936.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477549-IMG_6936.jpeg\t96238\timage/jpeg\t2026-02-06 17:54:38\n79\tIMG_6930.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477546-IMG_6930.jpeg\t81557\timage/jpeg\t2026-02-06 17:54:38\n80\tIMG_6940.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477552-IMG_6940.jpeg\t170694\timage/jpeg\t2026-02-06 17:54:39\n81\tIMG_6933.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477548-IMG_6933.jpeg\t103283\timage/jpeg\t2026-02-06 17:54:39\n82\tIMG_6938.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477551-IMG_6938.jpeg\t179424\timage/jpeg\t2026-02-06 17:54:39\n83\tIMG_6931.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477547-IMG_6931.jpeg\t106177\timage/jpeg\t2026-02-06 17:54:39\n84\tIMG_6937.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477550-IMG_6937.jpeg\t165434\timage/jpeg\t2026-02-06 17:54:39\n85\tIMG_6942.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477553-IMG_6942.jpeg\t178541\timage/jpeg\t2026-02-06 17:54:39\n86\tIMG_6932.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477548-IMG_6932.jpeg\t118324\timage/jpeg\t2026-02-06 17:54:39\n87\tIMG_6941.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477552-IMG_6941.jpeg\t166074\timage/jpeg\t2026-02-06 17:54:39\n88\tIMG_6929.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477545-IMG_6929.jpeg\t118291\timage/jpeg\t2026-02-06 17:54:39\n89\tIMG_6944.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477554-IMG_6944.jpeg\t142200\timage/jpeg\t2026-02-06 17:54:39\n90\tIMG_6935.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477548-IMG_6935.jpeg\t173768\timage/jpeg\t2026-02-06 17:54:39\n91\tIMG_6939.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477551-IMG_6939.jpeg\t168721\timage/jpeg\t2026-02-06 17:54:39\n92\tIMG_6943.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477553-IMG_6943.jpeg\t187167\timage/jpeg\t2026-02-06 17:54:39\n93\tIMG_6934.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400477549-IMG_6934.jpeg\t137869\timage/jpeg\t2026-02-06 17:54:40\n94\tIMG_6936.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539150-IMG_6936.jpeg\t96238\timage/jpeg\t2026-02-06 17:55:40\n95\tIMG_6930.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539148-IMG_6930.jpeg\t81557\timage/jpeg\t2026-02-06 17:55:40\n96\tIMG_6935.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539150-IMG_6935.jpeg\t173768\timage/jpeg\t2026-02-06 17:55:40\n97\tIMG_6931.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539148-IMG_6931.jpeg\t106177\timage/jpeg\t2026-02-06 17:55:40\n98\tIMG_6933.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539149-IMG_6933.jpeg\t103283\timage/jpeg\t2026-02-06 17:55:40\n99\tIMG_6929.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539147-IMG_6929.jpeg\t118291\timage/jpeg\t2026-02-06 17:55:40\n100\tIMG_6934.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539150-IMG_6934.jpeg\t137869\timage/jpeg\t2026-02-06 17:55:40\n101\tIMG_6932.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539149-IMG_6932.jpeg\t118324\timage/jpeg\t2026-02-06 17:55:40\n102\tprerome_rome_4cs_case_study.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539156-prerome_rome_4cs_case_study.png\t1425153\timage/png\t2026-02-06 17:55:41\n103\tslide_01_intro_cover.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539151-slide_01_intro_cover.png\t924334\timage/png\t2026-02-06 17:55:41\n104\tslide_03_book1_context.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539152-slide_03_book1_context.png\t1002379\timage/png\t2026-02-06 17:55:41\n105\tslide_02_civilizational_relay.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539153-slide_02_civilizational_relay.png\t1161427\timage/png\t2026-02-06 17:55:41\n106\tbronze_age_4k2_4cs_case_study.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539159-bronze_age_4k2_4cs_case_study.png\t1629879\timage/png\t2026-02-06 17:55:41\n107\tthree_modes_timeline_accurate.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539155-three_modes_timeline_accurate.png\t1147239\timage/png\t2026-02-06 17:55:41\n108\t4cs_collapse_cycle.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400539157-4cs_collapse_cycle.png\t1475604\timage/png\t2026-02-06 17:55:41\n109\tIMG_6944.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595111-IMG_6944.jpeg\t142200\timage/jpeg\t2026-02-06 17:56:36\n110\tIMG_6937.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595107-IMG_6937.jpeg\t165434\timage/jpeg\t2026-02-06 17:56:36\n111\tIMG_6943.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595111-IMG_6943.jpeg\t187167\timage/jpeg\t2026-02-06 17:56:36\n112\tIMG_6940.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595109-IMG_6940.jpeg\t170694\timage/jpeg\t2026-02-06 17:56:36\n113\tIMG_6941.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595110-IMG_6941.jpeg\t166074\timage/jpeg\t2026-02-06 17:56:36\n114\tIMG_6938.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595108-IMG_6938.jpeg\t179424\timage/jpeg\t2026-02-06 17:56:36\n115\tIMG_6942.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595110-IMG_6942.jpeg\t178541\timage/jpeg\t2026-02-06 17:56:36\n116\tIMG_6939.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595109-IMG_6939.jpeg\t168721\timage/jpeg\t2026-02-06 17:56:36\n117\tIMG_6948.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595112-IMG_6948.jpeg\t272003\timage/jpeg\t2026-02-06 17:56:36\n118\tslide_04_vol1_west_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595116-slide_04_vol1_west_2026.png\t964159\timage/png\t2026-02-06 17:56:37\n119\tslide_01_intro_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595115-slide_01_intro_2026.png\t996732\timage/png\t2026-02-06 17:56:37\n120\tslide_05_silk_road_nomad_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595120-slide_05_silk_road_nomad_2026.png\t1450427\timage/png\t2026-02-06 17:56:37\n121\tslide_03_book1_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595119-slide_03_book1_2026.png\t1183649\timage/png\t2026-02-06 17:56:37\n122\tslide_02_civilizational_relay.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595117-slide_02_civilizational_relay.png\t1161427\timage/png\t2026-02-06 17:56:37\n123\tslide_03_book1_context.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595114-slide_03_book1_context.png\t1002379\timage/png\t2026-02-06 17:56:37\n124\tslide_02_relay_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595121-slide_02_relay_2026.png\t1772403\timage/png\t2026-02-06 17:56:37\n125\tslide_03_book1_context.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595113-slide_03_book1_context.png\t1002379\timage/png\t2026-02-06 17:56:37\n126\tslide_01_intro_cover.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400595112-slide_01_intro_cover.png\t924334\timage/png\t2026-02-06 17:56:37\n127\tslide_08_closing_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631648-slide_08_closing_2026.png\t1321716\timage/png\t2026-02-06 17:57:13\n128\ttimeline_west_12000yrs.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631668-timeline_west_12000yrs.png\t1502973\timage/png\t2026-02-06 17:57:13\n129\tbook1_journey_final.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631656-book1_journey_final.png\t1047245\timage/png\t2026-02-06 17:57:13\n130\ttimeline_east_12000yrs.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631682-timeline_east_12000yrs.png\t1795209\timage/png\t2026-02-06 17:57:13\n131\tslide_06_vol2_east_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631644-slide_06_vol2_east_2026.png\t1327079\timage/png\t2026-02-06 17:57:13\n132\tslide_06_vol3_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631647-slide_06_vol3_2026.png\t1087598\timage/png\t2026-02-06 17:57:13\n133\tslide_09_summary_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631650-slide_09_summary_2026.png\t1051674\timage/png\t2026-02-06 17:57:14\n134\tthree_timelines_combined_accurate.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631675-three_timelines_combined_accurate.png\t1325744\timage/png\t2026-02-06 17:57:14\n135\ttimeline_nomad_12000yrs.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631670-timeline_nomad_12000yrs.png\t1523454\timage/png\t2026-02-06 17:57:14\n136\tthree_timelines_combined_accurate.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631674-three_timelines_combined_accurate.png\t1325744\timage/png\t2026-02-06 17:57:14\n137\tslide_03_book1_complete_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631652-slide_03_book1_complete_2026.png\t1353521\timage/png\t2026-02-06 17:57:14\n138\tbook1_complete_journey.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631678-book1_complete_journey.png\t1395882\timage/png\t2026-02-06 17:57:14\n139\ttwelve_relays_complete_timeline.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631677-twelve_relays_complete_timeline.png\t1367385\timage/png\t2026-02-06 17:57:14\n140\ttimeline_east_12000yrs.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631680-timeline_east_12000yrs.png\t1795209\timage/png\t2026-02-06 17:57:14\n141\ttimeline_nomad_12000yrs.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400631672-timeline_nomad_12000yrs.png\t1523454\timage/png\t2026-02-06 17:57:14\n142\tIMG_6695.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659520-IMG_6695.jpeg\t68999\timage/jpeg\t2026-02-06 17:57:40\n143\tIMG_6474.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659528-IMG_6474.jpeg\t88064\timage/jpeg\t2026-02-06 17:57:40\n144\tIMG_6473.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659528-IMG_6473.jpeg\t88739\timage/jpeg\t2026-02-06 17:57:40\n145\tIMG_6682.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659521-IMG_6682.jpeg\t127633\timage/jpeg\t2026-02-06 17:57:41\n146\tIMG_6475.avif\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659529-IMG_6475.avif\t150920\timage/avif\t2026-02-06 17:57:41\n147\tIMG_6258.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659526-IMG_6258.jpeg\t212519\timage/jpeg\t2026-02-06 17:57:41\n148\tIMG_6149.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659526-IMG_6149.jpeg\t209457\timage/jpeg\t2026-02-06 17:57:41\n149\tIMG_6184.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659527-IMG_6184.jpeg\t166101\timage/jpeg\t2026-02-06 17:57:41\n150\tIMG_6889.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659525-IMG_6889.jpeg\t352266\timage/jpeg\t2026-02-06 17:57:41\n151\tIMG_6185.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659527-IMG_6185.jpeg\t256364\timage/jpeg\t2026-02-06 17:57:41\n152\tIMG_6476.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659529-IMG_6476.jpeg\t231277\timage/jpeg\t2026-02-06 17:57:41\n153\tIMG_6180.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659523-IMG_6180.jpeg\t218255\timage/jpeg\t2026-02-06 17:57:41\n154\tIMG_6512.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659530-IMG_6512.png\t596534\timage/png\t2026-02-06 17:57:41\n155\tslide_14_relays_clean.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659522-slide_14_relays_clean.png\t973314\timage/png\t2026-02-06 17:57:41\n156\trelays_12000_year_timeline.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400659524-relays_12000_year_timeline.png\t1420129\timage/png\t2026-02-06 17:57:41\n157\tIMG_7026.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706744-IMG_7026.jpeg\t52951\timage/jpeg\t2026-02-06 17:58:28\n158\tIMG_6694.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706742-IMG_6694.jpeg\t237487\timage/jpeg\t2026-02-06 17:58:28\n159\tIMG_6703.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706743-IMG_6703.jpeg\t329248\timage/jpeg\t2026-02-06 17:58:28\n160\tIMG_6691.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706741-IMG_6691.jpeg\t369559\timage/jpeg\t2026-02-06 17:58:28\n161\tIMG_6513.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706744-IMG_6513.png\t546431\timage/png\t2026-02-06 17:58:28\n162\tsupplement3_relay_fire.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706746-supplement3_relay_fire.png\t1374561\timage/png\t2026-02-06 17:58:28\n163\tsupplement3_relay_engine.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706767-supplement3_relay_engine.png\t1526471\timage/png\t2026-02-06 17:58:28\n164\tsupplement3_relay_humans_as_nodes.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706770-supplement3_relay_humans_as_nodes.png\t1207560\timage/png\t2026-02-06 17:58:29\n165\tsupplement3_relay_rail.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706764-supplement3_relay_rail.png\t1555795\timage/png\t2026-02-06 17:58:29\n166\tsupplement3_relay_river.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706752-supplement3_relay_river.png\t1332032\timage/png\t2026-02-06 17:58:29\n167\tsupplement3_framework_diagram.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706748-supplement3_framework_diagram.png\t1656438\timage/png\t2026-02-06 17:58:29\n168\tsupplement3_framework_diagram.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706760-supplement3_framework_diagram.png\t1656438\timage/png\t2026-02-06 17:58:29\n169\tsupplement3_relay_loom.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706765-supplement3_relay_loom.png\t1536465\timage/png\t2026-02-06 17:58:29\n170\tsupplement3_relay_tree.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706762-supplement3_relay_tree.png\t1627978\timage/png\t2026-02-06 17:58:29\n171\tsupplement2_pen_infrastructure_final_corrected.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706745-supplement2_pen_infrastructure_final_corrected.png\t1438458\timage/png\t2026-02-06 17:58:29\n172\tsupplement3_relay_aaa_triad.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706769-supplement3_relay_aaa_triad.png\t1406255\timage/png\t2026-02-06 17:58:29\n173\tsupplement3_relay_roads.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706755-supplement3_relay_roads.png\t1538855\timage/png\t2026-02-06 17:58:29\n174\tsupplement3_master_overview.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706750-supplement3_master_overview.png\t1755028\timage/png\t2026-02-06 17:58:29\n175\tsupplement3_relay_ships.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706757-supplement3_relay_ships.png\t1533638\timage/png\t2026-02-06 17:58:29\n176\tsupplement3_relay_horse.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706753-supplement3_relay_horse.png\t1398207\timage/png\t2026-02-06 17:58:29\n177\tsupplement3_master_overview.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400706759-supplement3_master_overview.png\t1755028\timage/png\t2026-02-06 17:58:29\n178\tIMG_7068.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771611-IMG_7068.jpeg\t74021\timage/jpeg\t2026-02-06 17:59:32\n179\tIMG_7066.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771610-IMG_7066.png\t76083\timage/png\t2026-02-06 17:59:32\n180\tIMG_7069.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771608-IMG_7069.jpeg\t252667\timage/jpeg\t2026-02-06 17:59:33\n181\tIMG_7070.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771611-IMG_7070.jpeg\t309085\timage/jpeg\t2026-02-06 17:59:33\n182\tIMG_7137.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771613-IMG_7137.jpeg\t316609\timage/jpeg\t2026-02-06 17:59:33\n183\tIMG_7070.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771609-IMG_7070.jpeg\t309085\timage/jpeg\t2026-02-06 17:59:33\n184\tsupplement4_timeline_transformation.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771614-supplement4_timeline_transformation.png\t1545266\timage/png\t2026-02-06 17:59:33\n185\tsupplement3_relay_transition.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400771612-supplement3_relay_transition.png\t1317521\timage/png\t2026-02-06 17:59:33\n186\tsupplement4_relay_roads_comparison.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774166-supplement4_relay_roads_comparison.png\t1233255\timage/png\t2026-02-06 17:59:34\n187\tsupplement4_relay_river_comparison.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774162-supplement4_relay_river_comparison.png\t1541541\timage/png\t2026-02-06 17:59:35\n188\tsupplement4_sector_dominance.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774152-supplement4_sector_dominance.png\t1340292\timage/png\t2026-02-06 17:59:35\n189\tsupplement4_relay_horse_comparison.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774164-supplement4_relay_horse_comparison.png\t1300476\timage/png\t2026-02-06 17:59:35\n190\tsupplement4_relay_tree_comparison.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774161-supplement4_relay_tree_comparison.png\t1344809\timage/png\t2026-02-06 17:59:35\n191\tsupplement4_institutional_continuity.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774154-supplement4_institutional_continuity.png\t1480904\timage/png\t2026-02-06 17:59:35\n192\tsupplement4_relay_fire_comparison.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774158-supplement4_relay_fire_comparison.png\t1516998\timage/png\t2026-02-06 17:59:36\n193\tsupplement4_connectivity_strategy.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774156-supplement4_connectivity_strategy.png\t1515373\timage/png\t2026-02-06 17:59:36\n194\tsupplement4_relay_humans_as_nodes_comparison.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774177-supplement4_relay_humans_as_nodes_comparison.png\t1291657\timage/png\t2026-02-06 17:59:36\n195\tsupplement4_relay_transition_orbital_canopy.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774178-supplement4_relay_transition_orbital_canopy.png\t1105355\timage/png\t2026-02-06 17:59:36\n196\tsupplement4_relay_engine_comparison.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774173-supplement4_relay_engine_comparison.png\t1167733\timage/png\t2026-02-06 17:59:36\n197\tsupplement4_relay_rail_comparison.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774169-supplement4_relay_rail_comparison.png\t1304055\timage/png\t2026-02-06 17:59:36\n198\tsupplement4_relay_ships_comparison.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774168-supplement4_relay_ships_comparison.png\t1183953\timage/png\t2026-02-06 17:59:36\n199\tsupplement4_relay_loom_comparison.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774171-supplement4_relay_loom_comparison.png\t1370625\timage/png\t2026-02-06 17:59:36\n200\tsupplement4_relay_aaa_triad_comparison.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400774175-supplement4_relay_aaa_triad_comparison.png\t1486801\timage/png\t2026-02-06 17:59:36\n201\tIMG_7191.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400810070-IMG_7191.jpeg\t62426\timage/jpeg\t2026-02-06 18:00:11\n202\tIMG_7250.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400810073-IMG_7250.jpeg\t69638\timage/jpeg\t2026-02-06 18:00:11\n203\tIMG_7247.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400810072-IMG_7247.jpeg\t242511\timage/jpeg\t2026-02-06 18:00:11\n205\tIMG_7277.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400839794-IMG_7277.jpeg\t398327\timage/jpeg\t2026-02-06 18:00:41\n206\tIMG_7274.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400839793-IMG_7274.jpeg\t284151\timage/jpeg\t2026-02-06 18:00:41\n207\tIMG_7273.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400839792-IMG_7273.jpeg\t282502\timage/jpeg\t2026-02-06 18:00:41\n208\trelays_12000_year_timeline.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400839795-relays_12000_year_timeline.png\t1420129\timage/png\t2026-02-06 18:00:42\n209\tIMG_6936.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885769-IMG_6936.jpeg\t96238\timage/jpeg\t2026-02-06 18:01:27\n210\tslide_06_vol3_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885778-slide_06_vol3_2026.png\t1087598\timage/png\t2026-02-06 18:01:27\n211\tthree_timelines_combined_accurate.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885773-three_timelines_combined_accurate.png\t1325744\timage/png\t2026-02-06 18:01:27\n212\tthree_timelines_combined_accurate.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885770-three_timelines_combined_accurate.png\t1325744\timage/png\t2026-02-06 18:01:28\n213\ttwelve_relays_complete_timeline.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885768-twelve_relays_complete_timeline.png\t1367385\timage/png\t2026-02-06 18:01:28\n214\ttimeline_nomad_12000yrs.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885771-timeline_nomad_12000yrs.png\t1523454\timage/png\t2026-02-06 18:01:28\n215\tbook1_complete_journey.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885765-book1_complete_journey.png\t1395882\timage/png\t2026-02-06 18:01:28\n216\ttimeline_east_12000yrs.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885781-timeline_east_12000yrs.png\t1795209\timage/png\t2026-02-06 18:01:28\n217\ttimeline_west_12000yrs.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885775-timeline_west_12000yrs.png\t1502973\timage/png\t2026-02-06 18:01:28\n218\tslide_09_summary_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885780-slide_09_summary_2026.png\t1051674\timage/png\t2026-02-06 18:01:28\n219\tslide_03_book1_complete_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885774-slide_03_book1_complete_2026.png\t1353521\timage/png\t2026-02-06 18:01:28\n220\tslide_02_relay_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885783-slide_02_relay_2026.png\t1772403\timage/png\t2026-02-06 18:01:28\n221\tslide_03_book1_2026.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400885777-slide_03_book1_2026.png\t1183649\timage/png\t2026-02-06 18:01:28\n222\tIMG_6941.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914982-IMG_6941.jpeg\t166074\timage/jpeg\t2026-02-06 18:01:56\n223\tIMG_6940.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914982-IMG_6940.jpeg\t170694\timage/jpeg\t2026-02-06 18:01:56\n224\tIMG_6937.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914979-IMG_6937.jpeg\t165434\timage/jpeg\t2026-02-06 18:01:56\n225\tIMG_6943.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914983-IMG_6943.jpeg\t187167\timage/jpeg\t2026-02-06 18:01:56\n226\tIMG_6944.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914984-IMG_6944.jpeg\t142200\timage/jpeg\t2026-02-06 18:01:56\n227\tIMG_6939.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914981-IMG_6939.jpeg\t168721\timage/jpeg\t2026-02-06 18:01:56\n228\tIMG_6942.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914983-IMG_6942.jpeg\t178541\timage/jpeg\t2026-02-06 18:01:56\n229\tIMG_6938.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914980-IMG_6938.jpeg\t179424\timage/jpeg\t2026-02-06 18:01:56\n230\tIMG_6948.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914985-IMG_6948.jpeg\t272003\timage/jpeg\t2026-02-06 18:01:56\n231\tIMG_6703.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914986-IMG_6703.jpeg\t329248\timage/jpeg\t2026-02-06 18:01:56\n232\tIMG_6889.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914985-IMG_6889.jpeg\t352266\timage/jpeg\t2026-02-06 18:01:56\n233\tIMG_6702.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914986-IMG_6702.jpeg\t218530\timage/jpeg\t2026-02-06 18:01:56\n234\tIMG_6838.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914988-IMG_6838.jpeg\t657334\timage/jpeg\t2026-02-06 18:01:57\n235\tslide_02_civilizational_relay.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914989-slide_02_civilizational_relay.png\t1161427\timage/png\t2026-02-06 18:01:57\n236\tslide_03_book1_context.png\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400914987-slide_03_book1_context.png\t1002379\timage/png\t2026-02-06 18:01:57\n237\tIMG_6674.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400955079-IMG_6674.jpeg\t111759\timage/jpeg\t2026-02-06 18:02:36\n238\tIMG_6685.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400955081-IMG_6685.jpeg\t160020\timage/jpeg\t2026-02-06 18:02:36\n239\tIMG_6673.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400955077-IMG_6673.jpeg\t141218\timage/jpeg\t2026-02-06 18:02:36\n240\tIMG_6677.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400955079-IMG_6677.jpeg\t458155\timage/jpeg\t2026-02-06 18:02:37\n241\tIMG_6683.jpeg\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400955080-IMG_6683.jpeg\t495220\timage/jpeg\t2026-02-06 18:02:37\n",
+  "stderr": "",
+  "execution_time_ms": 1624
+}
