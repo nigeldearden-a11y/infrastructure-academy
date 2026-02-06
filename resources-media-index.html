@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Master Media Index | Infrastructure Academy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0a1628;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        .header {
+            background-color: #0f2a52;
+            padding: 30px 40px;
+            text-align: center;
+            border-bottom: 3px solid #ffd700;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #ffd700;
+            font-family: 'Georgia', serif;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            font-size: 1rem;
+            color: #b0b0b0;
+            margin-bottom: 20px;
+        }
+
+        /* Navigation */
+        .nav-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .nav-button {
+            padding: 12px 24px;
+            border: 2px solid #ffd700;
+            background-color: #0a1628;
+            color: #ffffff;
+            font-size: 0.85rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-button:hover {
+            background-color: #ffd700;
+            color: #0a1628;
+        }
+
+        .nav-button.active {
+            background-color: #ffd700;
+            color: #0a1628;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        .page-title {
+            font-size: 2.2rem;
+            color: #ffd700;
+            font-family: 'Georgia', serif;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .page-subtitle {
+            color: #b0b0b0;
+            margin-bottom: 40px;
+            font-size: 0.95rem;
+        }
+
+        /* Stats Cards */
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(15, 42, 82, 0.5) 100%);
+            border: 2px solid #ffd700;
+            padding: 30px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.2) 0%, rgba(15, 42, 82, 0.7) 100%);
+            transform: translateY(-5px);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: #b0b0b0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Divider */
+        .divider {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #ffd700, transparent);
+            margin: 40px 0;
+        }
+
+        /* Info Section */
+        .info-section {
+            background-color: rgba(15, 42, 82, 0.3);
+            border-left: 4px solid #ffd700;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+
+        .info-section h3 {
+            color: #ffd700;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .info-section p {
+            color: #b0b0b0;
+            line-height: 1.8;
+        }
+
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #ffd700;
+            color: #0a1628;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-button:hover {
+            background-color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 40px;
+            border-top: 2px solid #ffd700;
+            color: #b0b0b0;
+            font-size: 0.9rem;
+            margin-top: 60px;
+        }
+
+        .footer p {
+            margin-bottom: 10px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .page-title {
+                font-size: 1.5rem;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+            }
+
+            .nav-button {
+                padding: 10px 15px;
+                font-size: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>INFRASTRUCTURE ACADEMY</h1>
+        <p>An Infrastructure Odyssey: Book 1 - Calories to Consciousness</p>
+        
+        <!-- Navigation Buttons -->
+        <div class="nav-container">
+            <button class="nav-button" onclick="window.location.href='/index-restored.html';">HOME</button>
+            <button class="nav-button" onclick="window.location.href='/executive-precis.html';">EXECUTIVE PRÉCIS</button>
+            <button class="nav-button" onclick="window.location.href='/';">FRAMEWORK</button>
+            <button class="nav-button active">RESOURCES</button>
+            <button class="nav-button" onclick="window.location.href='/';">MASTER INDEX</button>
+            <button class="nav-button" onclick="window.location.href='/';">ABOUT THE AUTHOR</button>
+            <button class="nav-button" onclick="window.location.href='/';">VOLUME 1: PERSPECTIVE</button>
+            <button class="nav-button" onclick="window.location.href='/';">VOLUME 2: GUIDE</button>
+            <button class="nav-button" onclick="window.location.href='/';">SUPPLEMENTS</button>
+            <button class="nav-button" onclick="window.location.href='/';">VOLUME 3: GAME</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2 class="page-title">Resources - Master Media Index</h2>
+        <p class="page-subtitle">Complete library of all 252 assets: images, documents, and supplementary materials</p>
+
+        <!-- Stats Cards -->
+        <div class="stats-container">
+            <div class="stat-card" onclick="window.location.href='/complete-asset-gallery.html';">
+                <div class="stat-number">252</div>
+                <div class="stat-label">Total Assets</div>
+            </div>
+            <div class="stat-card" onclick="window.location.href='/complete-asset-gallery.html';">
+                <div class="stat-number">240</div>
+                <div class="stat-label">Images</div>
+            </div>
+            <div class="stat-card" onclick="window.location.href='/complete-asset-gallery.html';">
+                <div class="stat-number">9</div>
+                <div class="stat-label">Core Documents</div>
+            </div>
+            <div class="stat-card" onclick="window.location.href='/complete-asset-gallery.html';" style="border-color: #ff6b6b; background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(15, 42, 82, 0.5) 100%);">
+                <div class="stat-number" style="color: #ff6b6b;">VIEW ALL →</div>
+                <div class="stat-label">Complete Library</div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Info Section -->
+        <div class="info-section">
+            <h3>📚 Complete Asset Gallery</h3>
+            <p>Access the complete library of all 252 assets organized with permanent asset codes (AST-001 through AST-252). Each asset includes:</p>
+            <ul style="margin-left: 20px; margin-top: 10px; color: #b0b0b0;">
+                <li>Unique asset code for permanent reference</li>
+                <li>Filename and file type</li>
+                <li>File size information</li>
+                <li>Upload date</li>
+                <li>Direct CDN link for viewing/downloading</li>
+            </ul>
+            <button class="cta-button" onclick="window.location.href='/complete-asset-gallery.html';">📋 OPEN COMPLETE ASSET GALLERY</button>
+        </div>
+
+        <div class="info-section">
+            <h3>🖼️ Image Gallery (240 Images)</h3>
+            <p>All 240 images are systematically cataloged with unique IMG codes and preserved in the website repository. These images form the visual foundation of the Infrastructure Academy project and are permanently archived for GitHub deployment.</p>
+            <p style="margin-top: 10px;"><strong>Image Organization:</strong> IMG-001 through IMG-240 with complete metadata</p>
+            <button class="cta-button" onclick="window.location.href='/complete-asset-gallery.html';">🖼️ VIEW ALL IMAGES</button>
+        </div>
+
+        <div class="info-section">
+            <h3>📄 Document Library (9 Core Documents)</h3>
+            <p>All 9 core documents are cataloged with permanent DOC codes and include complete descriptions of their content and usage. Documents are organized by volume and supplement category.</p>
+            <p style="margin-top: 10px;"><strong>Document Categories:</strong> Core Narratives, Asset Inventories, Analysis & Reference, Project Management</p>
+            <button class="cta-button" onclick="window.location.href='/complete-asset-gallery.html';">📄 VIEW ALL DOCUMENTS</button>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>© 2026 Infrastructure Academy. All rights reserved. Preserving knowledge for eternity.</p>
+            <p>Book 1: Earthbound Foundations | Future: Book 2: The Gray Arena | Book 3: Cosmic Scale</p>
+        </div>
+    </div>
+</body>
+</html>
