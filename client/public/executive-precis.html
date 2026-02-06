@@ -202,6 +202,16 @@
             }
         }
     </style>
+    <script>
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                console.log('Section not found: ' + sectionId);
+            }
+        }
+    </script>
 </head>
 <body>
     <!-- Header -->
@@ -211,16 +221,16 @@
         
         <!-- Navigation Buttons -->
         <div class="nav-container">
-            <button class="nav-button" onclick="window.location.href='/index-restored.html';">HOME</button>
-            <button class="nav-button active" onclick="window.location.href='/executive-precis.html';">EXECUTIVE PRÉCIS</button>
-            <button class="nav-button" onclick="window.location.href='/framework.html';">FRAMEWORK</button>
-            <button class="nav-button" onclick="window.location.href='/resources-media-index.html';">RESOURCES</button>
-            <button class="nav-button" onclick="window.location.href='/master-index.html';">MASTER INDEX</button>
-            <button class="nav-button" onclick="window.location.href='/about-author.html';">ABOUT THE AUTHOR</button>
-            <button class="nav-button" onclick="window.location.href='/volume1-perspective.html';">VOLUME 1: PERSPECTIVE</button>
-            <button class="nav-button" onclick="window.location.href='/volume2-guide.html';">VOLUME 2: GUIDE</button>
-            <button class="nav-button" onclick="window.location.href='/supplements.html';">SUPPLEMENTS</button>
-            <button class="nav-button" onclick="window.location.href='/volume3-game.html';">VOLUME 3: GAME</button>
+            <button class="nav-button" onclick="window.location.href='/infrastructure-academy/';">HOME</button>
+            <button class="nav-button active" onclick="window.location.href='/infrastructure-academy/executive-precis.html';">EXECUTIVE PRÉCIS</button>
+            <button class="nav-button" onclick="window.location.href='/infrastructure-academy/pages/framework.html';">FRAMEWORK</button>
+            <button class="nav-button" onclick="window.location.href='/infrastructure-academy/pages/resources.html';">RESOURCES</button>
+            <button class="nav-button" onclick="window.location.href='/infrastructure-academy/pages/resources.html';">MASTER INDEX</button>
+            <button class="nav-button" onclick="window.location.href='/infrastructure-academy/pages/about-author.html';">ABOUT THE AUTHOR</button>
+            <button class="nav-button" onclick="window.location.href='/infrastructure-academy/volumes/volume1/index.html';">VOLUME 1: PERSPECTIVE</button>
+            <button class="nav-button" onclick="window.location.href='/infrastructure-academy/volumes/volume2/index.html';">VOLUME 2: GUIDE</button>
+            <button class="nav-button" onclick="window.location.href='/infrastructure-academy/pages/supplements.html';">SUPPLEMENTS</button>
+            <button class="nav-button" onclick="window.location.href='/infrastructure-academy/volumes/volume3/index.html';">VOLUME 3: GAME</button>
         </div>
     </div>
 
