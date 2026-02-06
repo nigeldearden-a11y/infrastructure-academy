@@ -1,0 +1,285 @@
+{
+  "timestamp": "2026-02-06T20:00:56.542Z",
+  "totalImages": 31,
+  "images": [
+    {
+      "imgCode": "IMG-029",
+      "localPath": "/home/ubuntu/upload/book1_journey_final(4).png",
+      "filename": "book1_journey_final(4).png",
+      "sizeBytes": 1047245,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-029-book1_journey_final(4).png",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-001",
+      "localPath": "/home/ubuntu/upload/Camera_1770404769.3328152_9774EF07.png",
+      "filename": "Camera_1770404769.3328152_9774EF07.png",
+      "sizeBytes": 17085112,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-001-Camera_1770404769.3328152_9774EF07.png",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-002",
+      "localPath": "/home/ubuntu/upload/Camera_1770405353.353348_39276EBE.png",
+      "filename": "Camera_1770405353.353348_39276EBE.png",
+      "sizeBytes": 15921527,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-002-Camera_1770405353.353348_39276EBE.png",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-003",
+      "localPath": "/home/ubuntu/upload/Camera_1770405897.956033_645765DB.png",
+      "filename": "Camera_1770405897.956033_645765DB.png",
+      "sizeBytes": 19659403,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-003-Camera_1770405897.956033_645765DB.png",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-004",
+      "localPath": "/home/ubuntu/upload/Camera_1770406752.883642_872C5C3F.png",
+      "filename": "Camera_1770406752.883642_872C5C3F.png",
+      "sizeBytes": 17017805,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-004-Camera_1770406752.883642_872C5C3F.png",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-030",
+      "localPath": "/home/ubuntu/upload/conceptual_alignment_image(3).png",
+      "filename": "conceptual_alignment_image(3).png",
+      "sizeBytes": 7925447,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-030-conceptual_alignment_image(3).png",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-031",
+      "localPath": "/home/ubuntu/upload/conceptual_alignment_portrait(1).png",
+      "filename": "conceptual_alignment_portrait(1).png",
+      "sizeBytes": 7653744,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-031-conceptual_alignment_portrait(1).png",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-005",
+      "localPath": "/home/ubuntu/upload/IMG_7305(1).jpeg",
+      "filename": "IMG_7305(1).jpeg",
+      "sizeBytes": 885815,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-005-IMG_7305(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-006",
+      "localPath": "/home/ubuntu/upload/IMG_7306(1).jpeg",
+      "filename": "IMG_7306(1).jpeg",
+      "sizeBytes": 892566,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-006-IMG_7306(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-007",
+      "localPath": "/home/ubuntu/upload/IMG_7307(1).jpeg",
+      "filename": "IMG_7307(1).jpeg",
+      "sizeBytes": 884050,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-007-IMG_7307(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-008",
+      "localPath": "/home/ubuntu/upload/IMG_7308(1).jpeg",
+      "filename": "IMG_7308(1).jpeg",
+      "sizeBytes": 779953,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-008-IMG_7308(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-009",
+      "localPath": "/home/ubuntu/upload/IMG_7309(1).jpeg",
+      "filename": "IMG_7309(1).jpeg",
+      "sizeBytes": 895001,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-009-IMG_7309(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-010",
+      "localPath": "/home/ubuntu/upload/IMG_7310(1).jpeg",
+      "filename": "IMG_7310(1).jpeg",
+      "sizeBytes": 831988,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-010-IMG_7310(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-011",
+      "localPath": "/home/ubuntu/upload/IMG_7311(1).jpeg",
+      "filename": "IMG_7311(1).jpeg",
+      "sizeBytes": 852382,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-011-IMG_7311(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-012",
+      "localPath": "/home/ubuntu/upload/IMG_7312(1).jpeg",
+      "filename": "IMG_7312(1).jpeg",
+      "sizeBytes": 908909,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-012-IMG_7312(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-013",
+      "localPath": "/home/ubuntu/upload/IMG_7313(1).jpeg",
+      "filename": "IMG_7313(1).jpeg",
+      "sizeBytes": 918337,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-013-IMG_7313(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-015",
+      "localPath": "/home/ubuntu/upload/IMG_7407.jpeg",
+      "filename": "IMG_7407.jpeg",
+      "sizeBytes": 863975,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-015-IMG_7407.jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-014",
+      "localPath": "/home/ubuntu/upload/IMG_7407(1).jpeg",
+      "filename": "IMG_7407(1).jpeg",
+      "sizeBytes": 863975,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-014-IMG_7407(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-016",
+      "localPath": "/home/ubuntu/upload/IMG_7408(1).jpeg",
+      "filename": "IMG_7408(1).jpeg",
+      "sizeBytes": 1054660,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-016-IMG_7408(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-017",
+      "localPath": "/home/ubuntu/upload/IMG_7408(2).jpeg",
+      "filename": "IMG_7408(2).jpeg",
+      "sizeBytes": 1054660,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-017-IMG_7408(2).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-019",
+      "localPath": "/home/ubuntu/upload/IMG_7409.jpeg",
+      "filename": "IMG_7409.jpeg",
+      "sizeBytes": 946006,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-019-IMG_7409.jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-018",
+      "localPath": "/home/ubuntu/upload/IMG_7409(1).jpeg",
+      "filename": "IMG_7409(1).jpeg",
+      "sizeBytes": 946006,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-018-IMG_7409(1).jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-021",
+      "localPath": "/home/ubuntu/upload/IMG_7455.png",
+      "filename": "IMG_7455.png",
+      "sizeBytes": 920835,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-021-IMG_7455.png",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-020",
+      "localPath": "/home/ubuntu/upload/IMG_7455.PNG",
+      "filename": "IMG_7455.PNG",
+      "sizeBytes": 920835,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-020-IMG_7455.PNG",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-024",
+      "localPath": "/home/ubuntu/upload/IMG_7457.png",
+      "filename": "IMG_7457.png",
+      "sizeBytes": 778854,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-024-IMG_7457.png",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-023",
+      "localPath": "/home/ubuntu/upload/IMG_7457.PNG",
+      "filename": "IMG_7457.PNG",
+      "sizeBytes": 778854,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-023-IMG_7457.PNG",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-022",
+      "localPath": "/home/ubuntu/upload/IMG_7457(1).png",
+      "filename": "IMG_7457(1).png",
+      "sizeBytes": 778854,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-022-IMG_7457(1).png",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-025",
+      "localPath": "/home/ubuntu/upload/IMG_7458.jpeg",
+      "filename": "IMG_7458.jpeg",
+      "sizeBytes": 51240,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-025-IMG_7458.jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-026",
+      "localPath": "/home/ubuntu/upload/IMG_7459.PNG",
+      "filename": "IMG_7459.PNG",
+      "sizeBytes": 259663,
+      "mimeType": "image/png",
+      "storageKey": "assets/images/IMG-026-IMG_7459.PNG",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-027",
+      "localPath": "/home/ubuntu/upload/IMG_7460.jpeg",
+      "filename": "IMG_7460.jpeg",
+      "sizeBytes": 78585,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-027-IMG_7460.jpeg",
+      "status": "READY_FOR_UPLOAD"
+    },
+    {
+      "imgCode": "IMG-028",
+      "localPath": "/home/ubuntu/upload/IMG_7461.jpeg",
+      "filename": "IMG_7461.jpeg",
+      "sizeBytes": 269062,
+      "mimeType": "image/jpeg",
+      "storageKey": "assets/images/IMG-028-IMG_7461.jpeg",
+      "status": "READY_FOR_UPLOAD"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "query": "SELECT COUNT(*) as total_assets FROM assets; SELECT id, fileName, fileSize, mimeType, categoryId, createdAt FROM assets ORDER BY id DESC LIMIT 100;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2GX11Pnc2Gj5TH4.ab1ece9ffb5d --database kUQZAex2uPvgKcHnt7bmh3 --execute SELECT COUNT(*) as total_assets FROM assets; SELECT id, fileName, fileSize, mimeType, categoryId, createdAt FROM assets ORDER BY id DESC LIMIT 100;",
+  "rows": [
+    {
+      "total_assets": "252"
+    },
+    {
+      "total_assets": "id\tfileName\tfileSize\tmimeType\tcategoryId\tcreatedAt"
+    },
+    {
+      "total_assets": "252\tKICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf\t307827\tapplication/pdf\t3\t2026-02-06 18:09:07"
+    },
+    {
+      "total_assets": "251\tINFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx\t21721\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t3\t2026-02-06 18:09:06"
+    },
+    {
+      "total_assets": "250\tSUPPLEMENT_2_Technology_Diffusion_Final copy.docx\t28610\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t3\t2026-02-06 18:09:06"
+    },
+    {
+      "total_assets": "249\tThree_Modes_4Cs_Comprehensive_Analysis copy.docx\t34181\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t3\t2026-02-06 18:09:06"
+    },
+    {
+      "total_assets": "248\tThe Reality Engine - Kickstarter Video (FINAL).pdf\t141507\tapplication/pdf\t3\t2026-02-06 18:09:06"
+    },
+    {
+      "total_assets": "247\tA4_HARDBACK_LAYOUT_SPECIFICATION copy.docx\t32252\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t3\t2026-02-06 18:09:05"
+    },
+    {
+      "total_assets": "246\tMissionVission1.02 copy.pptx\t30634497\tapplication/vnd.openxmlformats-officedocument.presentationml.presentation\t3\t2026-02-06 18:06:40"
+    },
+    {
+      "total_assets": "245\tThe BIM Engineers_Brief_Profile_2021.pdf\t6567703\tapplication/pdf\t3\t2026-02-06 18:06:38"
+    },
+    {
+      "total_assets": "244\tNTD CV 2025.docx\t45965\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t3\t2026-02-06 18:06:37"
+    },
+    {
+      "total_assets": "243\tAn Infrastructure Odyssey Episode 1 copy.pptx\t31820290\tapplication/vnd.openxmlformats-officedocument.presentationml.presentation\t3\t2026-02-06 18:03:08"
+    },
+    {
+      "total_assets": "242\tAn Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf\t702098\tapplication/pdf\t3\t2026-02-06 18:03:05"
+    },
+    {
+      "total_assets": "241\tIMG_6683.jpeg\t495220\timage/jpeg\t3\t2026-02-06 18:02:37"
+    },
+    {
+      "total_assets": "240\tIMG_6677.jpeg\t458155\timage/jpeg\t3\t2026-02-06 18:02:37"
+    },
+    {
+      "total_assets": "239\tIMG_6673.jpeg\t141218\timage/jpeg\t3\t2026-02-06 18:02:36"
+    },
+    {
+      "total_assets": "238\tIMG_6685.jpeg\t160020\timage/jpeg\t3\t2026-02-06 18:02:36"
+    },
+    {
+      "total_assets": "237\tIMG_6674.jpeg\t111759\timage/jpeg\t3\t2026-02-06 18:02:36"
+    },
+    {
+      "total_assets": "236\tslide_03_book1_context.png\t1002379\timage/png\t3\t2026-02-06 18:01:57"
+    },
+    {
+      "total_assets": "235\tslide_02_civilizational_relay.png\t1161427\timage/png\t3\t2026-02-06 18:01:57"
+    },
+    {
+      "total_assets": "234\tIMG_6838.jpeg\t657334\timage/jpeg\t3\t2026-02-06 18:01:57"
+    },
+    {
+      "total_assets": "233\tIMG_6702.jpeg\t218530\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "232\tIMG_6889.jpeg\t352266\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "231\tIMG_6703.jpeg\t329248\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "230\tIMG_6948.jpeg\t272003\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "229\tIMG_6938.jpeg\t179424\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "228\tIMG_6942.jpeg\t178541\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "227\tIMG_6939.jpeg\t168721\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "226\tIMG_6944.jpeg\t142200\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "225\tIMG_6943.jpeg\t187167\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "224\tIMG_6937.jpeg\t165434\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "223\tIMG_6940.jpeg\t170694\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "222\tIMG_6941.jpeg\t166074\timage/jpeg\t3\t2026-02-06 18:01:56"
+    },
+    {
+      "total_assets": "221\tslide_03_book1_2026.png\t1183649\timage/png\t3\t2026-02-06 18:01:28"
+    },
+    {
+      "total_assets": "220\tslide_02_relay_2026.png\t1772403\timage/png\t3\t2026-02-06 18:01:28"
+    },
+    {
+      "total_assets": "219\tslide_03_book1_complete_2026.png\t1353521\timage/png\t3\t2026-02-06 18:01:28"
+    },
+    {
+      "total_assets": "218\tslide_09_summary_2026.png\t1051674\timage/png\t3\t2026-02-06 18:01:28"
+    },
+    {
+      "total_assets": "217\ttimeline_west_12000yrs.png\t1502973\timage/png\t3\t2026-02-06 18:01:28"
+    },
+    {
+      "total_assets": "216\ttimeline_east_12000yrs.png\t1795209\timage/png\t3\t2026-02-06 18:01:28"
+    },
+    {
+      "total_assets": "215\tbook1_complete_journey.png\t1395882\timage/png\t3\t2026-02-06 18:01:28"
+    },
+    {
+      "total_assets": "214\ttimeline_nomad_12000yrs.png\t1523454\timage/png\t3\t2026-02-06 18:01:28"
+    },
+    {
+      "total_assets": "213\ttwelve_relays_complete_timeline.png\t1367385\timage/png\t3\t2026-02-06 18:01:28"
+    },
+    {
+      "total_assets": "212\tthree_timelines_combined_accurate.png\t1325744\timage/png\t3\t2026-02-06 18:01:28"
+    },
+    {
+      "total_assets": "211\tthree_timelines_combined_accurate.png\t1325744\timage/png\t3\t2026-02-06 18:01:27"
+    },
+    {
+      "total_assets": "210\tslide_06_vol3_2026.png\t1087598\timage/png\t3\t2026-02-06 18:01:27"
+    },
+    {
+      "total_assets": "209\tIMG_6936.jpeg\t96238\timage/jpeg\t3\t2026-02-06 18:01:27"
+    },
+    {
+      "total_assets": "208\trelays_12000_year_timeline.png\t1420129\timage/png\t3\t2026-02-06 18:00:42"
+    },
+    {
+      "total_assets": "207\tIMG_7273.jpeg\t282502\timage/jpeg\t3\t2026-02-06 18:00:41"
+    },
+    {
+      "total_assets": "206\tIMG_7274.jpeg\t284151\timage/jpeg\t3\t2026-02-06 18:00:41"
+    },
+    {
+      "total_assets": "205\tIMG_7277.jpeg\t398327\timage/jpeg\t3\t2026-02-06 18:00:41"
+    },
+    {
+      "total_assets": "204\triver_plain_perfect.mp4\t1181111\tvideo/mp4\t3\t2026-02-06 18:00:12"
+    },
+    {
+      "total_assets": "203\tIMG_7247.jpeg\t242511\timage/jpeg\t3\t2026-02-06 18:00:11"
+    },
+    {
+      "total_assets": "202\tIMG_7250.jpeg\t69638\timage/jpeg\t3\t2026-02-06 18:00:11"
+    },
+    {
+      "total_assets": "201\tIMG_7191.jpeg\t62426\timage/jpeg\t3\t2026-02-06 18:00:11"
+    },
+    {
+      "total_assets": "200\tsupplement4_relay_aaa_triad_comparison.png\t1486801\timage/png\t3\t2026-02-06 17:59:36"
+    },
+    {
+      "total_assets": "199\tsupplement4_relay_loom_comparison.png\t1370625\timage/png\t3\t2026-02-06 17:59:36"
+    },
+    {
+      "total_assets": "198\tsupplement4_relay_ships_comparison.png\t1183953\timage/png\t3\t2026-02-06 17:59:36"
+    },
+    {
+      "total_assets": "197\tsupplement4_relay_rail_comparison.png\t1304055\timage/png\t3\t2026-02-06 17:59:36"
+    },
+    {
+      "total_assets": "196\tsupplement4_relay_engine_comparison.png\t1167733\timage/png\t3\t2026-02-06 17:59:36"
+    },
+    {
+      "total_assets": "195\tsupplement4_relay_transition_orbital_canopy.png\t1105355\timage/png\t3\t2026-02-06 17:59:36"
+    },
+    {
+      "total_assets": "194\tsupplement4_relay_humans_as_nodes_comparison.png\t1291657\timage/png\t3\t2026-02-06 17:59:36"
+    },
+    {
+      "total_assets": "193\tsupplement4_connectivity_strategy.png\t1515373\timage/png\t3\t2026-02-06 17:59:36"
+    },
+    {
+      "total_assets": "192\tsupplement4_relay_fire_comparison.png\t1516998\timage/png\t3\t2026-02-06 17:59:36"
+    },
+    {
+      "total_assets": "191\tsupplement4_institutional_continuity.png\t1480904\timage/png\t3\t2026-02-06 17:59:35"
+    },
+    {
+      "total_assets": "190\tsupplement4_relay_tree_comparison.png\t1344809\timage/png\t3\t2026-02-06 17:59:35"
+    },
+    {
+      "total_assets": "189\tsupplement4_relay_horse_comparison.png\t1300476\timage/png\t3\t2026-02-06 17:59:35"
+    },
+    {
+      "total_assets": "188\tsupplement4_sector_dominance.png\t1340292\timage/png\t3\t2026-02-06 17:59:35"
+    },
+    {
+      "total_assets": "187\tsupplement4_relay_river_comparison.png\t1541541\timage/png\t3\t2026-02-06 17:59:35"
+    },
+    {
+      "total_assets": "186\tsupplement4_relay_roads_comparison.png\t1233255\timage/png\t3\t2026-02-06 17:59:34"
+    },
+    {
+      "total_assets": "185\tsupplement3_relay_transition.png\t1317521\timage/png\t3\t2026-02-06 17:59:33"
+    },
+    {
+      "total_assets": "184\tsupplement4_timeline_transformation.png\t1545266\timage/png\t3\t2026-02-06 17:59:33"
+    },
+    {
+      "total_assets": "183\tIMG_7070.jpeg\t309085\timage/jpeg\t3\t2026-02-06 17:59:33"
+    },
+    {
+      "total_assets": "182\tIMG_7137.jpeg\t316609\timage/jpeg\t3\t2026-02-06 17:59:33"
+    },
+    {
+      "total_assets": "181\tIMG_7070.jpeg\t309085\timage/jpeg\t3\t2026-02-06 17:59:33"
+    },
+    {
+      "total_assets": "180\tIMG_7069.jpeg\t252667\timage/jpeg\t3\t2026-02-06 17:59:33"
+    },
+    {
+      "total_assets": "179\tIMG_7066.png\t76083\timage/png\t3\t2026-02-06 17:59:32"
+    },
+    {
+      "total_assets": "178\tIMG_7068.jpeg\t74021\timage/jpeg\t3\t2026-02-06 17:59:32"
+    },
+    {
+      "total_assets": "177\tsupplement3_master_overview.png\t1755028\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "176\tsupplement3_relay_horse.png\t1398207\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "175\tsupplement3_relay_ships.png\t1533638\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "174\tsupplement3_master_overview.png\t1755028\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "173\tsupplement3_relay_roads.png\t1538855\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "172\tsupplement3_relay_aaa_triad.png\t1406255\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "171\tsupplement2_pen_infrastructure_final_corrected.png\t1438458\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "170\tsupplement3_relay_tree.png\t1627978\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "169\tsupplement3_relay_loom.png\t1536465\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "168\tsupplement3_framework_diagram.png\t1656438\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "167\tsupplement3_framework_diagram.png\t1656438\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "166\tsupplement3_relay_river.png\t1332032\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "165\tsupplement3_relay_rail.png\t1555795\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "164\tsupplement3_relay_humans_as_nodes.png\t1207560\timage/png\t3\t2026-02-06 17:58:29"
+    },
+    {
+      "total_assets": "163\tsupplement3_relay_engine.png\t1526471\timage/png\t3\t2026-02-06 17:58:28"
+    },
+    {
+      "total_assets": "162\tsupplement3_relay_fire.png\t1374561\timage/png\t3\t2026-02-06 17:58:28"
+    },
+    {
+      "total_assets": "161\tIMG_6513.png\t546431\timage/png\t3\t2026-02-06 17:58:28"
+    },
+    {
+      "total_assets": "160\tIMG_6691.jpeg\t369559\timage/jpeg\t3\t2026-02-06 17:58:28"
+    },
+    {
+      "total_assets": "159\tIMG_6703.jpeg\t329248\timage/jpeg\t3\t2026-02-06 17:58:28"
+    },
+    {
+      "total_assets": "158\tIMG_6694.jpeg\t237487\timage/jpeg\t3\t2026-02-06 17:58:28"
+    },
+    {
+      "total_assets": "157\tIMG_7026.jpeg\t52951\timage/jpeg\t3\t2026-02-06 17:58:28"
+    },
+    {
+      "total_assets": "156\trelays_12000_year_timeline.png\t1420129\timage/png\t3\t2026-02-06 17:57:41"
+    },
+    {
+      "total_assets": "155\tslide_14_relays_clean.png\t973314\timage/png\t3\t2026-02-06 17:57:41"
+    },
+    {
+      "total_assets": "154\tIMG_6512.png\t596534\timage/png\t3\t2026-02-06 17:57:41"
+    },
+    {
+      "total_assets": "153\tIMG_6180.jpeg\t218255\timage/jpeg\t3\t2026-02-06 17:57:41"
+    }
+  ],
+  "messages": [],
+  "stdout": "total_assets\n252\nid\tfileName\tfileSize\tmimeType\tcategoryId\tcreatedAt\n252\tKICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf\t307827\tapplication/pdf\t3\t2026-02-06 18:09:07\n251\tINFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx\t21721\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t3\t2026-02-06 18:09:06\n250\tSUPPLEMENT_2_Technology_Diffusion_Final copy.docx\t28610\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t3\t2026-02-06 18:09:06\n249\tThree_Modes_4Cs_Comprehensive_Analysis copy.docx\t34181\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t3\t2026-02-06 18:09:06\n248\tThe Reality Engine - Kickstarter Video (FINAL).pdf\t141507\tapplication/pdf\t3\t2026-02-06 18:09:06\n247\tA4_HARDBACK_LAYOUT_SPECIFICATION copy.docx\t32252\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t3\t2026-02-06 18:09:05\n246\tMissionVission1.02 copy.pptx\t30634497\tapplication/vnd.openxmlformats-officedocument.presentationml.presentation\t3\t2026-02-06 18:06:40\n245\tThe BIM Engineers_Brief_Profile_2021.pdf\t6567703\tapplication/pdf\t3\t2026-02-06 18:06:38\n244\tNTD CV 2025.docx\t45965\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t3\t2026-02-06 18:06:37\n243\tAn Infrastructure Odyssey Episode 1 copy.pptx\t31820290\tapplication/vnd.openxmlformats-officedocument.presentationml.presentation\t3\t2026-02-06 18:03:08\n242\tAn Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf\t702098\tapplication/pdf\t3\t2026-02-06 18:03:05\n241\tIMG_6683.jpeg\t495220\timage/jpeg\t3\t2026-02-06 18:02:37\n240\tIMG_6677.jpeg\t458155\timage/jpeg\t3\t2026-02-06 18:02:37\n239\tIMG_6673.jpeg\t141218\timage/jpeg\t3\t2026-02-06 18:02:36\n238\tIMG_6685.jpeg\t160020\timage/jpeg\t3\t2026-02-06 18:02:36\n237\tIMG_6674.jpeg\t111759\timage/jpeg\t3\t2026-02-06 18:02:36\n236\tslide_03_book1_context.png\t1002379\timage/png\t3\t2026-02-06 18:01:57\n235\tslide_02_civilizational_relay.png\t1161427\timage/png\t3\t2026-02-06 18:01:57\n234\tIMG_6838.jpeg\t657334\timage/jpeg\t3\t2026-02-06 18:01:57\n233\tIMG_6702.jpeg\t218530\timage/jpeg\t3\t2026-02-06 18:01:56\n232\tIMG_6889.jpeg\t352266\timage/jpeg\t3\t2026-02-06 18:01:56\n231\tIMG_6703.jpeg\t329248\timage/jpeg\t3\t2026-02-06 18:01:56\n230\tIMG_6948.jpeg\t272003\timage/jpeg\t3\t2026-02-06 18:01:56\n229\tIMG_6938.jpeg\t179424\timage/jpeg\t3\t2026-02-06 18:01:56\n228\tIMG_6942.jpeg\t178541\timage/jpeg\t3\t2026-02-06 18:01:56\n227\tIMG_6939.jpeg\t168721\timage/jpeg\t3\t2026-02-06 18:01:56\n226\tIMG_6944.jpeg\t142200\timage/jpeg\t3\t2026-02-06 18:01:56\n225\tIMG_6943.jpeg\t187167\timage/jpeg\t3\t2026-02-06 18:01:56\n224\tIMG_6937.jpeg\t165434\timage/jpeg\t3\t2026-02-06 18:01:56\n223\tIMG_6940.jpeg\t170694\timage/jpeg\t3\t2026-02-06 18:01:56\n222\tIMG_6941.jpeg\t166074\timage/jpeg\t3\t2026-02-06 18:01:56\n221\tslide_03_book1_2026.png\t1183649\timage/png\t3\t2026-02-06 18:01:28\n220\tslide_02_relay_2026.png\t1772403\timage/png\t3\t2026-02-06 18:01:28\n219\tslide_03_book1_complete_2026.png\t1353521\timage/png\t3\t2026-02-06 18:01:28\n218\tslide_09_summary_2026.png\t1051674\timage/png\t3\t2026-02-06 18:01:28\n217\ttimeline_west_12000yrs.png\t1502973\timage/png\t3\t2026-02-06 18:01:28\n216\ttimeline_east_12000yrs.png\t1795209\timage/png\t3\t2026-02-06 18:01:28\n215\tbook1_complete_journey.png\t1395882\timage/png\t3\t2026-02-06 18:01:28\n214\ttimeline_nomad_12000yrs.png\t1523454\timage/png\t3\t2026-02-06 18:01:28\n213\ttwelve_relays_complete_timeline.png\t1367385\timage/png\t3\t2026-02-06 18:01:28\n212\tthree_timelines_combined_accurate.png\t1325744\timage/png\t3\t2026-02-06 18:01:28\n211\tthree_timelines_combined_accurate.png\t1325744\timage/png\t3\t2026-02-06 18:01:27\n210\tslide_06_vol3_2026.png\t1087598\timage/png\t3\t2026-02-06 18:01:27\n209\tIMG_6936.jpeg\t96238\timage/jpeg\t3\t2026-02-06 18:01:27\n208\trelays_12000_year_timeline.png\t1420129\timage/png\t3\t2026-02-06 18:00:42\n207\tIMG_7273.jpeg\t282502\timage/jpeg\t3\t2026-02-06 18:00:41\n206\tIMG_7274.jpeg\t284151\timage/jpeg\t3\t2026-02-06 18:00:41\n205\tIMG_7277.jpeg\t398327\timage/jpeg\t3\t2026-02-06 18:00:41\n204\triver_plain_perfect.mp4\t1181111\tvideo/mp4\t3\t2026-02-06 18:00:12\n203\tIMG_7247.jpeg\t242511\timage/jpeg\t3\t2026-02-06 18:00:11\n202\tIMG_7250.jpeg\t69638\timage/jpeg\t3\t2026-02-06 18:00:11\n201\tIMG_7191.jpeg\t62426\timage/jpeg\t3\t2026-02-06 18:00:11\n200\tsupplement4_relay_aaa_triad_comparison.png\t1486801\timage/png\t3\t2026-02-06 17:59:36\n199\tsupplement4_relay_loom_comparison.png\t1370625\timage/png\t3\t2026-02-06 17:59:36\n198\tsupplement4_relay_ships_comparison.png\t1183953\timage/png\t3\t2026-02-06 17:59:36\n197\tsupplement4_relay_rail_comparison.png\t1304055\timage/png\t3\t2026-02-06 17:59:36\n196\tsupplement4_relay_engine_comparison.png\t1167733\timage/png\t3\t2026-02-06 17:59:36\n195\tsupplement4_relay_transition_orbital_canopy.png\t1105355\timage/png\t3\t2026-02-06 17:59:36\n194\tsupplement4_relay_humans_as_nodes_comparison.png\t1291657\timage/png\t3\t2026-02-06 17:59:36\n193\tsupplement4_connectivity_strategy.png\t1515373\timage/png\t3\t2026-02-06 17:59:36\n192\tsupplement4_relay_fire_comparison.png\t1516998\timage/png\t3\t2026-02-06 17:59:36\n191\tsupplement4_institutional_continuity.png\t1480904\timage/png\t3\t2026-02-06 17:59:35\n190\tsupplement4_relay_tree_comparison.png\t1344809\timage/png\t3\t2026-02-06 17:59:35\n189\tsupplement4_relay_horse_comparison.png\t1300476\timage/png\t3\t2026-02-06 17:59:35\n188\tsupplement4_sector_dominance.png\t1340292\timage/png\t3\t2026-02-06 17:59:35\n187\tsupplement4_relay_river_comparison.png\t1541541\timage/png\t3\t2026-02-06 17:59:35\n186\tsupplement4_relay_roads_comparison.png\t1233255\timage/png\t3\t2026-02-06 17:59:34\n185\tsupplement3_relay_transition.png\t1317521\timage/png\t3\t2026-02-06 17:59:33\n184\tsupplement4_timeline_transformation.png\t1545266\timage/png\t3\t2026-02-06 17:59:33\n183\tIMG_7070.jpeg\t309085\timage/jpeg\t3\t2026-02-06 17:59:33\n182\tIMG_7137.jpeg\t316609\timage/jpeg\t3\t2026-02-06 17:59:33\n181\tIMG_7070.jpeg\t309085\timage/jpeg\t3\t2026-02-06 17:59:33\n180\tIMG_7069.jpeg\t252667\timage/jpeg\t3\t2026-02-06 17:59:33\n179\tIMG_7066.png\t76083\timage/png\t3\t2026-02-06 17:59:32\n178\tIMG_7068.jpeg\t74021\timage/jpeg\t3\t2026-02-06 17:59:32\n177\tsupplement3_master_overview.png\t1755028\timage/png\t3\t2026-02-06 17:58:29\n176\tsupplement3_relay_horse.png\t1398207\timage/png\t3\t2026-02-06 17:58:29\n175\tsupplement3_relay_ships.png\t1533638\timage/png\t3\t2026-02-06 17:58:29\n174\tsupplement3_master_overview.png\t1755028\timage/png\t3\t2026-02-06 17:58:29\n173\tsupplement3_relay_roads.png\t1538855\timage/png\t3\t2026-02-06 17:58:29\n172\tsupplement3_relay_aaa_triad.png\t1406255\timage/png\t3\t2026-02-06 17:58:29\n171\tsupplement2_pen_infrastructure_final_corrected.png\t1438458\timage/png\t3\t2026-02-06 17:58:29\n170\tsupplement3_relay_tree.png\t1627978\timage/png\t3\t2026-02-06 17:58:29\n169\tsupplement3_relay_loom.png\t1536465\timage/png\t3\t2026-02-06 17:58:29\n168\tsupplement3_framework_diagram.png\t1656438\timage/png\t3\t2026-02-06 17:58:29\n167\tsupplement3_framework_diagram.png\t1656438\timage/png\t3\t2026-02-06 17:58:29\n166\tsupplement3_relay_river.png\t1332032\timage/png\t3\t2026-02-06 17:58:29\n165\tsupplement3_relay_rail.png\t1555795\timage/png\t3\t2026-02-06 17:58:29\n164\tsupplement3_relay_humans_as_nodes.png\t1207560\timage/png\t3\t2026-02-06 17:58:29\n163\tsupplement3_relay_engine.png\t1526471\timage/png\t3\t2026-02-06 17:58:28\n162\tsupplement3_relay_fire.png\t1374561\timage/png\t3\t2026-02-06 17:58:28\n161\tIMG_6513.png\t546431\timage/png\t3\t2026-02-06 17:58:28\n160\tIMG_6691.jpeg\t369559\timage/jpeg\t3\t2026-02-06 17:58:28\n159\tIMG_6703.jpeg\t329248\timage/jpeg\t3\t2026-02-06 17:58:28\n158\tIMG_6694.jpeg\t237487\timage/jpeg\t3\t2026-02-06 17:58:28\n157\tIMG_7026.jpeg\t52951\timage/jpeg\t3\t2026-02-06 17:58:28\n156\trelays_12000_year_timeline.png\t1420129\timage/png\t3\t2026-02-06 17:57:41\n155\tslide_14_relays_clean.png\t973314\timage/png\t3\t2026-02-06 17:57:41\n154\tIMG_6512.png\t596534\timage/png\t3\t2026-02-06 17:57:41\n153\tIMG_6180.jpeg\t218255\timage/jpeg\t3\t2026-02-06 17:57:41\n",
+  "stderr": "",
+  "execution_time_ms": 1854
+}

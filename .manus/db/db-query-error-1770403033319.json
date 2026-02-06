@@ -1,0 +1,8 @@
+{
+  "query": "SELECT filename, url, created_at FROM assets WHERE filename LIKE '%.mp4' OR filename LIKE '%.mov' OR filename LIKE '%.webm' OR filename LIKE '%.avi' OR filename LIKE '%.mkv' LIMIT 20;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2GX11Pnc2Gj5TH4.ab1ece9ffb5d --database kUQZAex2uPvgKcHnt7bmh3 --execute SELECT filename, url, created_at FROM assets WHERE filename LIKE '%.mp4' OR filename LIKE '%.mov' OR filename LIKE '%.webm' OR filename LIKE '%.avi' OR filename LIKE '%.mkv' LIMIT 20;",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1054 (42S22) at line 1: Unknown column 'url' in 'field list'"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "query": "SELECT COUNT(*) as total_files, SUM(fileSize) as total_bytes, categoryId FROM assets GROUP BY categoryId; SELECT fileName, fileSize, createdAt FROM assets ORDER BY createdAt DESC LIMIT 20;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2GX11Pnc2Gj5TH4.ab1ece9ffb5d --database kUQZAex2uPvgKcHnt7bmh3 --execute SELECT COUNT(*) as total_files, SUM(fileSize) as total_bytes, categoryId FROM assets GROUP BY categoryId; SELECT fileName, fileSize, createdAt FROM assets ORDER BY createdAt DESC LIMIT 20;",
+  "rows": [
+    {
+      "total_files": "252",
+      "total_bytes": "217727351",
+      "categoryId": "3"
+    },
+    {
+      "total_files": "fileName",
+      "total_bytes": "fileSize",
+      "categoryId": "createdAt"
+    },
+    {
+      "total_files": "KICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf",
+      "total_bytes": "307827",
+      "categoryId": "2026-02-06 18:09:07"
+    },
+    {
+      "total_files": "SUPPLEMENT_2_Technology_Diffusion_Final copy.docx",
+      "total_bytes": "28610",
+      "categoryId": "2026-02-06 18:09:06"
+    },
+    {
+      "total_files": "INFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx",
+      "total_bytes": "21721",
+      "categoryId": "2026-02-06 18:09:06"
+    },
+    {
+      "total_files": "Three_Modes_4Cs_Comprehensive_Analysis copy.docx",
+      "total_bytes": "34181",
+      "categoryId": "2026-02-06 18:09:06"
+    },
+    {
+      "total_files": "The Reality Engine - Kickstarter Video (FINAL).pdf",
+      "total_bytes": "141507",
+      "categoryId": "2026-02-06 18:09:06"
+    },
+    {
+      "total_files": "A4_HARDBACK_LAYOUT_SPECIFICATION copy.docx",
+      "total_bytes": "32252",
+      "categoryId": "2026-02-06 18:09:05"
+    },
+    {
+      "total_files": "MissionVission1.02 copy.pptx",
+      "total_bytes": "30634497",
+      "categoryId": "2026-02-06 18:06:40"
+    },
+    {
+      "total_files": "The BIM Engineers_Brief_Profile_2021.pdf",
+      "total_bytes": "6567703",
+      "categoryId": "2026-02-06 18:06:38"
+    },
+    {
+      "total_files": "NTD CV 2025.docx",
+      "total_bytes": "45965",
+      "categoryId": "2026-02-06 18:06:37"
+    },
+    {
+      "total_files": "An Infrastructure Odyssey Episode 1 copy.pptx",
+      "total_bytes": "31820290",
+      "categoryId": "2026-02-06 18:03:08"
+    },
+    {
+      "total_files": "An Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf",
+      "total_bytes": "702098",
+      "categoryId": "2026-02-06 18:03:05"
+    },
+    {
+      "total_files": "IMG_6677.jpeg",
+      "total_bytes": "458155",
+      "categoryId": "2026-02-06 18:02:37"
+    },
+    {
+      "total_files": "IMG_6683.jpeg",
+      "total_bytes": "495220",
+      "categoryId": "2026-02-06 18:02:37"
+    },
+    {
+      "total_files": "IMG_6674.jpeg",
+      "total_bytes": "111759",
+      "categoryId": "2026-02-06 18:02:36"
+    },
+    {
+      "total_files": "IMG_6685.jpeg",
+      "total_bytes": "160020",
+      "categoryId": "2026-02-06 18:02:36"
+    },
+    {
+      "total_files": "IMG_6673.jpeg",
+      "total_bytes": "141218",
+      "categoryId": "2026-02-06 18:02:36"
+    },
+    {
+      "total_files": "slide_02_civilizational_relay.png",
+      "total_bytes": "1161427",
+      "categoryId": "2026-02-06 18:01:57"
+    },
+    {
+      "total_files": "slide_03_book1_context.png",
+      "total_bytes": "1002379",
+      "categoryId": "2026-02-06 18:01:57"
+    },
+    {
+      "total_files": "IMG_6838.jpeg",
+      "total_bytes": "657334",
+      "categoryId": "2026-02-06 18:01:57"
+    },
+    {
+      "total_files": "IMG_6702.jpeg",
+      "total_bytes": "218530",
+      "categoryId": "2026-02-06 18:01:56"
+    }
+  ],
+  "messages": [],
+  "stdout": "total_files\ttotal_bytes\tcategoryId\n252\t217727351\t3\nfileName\tfileSize\tcreatedAt\nKICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf\t307827\t2026-02-06 18:09:07\nSUPPLEMENT_2_Technology_Diffusion_Final copy.docx\t28610\t2026-02-06 18:09:06\nINFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx\t21721\t2026-02-06 18:09:06\nThree_Modes_4Cs_Comprehensive_Analysis copy.docx\t34181\t2026-02-06 18:09:06\nThe Reality Engine - Kickstarter Video (FINAL).pdf\t141507\t2026-02-06 18:09:06\nA4_HARDBACK_LAYOUT_SPECIFICATION copy.docx\t32252\t2026-02-06 18:09:05\nMissionVission1.02 copy.pptx\t30634497\t2026-02-06 18:06:40\nThe BIM Engineers_Brief_Profile_2021.pdf\t6567703\t2026-02-06 18:06:38\nNTD CV 2025.docx\t45965\t2026-02-06 18:06:37\nAn Infrastructure Odyssey Episode 1 copy.pptx\t31820290\t2026-02-06 18:03:08\nAn Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf\t702098\t2026-02-06 18:03:05\nIMG_6677.jpeg\t458155\t2026-02-06 18:02:37\nIMG_6683.jpeg\t495220\t2026-02-06 18:02:37\nIMG_6674.jpeg\t111759\t2026-02-06 18:02:36\nIMG_6685.jpeg\t160020\t2026-02-06 18:02:36\nIMG_6673.jpeg\t141218\t2026-02-06 18:02:36\nslide_02_civilizational_relay.png\t1161427\t2026-02-06 18:01:57\nslide_03_book1_context.png\t1002379\t2026-02-06 18:01:57\nIMG_6838.jpeg\t657334\t2026-02-06 18:01:57\nIMG_6702.jpeg\t218530\t2026-02-06 18:01:56\n",
+  "stderr": "",
+  "execution_time_ms": 1892
+}

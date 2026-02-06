@@ -7,7 +7,6 @@ import * as assetService from "./assets";
 import { storagePut } from "./storage";
 
 export const appRouter = router({
-    // if you need to use socket.io, read and register route in server/_core/index.ts, all api should start with '/api/' so that the gateway can route correctly
   system: systemRouter,
   auth: router({
     me: publicProcedure.query(opts => opts.ctx.user),
@@ -24,6 +23,34 @@ export const appRouter = router({
     getCategories: publicProcedure.query(() => assetService.getAssetCategories()),
     getAll: publicProcedure.query(() => assetService.getAllAssets()),
     getByCategory: publicProcedure.input(z.object({ categoryId: z.number() })).query(({ input }) => assetService.getAssetsByCategory(input.categoryId)),
+    upload: protectedProcedure
+      .input(
+        z.object({
+          categoryId: z.number(),
+          fileName: z.string(),
+          fileContent: z.string(),
+          mimeType: z.string(),
+          description: z.string().optional(),
+        })
+      )
+      .mutation(async ({ input, ctx }) => {
+        const fileKey = `assets/${ctx.user.id}/${Date.now()}-${input.fileName}`;
+        const buffer = Buffer.from(input.fileContent, 'base64');
+        const { url } = await storagePut(fileKey, buffer, input.mimeType);
+        
+        await assetService.uploadAsset({
+          categoryId: input.categoryId,
+          fileName: input.fileName,
+          fileKey,
+          fileUrl: url,
+          fileSize: buffer.length,
+          mimeType: input.mimeType,
+          description: input.description,
+          uploadedBy: ctx.user.id,
+        });
+
+        return { success: true, url };
+      }),
   }),
 });
 

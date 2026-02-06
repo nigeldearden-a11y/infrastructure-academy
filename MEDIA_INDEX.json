@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "title": "Infrastructure Academy - Master Media Index",
+    "description": "Complete catalog and indexing of all media assets for the Infrastructure Academy website",
+    "version": "1.0",
+    "created": "2026-02-06",
+    "total_assets": 254,
+    "organization": "Sequential index (IMG-001, IMG-002, VID-001, etc.)"
+  },
+  "landing_page_assets": {
+    "IMG-001": {
+      "id": "IMG-001",
+      "type": "image",
+      "filename": "IMG_7408_portrait_hq.png",
+      "title": "The Civilizational Relay - Portrait Edition",
+      "description": "Comprehensive visualization of the 12 Civilizational Relays in portrait orientation, showing the complete infrastructure journey from Fire to Consciousness",
+      "dimensions": "Portrait (vertical)",
+      "file_size": "1.1 MB",
+      "file_path": "/home/ubuntu/infrastructure-academy-v2/client/public/IMG_7408_portrait_hq.png",
+      "web_path": "/IMG_7408_portrait_hq.png",
+      "category": "Master Visualization",
+      "relay_coverage": "All 12 Relays (Fire, Tree, River, Horse, Roads, Ships, Rail, Loom, Engine, AAA Triad, Humans as Nodes, Transition)",
+      "content_type": "Infographic",
+      "page_location": "Landing Page - Left Column",
+      "section": "Three-Column Visual Section",
+      "position": "Left",
+      "usage": "Hero visual introducing the 12 Civilizational Relays",
+      "hyperlinks": {
+        "resource_page": "/resources/master-media-index.html#IMG-001",
+        "relay_explorer": "/framework/relays.html"
+      }
+    },
+    "VID-001": {
+      "id": "VID-001",
+      "type": "video",
+      "filename": "surplus-to-spirit.mp4",
+      "title": "Surplus to Spirit",
+      "description": "Video content introducing the journey from material surplus to spiritual consciousness, the central narrative of the Infrastructure Odyssey",
+      "duration": "4:22",
+      "file_path": "/path/to/surplus-to-spirit.mp4",
+      "web_path": "/videos/surplus-to-spirit.mp4",
+      "category": "Hero Video",
+      "content_type": "Video",
+      "page_location": "Landing Page - Center Column",
+      "section": "Three-Column Visual Section",
+      "position": "Center",
+      "usage": "Hero video introducing core narrative",
+      "hyperlinks": {
+        "resource_page": "/resources/master-media-index.html#VID-001"
+      }
+    },
+    "IMG-002": {
+      "id": "IMG-002",
+      "type": "image",
+      "filename": "IMG_7409_landscape_hq.png",
+      "title": "From Calories to Consciousness: An Infrastructure Odyssey - Landscape Edition",
+      "description": "Comprehensive visualization of the Infrastructure Odyssey in landscape orientation, showing the complete 12,000-year journey with the Civilizational Relay framework",
+      "dimensions": "Landscape (horizontal)",
+      "file_size": "924 KB",
+      "file_path": "/home/ubuntu/infrastructure-academy-v2/client/public/IMG_7409_landscape_hq.png",
+      "web_path": "/IMG_7409_landscape_hq.png",
+      "category": "Master Visualization",
+      "relay_coverage": "All 12 Relays with 12,000-year timeline",
+      "content_type": "Infographic",
+      "page_location": "Landing Page - Right Column",
+      "section": "Three-Column Visual Section",
+      "position": "Right",
+      "usage": "Hero visual showing complete Infrastructure Odyssey journey",
+      "hyperlinks": {
+        "resource_page": "/resources/master-media-index.html#IMG-002",
+        "timeline": "/framework/12000-year-timeline.html"
+      }
+    }
+  },
+  "index_structure": {
+    "IMG_RANGE": "IMG-001 to IMG-254",
+    "VID_RANGE": "VID-001 to VID-XXX",
+    "AUDIO_RANGE": "AUD-001 to AUD-XXX",
+    "DOC_RANGE": "DOC-001 to DOC-025"
+  },
+  "categories": {
+    "Master Visualizations": "High-level infographics covering multiple relays or the complete framework",
+    "Relay-Specific": "Visualizations focused on individual Civilizational Relays",
+    "Timeline": "Historical and chronological visualizations",
+    "Comparative": "East-West and other comparative analysis visuals",
+    "Hero Video": "Primary video content for landing and key pages",
+    "Supplementary": "Supporting images and graphics"
+  },
+  "next_entries": {
+    "IMG-003": "To be catalogued",
+    "IMG-004": "To be catalogued",
+    "IMG-005": "To be catalogued"
+  }
+}

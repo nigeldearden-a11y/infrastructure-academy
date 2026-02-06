@@ -1,0 +1,1774 @@
+{
+  "query": "SELECT id, fileName, mimeType, fileSize, categoryId FROM assets ORDER BY fileName;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2GX11Pnc2Gj5TH4.ab1ece9ffb5d --database kUQZAex2uPvgKcHnt7bmh3 --execute SELECT id, fileName, mimeType, fileSize, categoryId FROM assets ORDER BY fileName;",
+  "rows": [
+    {
+      "id": "22",
+      "fileName": "0ad8759f-473a-44e2-823d-f1e56e51471c.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "383031",
+      "categoryId": "3"
+    },
+    {
+      "id": "23",
+      "fileName": "26ee71a4-4ec9-4efa-ae99-1d4ccc8b7370.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "468521",
+      "categoryId": "3"
+    },
+    {
+      "id": "108",
+      "fileName": "4cs_collapse_cycle.png",
+      "mimeType": "image/png",
+      "fileSize": "1475604",
+      "categoryId": "3"
+    },
+    {
+      "id": "247",
+      "fileName": "A4_HARDBACK_LAYOUT_SPECIFICATION copy.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": "32252",
+      "categoryId": "3"
+    },
+    {
+      "id": "243",
+      "fileName": "An Infrastructure Odyssey Episode 1 copy.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "fileSize": "31820290",
+      "categoryId": "3"
+    },
+    {
+      "id": "242",
+      "fileName": "An Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf",
+      "mimeType": "application/pdf",
+      "fileSize": "702098",
+      "categoryId": "3"
+    },
+    {
+      "id": "12",
+      "fileName": "book_cover_v2.png",
+      "mimeType": "image/png",
+      "fileSize": "1288715",
+      "categoryId": "3"
+    },
+    {
+      "id": "13",
+      "fileName": "book_cover_v2.png",
+      "mimeType": "image/png",
+      "fileSize": "1288715",
+      "categoryId": "3"
+    },
+    {
+      "id": "138",
+      "fileName": "book1_complete_journey.png",
+      "mimeType": "image/png",
+      "fileSize": "1395882",
+      "categoryId": "3"
+    },
+    {
+      "id": "215",
+      "fileName": "book1_complete_journey.png",
+      "mimeType": "image/png",
+      "fileSize": "1395882",
+      "categoryId": "3"
+    },
+    {
+      "id": "129",
+      "fileName": "book1_journey_final.png",
+      "mimeType": "image/png",
+      "fileSize": "1047245",
+      "categoryId": "3"
+    },
+    {
+      "id": "1",
+      "fileName": "book1_journey_final.png",
+      "mimeType": "image/png",
+      "fileSize": "1047245",
+      "categoryId": "3"
+    },
+    {
+      "id": "106",
+      "fileName": "bronze_age_4k2_4cs_case_study.png",
+      "mimeType": "image/png",
+      "fileSize": "1629879",
+      "categoryId": "3"
+    },
+    {
+      "id": "14",
+      "fileName": "cover_page_portrait_v3.png",
+      "mimeType": "image/png",
+      "fileSize": "1188017",
+      "categoryId": "3"
+    },
+    {
+      "id": "7",
+      "fileName": "cover_page_portrait.png",
+      "mimeType": "image/png",
+      "fileSize": "1193041",
+      "categoryId": "3"
+    },
+    {
+      "id": "6",
+      "fileName": "cover_page.png",
+      "mimeType": "image/png",
+      "fileSize": "1408715",
+      "categoryId": "3"
+    },
+    {
+      "id": "73",
+      "fileName": "IMG_3231.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "78051",
+      "categoryId": "3"
+    },
+    {
+      "id": "71",
+      "fileName": "IMG_3232.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "69989",
+      "categoryId": "3"
+    },
+    {
+      "id": "70",
+      "fileName": "IMG_3233.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "76672",
+      "categoryId": "3"
+    },
+    {
+      "id": "72",
+      "fileName": "IMG_3234.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "86096",
+      "categoryId": "3"
+    },
+    {
+      "id": "11",
+      "fileName": "IMG_5725.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "266842",
+      "categoryId": "3"
+    },
+    {
+      "id": "10",
+      "fileName": "IMG_5726.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "282801",
+      "categoryId": "3"
+    },
+    {
+      "id": "8",
+      "fileName": "IMG_5777.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "77412",
+      "categoryId": "3"
+    },
+    {
+      "id": "148",
+      "fileName": "IMG_6149.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "209457",
+      "categoryId": "3"
+    },
+    {
+      "id": "153",
+      "fileName": "IMG_6180.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "218255",
+      "categoryId": "3"
+    },
+    {
+      "id": "149",
+      "fileName": "IMG_6184.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "166101",
+      "categoryId": "3"
+    },
+    {
+      "id": "151",
+      "fileName": "IMG_6185.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "256364",
+      "categoryId": "3"
+    },
+    {
+      "id": "147",
+      "fileName": "IMG_6258.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "212519",
+      "categoryId": "3"
+    },
+    {
+      "id": "3",
+      "fileName": "IMG_6273.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "169018",
+      "categoryId": "3"
+    },
+    {
+      "id": "5",
+      "fileName": "IMG_6320.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "539097",
+      "categoryId": "3"
+    },
+    {
+      "id": "4",
+      "fileName": "IMG_6325.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "193555",
+      "categoryId": "3"
+    },
+    {
+      "id": "2",
+      "fileName": "IMG_6326.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "184662",
+      "categoryId": "3"
+    },
+    {
+      "id": "9",
+      "fileName": "IMG_6327.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "246385",
+      "categoryId": "3"
+    },
+    {
+      "id": "144",
+      "fileName": "IMG_6473.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "88739",
+      "categoryId": "3"
+    },
+    {
+      "id": "60",
+      "fileName": "IMG_6473.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "88739",
+      "categoryId": "3"
+    },
+    {
+      "id": "143",
+      "fileName": "IMG_6474.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "88064",
+      "categoryId": "3"
+    },
+    {
+      "id": "59",
+      "fileName": "IMG_6474.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "88064",
+      "categoryId": "3"
+    },
+    {
+      "id": "61",
+      "fileName": "IMG_6475.avif",
+      "mimeType": "image/avif",
+      "fileSize": "150920",
+      "categoryId": "3"
+    },
+    {
+      "id": "146",
+      "fileName": "IMG_6475.avif",
+      "mimeType": "image/avif",
+      "fileSize": "150920",
+      "categoryId": "3"
+    },
+    {
+      "id": "63",
+      "fileName": "IMG_6476.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "231277",
+      "categoryId": "3"
+    },
+    {
+      "id": "152",
+      "fileName": "IMG_6476.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "231277",
+      "categoryId": "3"
+    },
+    {
+      "id": "65",
+      "fileName": "IMG_6496.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "253104",
+      "categoryId": "3"
+    },
+    {
+      "id": "68",
+      "fileName": "IMG_6497.png",
+      "mimeType": "image/png",
+      "fileSize": "283447",
+      "categoryId": "3"
+    },
+    {
+      "id": "67",
+      "fileName": "IMG_6498.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "351520",
+      "categoryId": "3"
+    },
+    {
+      "id": "64",
+      "fileName": "IMG_6508.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "218898",
+      "categoryId": "3"
+    },
+    {
+      "id": "154",
+      "fileName": "IMG_6512.png",
+      "mimeType": "image/png",
+      "fileSize": "596534",
+      "categoryId": "3"
+    },
+    {
+      "id": "161",
+      "fileName": "IMG_6513.png",
+      "mimeType": "image/png",
+      "fileSize": "546431",
+      "categoryId": "3"
+    },
+    {
+      "id": "18",
+      "fileName": "IMG_6568.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "137935",
+      "categoryId": "3"
+    },
+    {
+      "id": "15",
+      "fileName": "IMG_6569.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "66737",
+      "categoryId": "3"
+    },
+    {
+      "id": "24",
+      "fileName": "IMG_6570.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "162782",
+      "categoryId": "3"
+    },
+    {
+      "id": "27",
+      "fileName": "IMG_6571.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "139113",
+      "categoryId": "3"
+    },
+    {
+      "id": "17",
+      "fileName": "IMG_6572.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "80864",
+      "categoryId": "3"
+    },
+    {
+      "id": "21",
+      "fileName": "IMG_6573.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "146868",
+      "categoryId": "3"
+    },
+    {
+      "id": "20",
+      "fileName": "IMG_6574.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "105107",
+      "categoryId": "3"
+    },
+    {
+      "id": "16",
+      "fileName": "IMG_6575.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "76051",
+      "categoryId": "3"
+    },
+    {
+      "id": "26",
+      "fileName": "IMG_6576.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "149631",
+      "categoryId": "3"
+    },
+    {
+      "id": "19",
+      "fileName": "IMG_6577.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "150655",
+      "categoryId": "3"
+    },
+    {
+      "id": "28",
+      "fileName": "IMG_6578.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "211619",
+      "categoryId": "3"
+    },
+    {
+      "id": "25",
+      "fileName": "IMG_6579.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "105888",
+      "categoryId": "3"
+    },
+    {
+      "id": "36",
+      "fileName": "IMG_6580.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "125850",
+      "categoryId": "3"
+    },
+    {
+      "id": "40",
+      "fileName": "IMG_6581.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "119391",
+      "categoryId": "3"
+    },
+    {
+      "id": "46",
+      "fileName": "IMG_6582.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "186190",
+      "categoryId": "3"
+    },
+    {
+      "id": "35",
+      "fileName": "IMG_6583.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "124308",
+      "categoryId": "3"
+    },
+    {
+      "id": "43",
+      "fileName": "IMG_6584.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "158957",
+      "categoryId": "3"
+    },
+    {
+      "id": "42",
+      "fileName": "IMG_6585.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "99737",
+      "categoryId": "3"
+    },
+    {
+      "id": "41",
+      "fileName": "IMG_6586.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "136578",
+      "categoryId": "3"
+    },
+    {
+      "id": "29",
+      "fileName": "IMG_6587.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "91928",
+      "categoryId": "3"
+    },
+    {
+      "id": "34",
+      "fileName": "IMG_6588.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "140301",
+      "categoryId": "3"
+    },
+    {
+      "id": "45",
+      "fileName": "IMG_6589.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "191531",
+      "categoryId": "3"
+    },
+    {
+      "id": "30",
+      "fileName": "IMG_6590.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "64898",
+      "categoryId": "3"
+    },
+    {
+      "id": "38",
+      "fileName": "IMG_6591.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "154659",
+      "categoryId": "3"
+    },
+    {
+      "id": "37",
+      "fileName": "IMG_6592.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "129981",
+      "categoryId": "3"
+    },
+    {
+      "id": "32",
+      "fileName": "IMG_6593.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "85482",
+      "categoryId": "3"
+    },
+    {
+      "id": "31",
+      "fileName": "IMG_6594.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "79011",
+      "categoryId": "3"
+    },
+    {
+      "id": "39",
+      "fileName": "IMG_6595.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "126409",
+      "categoryId": "3"
+    },
+    {
+      "id": "33",
+      "fileName": "IMG_6596.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "71358",
+      "categoryId": "3"
+    },
+    {
+      "id": "44",
+      "fileName": "IMG_6597.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "169587",
+      "categoryId": "3"
+    },
+    {
+      "id": "55",
+      "fileName": "IMG_6598.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "163110",
+      "categoryId": "3"
+    },
+    {
+      "id": "48",
+      "fileName": "IMG_6599.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "131816",
+      "categoryId": "3"
+    },
+    {
+      "id": "54",
+      "fileName": "IMG_6600.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "213857",
+      "categoryId": "3"
+    },
+    {
+      "id": "49",
+      "fileName": "IMG_6601.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "148626",
+      "categoryId": "3"
+    },
+    {
+      "id": "51",
+      "fileName": "IMG_6602.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "147406",
+      "categoryId": "3"
+    },
+    {
+      "id": "57",
+      "fileName": "IMG_6603.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "219494",
+      "categoryId": "3"
+    },
+    {
+      "id": "52",
+      "fileName": "IMG_6604.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "204210",
+      "categoryId": "3"
+    },
+    {
+      "id": "47",
+      "fileName": "IMG_6605.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "81539",
+      "categoryId": "3"
+    },
+    {
+      "id": "50",
+      "fileName": "IMG_6606.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "126154",
+      "categoryId": "3"
+    },
+    {
+      "id": "56",
+      "fileName": "IMG_6607.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "136845",
+      "categoryId": "3"
+    },
+    {
+      "id": "53",
+      "fileName": "IMG_6608.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "174093",
+      "categoryId": "3"
+    },
+    {
+      "id": "239",
+      "fileName": "IMG_6673.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "141218",
+      "categoryId": "3"
+    },
+    {
+      "id": "237",
+      "fileName": "IMG_6674.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "111759",
+      "categoryId": "3"
+    },
+    {
+      "id": "240",
+      "fileName": "IMG_6677.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "458155",
+      "categoryId": "3"
+    },
+    {
+      "id": "62",
+      "fileName": "IMG_6682.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "127633",
+      "categoryId": "3"
+    },
+    {
+      "id": "145",
+      "fileName": "IMG_6682.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "127633",
+      "categoryId": "3"
+    },
+    {
+      "id": "241",
+      "fileName": "IMG_6683.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "495220",
+      "categoryId": "3"
+    },
+    {
+      "id": "238",
+      "fileName": "IMG_6685.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "160020",
+      "categoryId": "3"
+    },
+    {
+      "id": "66",
+      "fileName": "IMG_6691.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "369559",
+      "categoryId": "3"
+    },
+    {
+      "id": "160",
+      "fileName": "IMG_6691.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "369559",
+      "categoryId": "3"
+    },
+    {
+      "id": "158",
+      "fileName": "IMG_6694.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "237487",
+      "categoryId": "3"
+    },
+    {
+      "id": "58",
+      "fileName": "IMG_6695.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "68999",
+      "categoryId": "3"
+    },
+    {
+      "id": "142",
+      "fileName": "IMG_6695.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "68999",
+      "categoryId": "3"
+    },
+    {
+      "id": "233",
+      "fileName": "IMG_6702.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "218530",
+      "categoryId": "3"
+    },
+    {
+      "id": "231",
+      "fileName": "IMG_6703.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "329248",
+      "categoryId": "3"
+    },
+    {
+      "id": "69",
+      "fileName": "IMG_6703.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "329248",
+      "categoryId": "3"
+    },
+    {
+      "id": "159",
+      "fileName": "IMG_6703.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "329248",
+      "categoryId": "3"
+    },
+    {
+      "id": "74",
+      "fileName": "IMG_6730.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "125144",
+      "categoryId": "3"
+    },
+    {
+      "id": "77",
+      "fileName": "IMG_6743.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "465005",
+      "categoryId": "3"
+    },
+    {
+      "id": "234",
+      "fileName": "IMG_6838.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "657334",
+      "categoryId": "3"
+    },
+    {
+      "id": "75",
+      "fileName": "IMG_6844.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "260665",
+      "categoryId": "3"
+    },
+    {
+      "id": "76",
+      "fileName": "IMG_6845.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "258323",
+      "categoryId": "3"
+    },
+    {
+      "id": "232",
+      "fileName": "IMG_6889.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "352266",
+      "categoryId": "3"
+    },
+    {
+      "id": "150",
+      "fileName": "IMG_6889.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "352266",
+      "categoryId": "3"
+    },
+    {
+      "id": "99",
+      "fileName": "IMG_6929.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "118291",
+      "categoryId": "3"
+    },
+    {
+      "id": "88",
+      "fileName": "IMG_6929.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "118291",
+      "categoryId": "3"
+    },
+    {
+      "id": "95",
+      "fileName": "IMG_6930.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "81557",
+      "categoryId": "3"
+    },
+    {
+      "id": "79",
+      "fileName": "IMG_6930.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "81557",
+      "categoryId": "3"
+    },
+    {
+      "id": "97",
+      "fileName": "IMG_6931.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "106177",
+      "categoryId": "3"
+    },
+    {
+      "id": "83",
+      "fileName": "IMG_6931.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "106177",
+      "categoryId": "3"
+    },
+    {
+      "id": "86",
+      "fileName": "IMG_6932.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "118324",
+      "categoryId": "3"
+    },
+    {
+      "id": "101",
+      "fileName": "IMG_6932.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "118324",
+      "categoryId": "3"
+    },
+    {
+      "id": "81",
+      "fileName": "IMG_6933.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "103283",
+      "categoryId": "3"
+    },
+    {
+      "id": "98",
+      "fileName": "IMG_6933.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "103283",
+      "categoryId": "3"
+    },
+    {
+      "id": "100",
+      "fileName": "IMG_6934.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "137869",
+      "categoryId": "3"
+    },
+    {
+      "id": "93",
+      "fileName": "IMG_6934.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "137869",
+      "categoryId": "3"
+    },
+    {
+      "id": "96",
+      "fileName": "IMG_6935.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "173768",
+      "categoryId": "3"
+    },
+    {
+      "id": "90",
+      "fileName": "IMG_6935.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "173768",
+      "categoryId": "3"
+    },
+    {
+      "id": "209",
+      "fileName": "IMG_6936.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "96238",
+      "categoryId": "3"
+    },
+    {
+      "id": "78",
+      "fileName": "IMG_6936.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "96238",
+      "categoryId": "3"
+    },
+    {
+      "id": "94",
+      "fileName": "IMG_6936.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "96238",
+      "categoryId": "3"
+    },
+    {
+      "id": "224",
+      "fileName": "IMG_6937.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "165434",
+      "categoryId": "3"
+    },
+    {
+      "id": "110",
+      "fileName": "IMG_6937.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "165434",
+      "categoryId": "3"
+    },
+    {
+      "id": "84",
+      "fileName": "IMG_6937.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "165434",
+      "categoryId": "3"
+    },
+    {
+      "id": "82",
+      "fileName": "IMG_6938.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "179424",
+      "categoryId": "3"
+    },
+    {
+      "id": "114",
+      "fileName": "IMG_6938.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "179424",
+      "categoryId": "3"
+    },
+    {
+      "id": "229",
+      "fileName": "IMG_6938.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "179424",
+      "categoryId": "3"
+    },
+    {
+      "id": "91",
+      "fileName": "IMG_6939.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "168721",
+      "categoryId": "3"
+    },
+    {
+      "id": "227",
+      "fileName": "IMG_6939.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "168721",
+      "categoryId": "3"
+    },
+    {
+      "id": "116",
+      "fileName": "IMG_6939.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "168721",
+      "categoryId": "3"
+    },
+    {
+      "id": "80",
+      "fileName": "IMG_6940.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "170694",
+      "categoryId": "3"
+    },
+    {
+      "id": "223",
+      "fileName": "IMG_6940.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "170694",
+      "categoryId": "3"
+    },
+    {
+      "id": "112",
+      "fileName": "IMG_6940.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "170694",
+      "categoryId": "3"
+    },
+    {
+      "id": "87",
+      "fileName": "IMG_6941.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "166074",
+      "categoryId": "3"
+    },
+    {
+      "id": "222",
+      "fileName": "IMG_6941.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "166074",
+      "categoryId": "3"
+    },
+    {
+      "id": "113",
+      "fileName": "IMG_6941.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "166074",
+      "categoryId": "3"
+    },
+    {
+      "id": "228",
+      "fileName": "IMG_6942.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "178541",
+      "categoryId": "3"
+    },
+    {
+      "id": "115",
+      "fileName": "IMG_6942.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "178541",
+      "categoryId": "3"
+    },
+    {
+      "id": "85",
+      "fileName": "IMG_6942.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "178541",
+      "categoryId": "3"
+    },
+    {
+      "id": "111",
+      "fileName": "IMG_6943.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "187167",
+      "categoryId": "3"
+    },
+    {
+      "id": "225",
+      "fileName": "IMG_6943.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "187167",
+      "categoryId": "3"
+    },
+    {
+      "id": "92",
+      "fileName": "IMG_6943.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "187167",
+      "categoryId": "3"
+    },
+    {
+      "id": "89",
+      "fileName": "IMG_6944.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "142200",
+      "categoryId": "3"
+    },
+    {
+      "id": "109",
+      "fileName": "IMG_6944.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "142200",
+      "categoryId": "3"
+    },
+    {
+      "id": "226",
+      "fileName": "IMG_6944.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "142200",
+      "categoryId": "3"
+    },
+    {
+      "id": "117",
+      "fileName": "IMG_6948.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "272003",
+      "categoryId": "3"
+    },
+    {
+      "id": "230",
+      "fileName": "IMG_6948.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "272003",
+      "categoryId": "3"
+    },
+    {
+      "id": "157",
+      "fileName": "IMG_7026.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "52951",
+      "categoryId": "3"
+    },
+    {
+      "id": "179",
+      "fileName": "IMG_7066.png",
+      "mimeType": "image/png",
+      "fileSize": "76083",
+      "categoryId": "3"
+    },
+    {
+      "id": "178",
+      "fileName": "IMG_7068.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "74021",
+      "categoryId": "3"
+    },
+    {
+      "id": "180",
+      "fileName": "IMG_7069.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "252667",
+      "categoryId": "3"
+    },
+    {
+      "id": "181",
+      "fileName": "IMG_7070.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "309085",
+      "categoryId": "3"
+    },
+    {
+      "id": "183",
+      "fileName": "IMG_7070.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "309085",
+      "categoryId": "3"
+    },
+    {
+      "id": "182",
+      "fileName": "IMG_7137.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "316609",
+      "categoryId": "3"
+    },
+    {
+      "id": "201",
+      "fileName": "IMG_7191.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "62426",
+      "categoryId": "3"
+    },
+    {
+      "id": "203",
+      "fileName": "IMG_7247.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "242511",
+      "categoryId": "3"
+    },
+    {
+      "id": "202",
+      "fileName": "IMG_7250.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "69638",
+      "categoryId": "3"
+    },
+    {
+      "id": "207",
+      "fileName": "IMG_7273.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "282502",
+      "categoryId": "3"
+    },
+    {
+      "id": "206",
+      "fileName": "IMG_7274.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "284151",
+      "categoryId": "3"
+    },
+    {
+      "id": "205",
+      "fileName": "IMG_7277.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "398327",
+      "categoryId": "3"
+    },
+    {
+      "id": "251",
+      "fileName": "INFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": "21721",
+      "categoryId": "3"
+    },
+    {
+      "id": "252",
+      "fileName": "KICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf",
+      "mimeType": "application/pdf",
+      "fileSize": "307827",
+      "categoryId": "3"
+    },
+    {
+      "id": "246",
+      "fileName": "MissionVission1.02 copy.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "fileSize": "30634497",
+      "categoryId": "3"
+    },
+    {
+      "id": "244",
+      "fileName": "NTD CV 2025.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": "45965",
+      "categoryId": "3"
+    },
+    {
+      "id": "102",
+      "fileName": "prerome_rome_4cs_case_study.png",
+      "mimeType": "image/png",
+      "fileSize": "1425153",
+      "categoryId": "3"
+    },
+    {
+      "id": "208",
+      "fileName": "relays_12000_year_timeline.png",
+      "mimeType": "image/png",
+      "fileSize": "1420129",
+      "categoryId": "3"
+    },
+    {
+      "id": "156",
+      "fileName": "relays_12000_year_timeline.png",
+      "mimeType": "image/png",
+      "fileSize": "1420129",
+      "categoryId": "3"
+    },
+    {
+      "id": "204",
+      "fileName": "river_plain_perfect.mp4",
+      "mimeType": "video/mp4",
+      "fileSize": "1181111",
+      "categoryId": "3"
+    },
+    {
+      "id": "119",
+      "fileName": "slide_01_intro_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "996732",
+      "categoryId": "3"
+    },
+    {
+      "id": "103",
+      "fileName": "slide_01_intro_cover.png",
+      "mimeType": "image/png",
+      "fileSize": "924334",
+      "categoryId": "3"
+    },
+    {
+      "id": "126",
+      "fileName": "slide_01_intro_cover.png",
+      "mimeType": "image/png",
+      "fileSize": "924334",
+      "categoryId": "3"
+    },
+    {
+      "id": "235",
+      "fileName": "slide_02_civilizational_relay.png",
+      "mimeType": "image/png",
+      "fileSize": "1161427",
+      "categoryId": "3"
+    },
+    {
+      "id": "122",
+      "fileName": "slide_02_civilizational_relay.png",
+      "mimeType": "image/png",
+      "fileSize": "1161427",
+      "categoryId": "3"
+    },
+    {
+      "id": "105",
+      "fileName": "slide_02_civilizational_relay.png",
+      "mimeType": "image/png",
+      "fileSize": "1161427",
+      "categoryId": "3"
+    },
+    {
+      "id": "124",
+      "fileName": "slide_02_relay_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1772403",
+      "categoryId": "3"
+    },
+    {
+      "id": "220",
+      "fileName": "slide_02_relay_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1772403",
+      "categoryId": "3"
+    },
+    {
+      "id": "121",
+      "fileName": "slide_03_book1_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1183649",
+      "categoryId": "3"
+    },
+    {
+      "id": "221",
+      "fileName": "slide_03_book1_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1183649",
+      "categoryId": "3"
+    },
+    {
+      "id": "137",
+      "fileName": "slide_03_book1_complete_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1353521",
+      "categoryId": "3"
+    },
+    {
+      "id": "219",
+      "fileName": "slide_03_book1_complete_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1353521",
+      "categoryId": "3"
+    },
+    {
+      "id": "104",
+      "fileName": "slide_03_book1_context.png",
+      "mimeType": "image/png",
+      "fileSize": "1002379",
+      "categoryId": "3"
+    },
+    {
+      "id": "236",
+      "fileName": "slide_03_book1_context.png",
+      "mimeType": "image/png",
+      "fileSize": "1002379",
+      "categoryId": "3"
+    },
+    {
+      "id": "123",
+      "fileName": "slide_03_book1_context.png",
+      "mimeType": "image/png",
+      "fileSize": "1002379",
+      "categoryId": "3"
+    },
+    {
+      "id": "125",
+      "fileName": "slide_03_book1_context.png",
+      "mimeType": "image/png",
+      "fileSize": "1002379",
+      "categoryId": "3"
+    },
+    {
+      "id": "118",
+      "fileName": "slide_04_vol1_west_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "964159",
+      "categoryId": "3"
+    },
+    {
+      "id": "120",
+      "fileName": "slide_05_silk_road_nomad_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1450427",
+      "categoryId": "3"
+    },
+    {
+      "id": "131",
+      "fileName": "slide_06_vol2_east_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1327079",
+      "categoryId": "3"
+    },
+    {
+      "id": "210",
+      "fileName": "slide_06_vol3_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1087598",
+      "categoryId": "3"
+    },
+    {
+      "id": "132",
+      "fileName": "slide_06_vol3_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1087598",
+      "categoryId": "3"
+    },
+    {
+      "id": "127",
+      "fileName": "slide_08_closing_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1321716",
+      "categoryId": "3"
+    },
+    {
+      "id": "218",
+      "fileName": "slide_09_summary_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1051674",
+      "categoryId": "3"
+    },
+    {
+      "id": "133",
+      "fileName": "slide_09_summary_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1051674",
+      "categoryId": "3"
+    },
+    {
+      "id": "155",
+      "fileName": "slide_14_relays_clean.png",
+      "mimeType": "image/png",
+      "fileSize": "973314",
+      "categoryId": "3"
+    },
+    {
+      "id": "250",
+      "fileName": "SUPPLEMENT_2_Technology_Diffusion_Final copy.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": "28610",
+      "categoryId": "3"
+    },
+    {
+      "id": "171",
+      "fileName": "supplement2_pen_infrastructure_final_corrected.png",
+      "mimeType": "image/png",
+      "fileSize": "1438458",
+      "categoryId": "3"
+    },
+    {
+      "id": "167",
+      "fileName": "supplement3_framework_diagram.png",
+      "mimeType": "image/png",
+      "fileSize": "1656438",
+      "categoryId": "3"
+    },
+    {
+      "id": "168",
+      "fileName": "supplement3_framework_diagram.png",
+      "mimeType": "image/png",
+      "fileSize": "1656438",
+      "categoryId": "3"
+    },
+    {
+      "id": "174",
+      "fileName": "supplement3_master_overview.png",
+      "mimeType": "image/png",
+      "fileSize": "1755028",
+      "categoryId": "3"
+    },
+    {
+      "id": "177",
+      "fileName": "supplement3_master_overview.png",
+      "mimeType": "image/png",
+      "fileSize": "1755028",
+      "categoryId": "3"
+    },
+    {
+      "id": "172",
+      "fileName": "supplement3_relay_aaa_triad.png",
+      "mimeType": "image/png",
+      "fileSize": "1406255",
+      "categoryId": "3"
+    },
+    {
+      "id": "163",
+      "fileName": "supplement3_relay_engine.png",
+      "mimeType": "image/png",
+      "fileSize": "1526471",
+      "categoryId": "3"
+    },
+    {
+      "id": "162",
+      "fileName": "supplement3_relay_fire.png",
+      "mimeType": "image/png",
+      "fileSize": "1374561",
+      "categoryId": "3"
+    },
+    {
+      "id": "176",
+      "fileName": "supplement3_relay_horse.png",
+      "mimeType": "image/png",
+      "fileSize": "1398207",
+      "categoryId": "3"
+    },
+    {
+      "id": "164",
+      "fileName": "supplement3_relay_humans_as_nodes.png",
+      "mimeType": "image/png",
+      "fileSize": "1207560",
+      "categoryId": "3"
+    },
+    {
+      "id": "169",
+      "fileName": "supplement3_relay_loom.png",
+      "mimeType": "image/png",
+      "fileSize": "1536465",
+      "categoryId": "3"
+    },
+    {
+      "id": "165",
+      "fileName": "supplement3_relay_rail.png",
+      "mimeType": "image/png",
+      "fileSize": "1555795",
+      "categoryId": "3"
+    },
+    {
+      "id": "166",
+      "fileName": "supplement3_relay_river.png",
+      "mimeType": "image/png",
+      "fileSize": "1332032",
+      "categoryId": "3"
+    },
+    {
+      "id": "173",
+      "fileName": "supplement3_relay_roads.png",
+      "mimeType": "image/png",
+      "fileSize": "1538855",
+      "categoryId": "3"
+    },
+    {
+      "id": "175",
+      "fileName": "supplement3_relay_ships.png",
+      "mimeType": "image/png",
+      "fileSize": "1533638",
+      "categoryId": "3"
+    },
+    {
+      "id": "185",
+      "fileName": "supplement3_relay_transition.png",
+      "mimeType": "image/png",
+      "fileSize": "1317521",
+      "categoryId": "3"
+    },
+    {
+      "id": "170",
+      "fileName": "supplement3_relay_tree.png",
+      "mimeType": "image/png",
+      "fileSize": "1627978",
+      "categoryId": "3"
+    },
+    {
+      "id": "193",
+      "fileName": "supplement4_connectivity_strategy.png",
+      "mimeType": "image/png",
+      "fileSize": "1515373",
+      "categoryId": "3"
+    },
+    {
+      "id": "191",
+      "fileName": "supplement4_institutional_continuity.png",
+      "mimeType": "image/png",
+      "fileSize": "1480904",
+      "categoryId": "3"
+    },
+    {
+      "id": "200",
+      "fileName": "supplement4_relay_aaa_triad_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1486801",
+      "categoryId": "3"
+    },
+    {
+      "id": "196",
+      "fileName": "supplement4_relay_engine_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1167733",
+      "categoryId": "3"
+    },
+    {
+      "id": "192",
+      "fileName": "supplement4_relay_fire_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1516998",
+      "categoryId": "3"
+    },
+    {
+      "id": "189",
+      "fileName": "supplement4_relay_horse_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1300476",
+      "categoryId": "3"
+    },
+    {
+      "id": "194",
+      "fileName": "supplement4_relay_humans_as_nodes_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1291657",
+      "categoryId": "3"
+    },
+    {
+      "id": "199",
+      "fileName": "supplement4_relay_loom_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1370625",
+      "categoryId": "3"
+    },
+    {
+      "id": "197",
+      "fileName": "supplement4_relay_rail_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1304055",
+      "categoryId": "3"
+    },
+    {
+      "id": "187",
+      "fileName": "supplement4_relay_river_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1541541",
+      "categoryId": "3"
+    },
+    {
+      "id": "186",
+      "fileName": "supplement4_relay_roads_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1233255",
+      "categoryId": "3"
+    },
+    {
+      "id": "198",
+      "fileName": "supplement4_relay_ships_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1183953",
+      "categoryId": "3"
+    },
+    {
+      "id": "195",
+      "fileName": "supplement4_relay_transition_orbital_canopy.png",
+      "mimeType": "image/png",
+      "fileSize": "1105355",
+      "categoryId": "3"
+    },
+    {
+      "id": "190",
+      "fileName": "supplement4_relay_tree_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1344809",
+      "categoryId": "3"
+    },
+    {
+      "id": "188",
+      "fileName": "supplement4_sector_dominance.png",
+      "mimeType": "image/png",
+      "fileSize": "1340292",
+      "categoryId": "3"
+    },
+    {
+      "id": "184",
+      "fileName": "supplement4_timeline_transformation.png",
+      "mimeType": "image/png",
+      "fileSize": "1545266",
+      "categoryId": "3"
+    },
+    {
+      "id": "245",
+      "fileName": "The BIM Engineers_Brief_Profile_2021.pdf",
+      "mimeType": "application/pdf",
+      "fileSize": "6567703",
+      "categoryId": "3"
+    },
+    {
+      "id": "248",
+      "fileName": "The Reality Engine - Kickstarter Video (FINAL).pdf",
+      "mimeType": "application/pdf",
+      "fileSize": "141507",
+      "categoryId": "3"
+    },
+    {
+      "id": "249",
+      "fileName": "Three_Modes_4Cs_Comprehensive_Analysis copy.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": "34181",
+      "categoryId": "3"
+    },
+    {
+      "id": "107",
+      "fileName": "three_modes_timeline_accurate.png",
+      "mimeType": "image/png",
+      "fileSize": "1147239",
+      "categoryId": "3"
+    },
+    {
+      "id": "212",
+      "fileName": "three_timelines_combined_accurate.png",
+      "mimeType": "image/png",
+      "fileSize": "1325744",
+      "categoryId": "3"
+    },
+    {
+      "id": "211",
+      "fileName": "three_timelines_combined_accurate.png",
+      "mimeType": "image/png",
+      "fileSize": "1325744",
+      "categoryId": "3"
+    },
+    {
+      "id": "136",
+      "fileName": "three_timelines_combined_accurate.png",
+      "mimeType": "image/png",
+      "fileSize": "1325744",
+      "categoryId": "3"
+    },
+    {
+      "id": "134",
+      "fileName": "three_timelines_combined_accurate.png",
+      "mimeType": "image/png",
+      "fileSize": "1325744",
+      "categoryId": "3"
+    },
+    {
+      "id": "130",
+      "fileName": "timeline_east_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1795209",
+      "categoryId": "3"
+    },
+    {
+      "id": "216",
+      "fileName": "timeline_east_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1795209",
+      "categoryId": "3"
+    },
+    {
+      "id": "140",
+      "fileName": "timeline_east_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1795209",
+      "categoryId": "3"
+    },
+    {
+      "id": "141",
+      "fileName": "timeline_nomad_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1523454",
+      "categoryId": "3"
+    },
+    {
+      "id": "135",
+      "fileName": "timeline_nomad_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1523454",
+      "categoryId": "3"
+    },
+    {
+      "id": "214",
+      "fileName": "timeline_nomad_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1523454",
+      "categoryId": "3"
+    },
+    {
+      "id": "128",
+      "fileName": "timeline_west_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1502973",
+      "categoryId": "3"
+    },
+    {
+      "id": "217",
+      "fileName": "timeline_west_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1502973",
+      "categoryId": "3"
+    },
+    {
+      "id": "213",
+      "fileName": "twelve_relays_complete_timeline.png",
+      "mimeType": "image/png",
+      "fileSize": "1367385",
+      "categoryId": "3"
+    },
+    {
+      "id": "139",
+      "fileName": "twelve_relays_complete_timeline.png",
+      "mimeType": "image/png",
+      "fileSize": "1367385",
+      "categoryId": "3"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tfileName\tmimeType\tfileSize\tcategoryId\n22\t0ad8759f-473a-44e2-823d-f1e56e51471c.jpeg\timage/jpeg\t383031\t3\n23\t26ee71a4-4ec9-4efa-ae99-1d4ccc8b7370.jpeg\timage/jpeg\t468521\t3\n108\t4cs_collapse_cycle.png\timage/png\t1475604\t3\n247\tA4_HARDBACK_LAYOUT_SPECIFICATION copy.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t32252\t3\n243\tAn Infrastructure Odyssey Episode 1 copy.pptx\tapplication/vnd.openxmlformats-officedocument.presentationml.presentation\t31820290\t3\n242\tAn Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf\tapplication/pdf\t702098\t3\n12\tbook_cover_v2.png\timage/png\t1288715\t3\n13\tbook_cover_v2.png\timage/png\t1288715\t3\n138\tbook1_complete_journey.png\timage/png\t1395882\t3\n215\tbook1_complete_journey.png\timage/png\t1395882\t3\n129\tbook1_journey_final.png\timage/png\t1047245\t3\n1\tbook1_journey_final.png\timage/png\t1047245\t3\n106\tbronze_age_4k2_4cs_case_study.png\timage/png\t1629879\t3\n14\tcover_page_portrait_v3.png\timage/png\t1188017\t3\n7\tcover_page_portrait.png\timage/png\t1193041\t3\n6\tcover_page.png\timage/png\t1408715\t3\n73\tIMG_3231.jpeg\timage/jpeg\t78051\t3\n71\tIMG_3232.jpeg\timage/jpeg\t69989\t3\n70\tIMG_3233.jpeg\timage/jpeg\t76672\t3\n72\tIMG_3234.jpeg\timage/jpeg\t86096\t3\n11\tIMG_5725.jpeg\timage/jpeg\t266842\t3\n10\tIMG_5726.jpeg\timage/jpeg\t282801\t3\n8\tIMG_5777.jpeg\timage/jpeg\t77412\t3\n148\tIMG_6149.jpeg\timage/jpeg\t209457\t3\n153\tIMG_6180.jpeg\timage/jpeg\t218255\t3\n149\tIMG_6184.jpeg\timage/jpeg\t166101\t3\n151\tIMG_6185.jpeg\timage/jpeg\t256364\t3\n147\tIMG_6258.jpeg\timage/jpeg\t212519\t3\n3\tIMG_6273.jpeg\timage/jpeg\t169018\t3\n5\tIMG_6320.jpeg\timage/jpeg\t539097\t3\n4\tIMG_6325.jpeg\timage/jpeg\t193555\t3\n2\tIMG_6326.jpeg\timage/jpeg\t184662\t3\n9\tIMG_6327.jpeg\timage/jpeg\t246385\t3\n144\tIMG_6473.jpeg\timage/jpeg\t88739\t3\n60\tIMG_6473.jpeg\timage/jpeg\t88739\t3\n143\tIMG_6474.jpeg\timage/jpeg\t88064\t3\n59\tIMG_6474.jpeg\timage/jpeg\t88064\t3\n61\tIMG_6475.avif\timage/avif\t150920\t3\n146\tIMG_6475.avif\timage/avif\t150920\t3\n63\tIMG_6476.jpeg\timage/jpeg\t231277\t3\n152\tIMG_6476.jpeg\timage/jpeg\t231277\t3\n65\tIMG_6496.jpeg\timage/jpeg\t253104\t3\n68\tIMG_6497.png\timage/png\t283447\t3\n67\tIMG_6498.jpeg\timage/jpeg\t351520\t3\n64\tIMG_6508.jpeg\timage/jpeg\t218898\t3\n154\tIMG_6512.png\timage/png\t596534\t3\n161\tIMG_6513.png\timage/png\t546431\t3\n18\tIMG_6568.jpeg\timage/jpeg\t137935\t3\n15\tIMG_6569.jpeg\timage/jpeg\t66737\t3\n24\tIMG_6570.jpeg\timage/jpeg\t162782\t3\n27\tIMG_6571.jpeg\timage/jpeg\t139113\t3\n17\tIMG_6572.jpeg\timage/jpeg\t80864\t3\n21\tIMG_6573.jpeg\timage/jpeg\t146868\t3\n20\tIMG_6574.jpeg\timage/jpeg\t105107\t3\n16\tIMG_6575.jpeg\timage/jpeg\t76051\t3\n26\tIMG_6576.jpeg\timage/jpeg\t149631\t3\n19\tIMG_6577.jpeg\timage/jpeg\t150655\t3\n28\tIMG_6578.jpeg\timage/jpeg\t211619\t3\n25\tIMG_6579.jpeg\timage/jpeg\t105888\t3\n36\tIMG_6580.jpeg\timage/jpeg\t125850\t3\n40\tIMG_6581.jpeg\timage/jpeg\t119391\t3\n46\tIMG_6582.jpeg\timage/jpeg\t186190\t3\n35\tIMG_6583.jpeg\timage/jpeg\t124308\t3\n43\tIMG_6584.jpeg\timage/jpeg\t158957\t3\n42\tIMG_6585.jpeg\timage/jpeg\t99737\t3\n41\tIMG_6586.jpeg\timage/jpeg\t136578\t3\n29\tIMG_6587.jpeg\timage/jpeg\t91928\t3\n34\tIMG_6588.jpeg\timage/jpeg\t140301\t3\n45\tIMG_6589.jpeg\timage/jpeg\t191531\t3\n30\tIMG_6590.jpeg\timage/jpeg\t64898\t3\n38\tIMG_6591.jpeg\timage/jpeg\t154659\t3\n37\tIMG_6592.jpeg\timage/jpeg\t129981\t3\n32\tIMG_6593.jpeg\timage/jpeg\t85482\t3\n31\tIMG_6594.jpeg\timage/jpeg\t79011\t3\n39\tIMG_6595.jpeg\timage/jpeg\t126409\t3\n33\tIMG_6596.jpeg\timage/jpeg\t71358\t3\n44\tIMG_6597.jpeg\timage/jpeg\t169587\t3\n55\tIMG_6598.jpeg\timage/jpeg\t163110\t3\n48\tIMG_6599.jpeg\timage/jpeg\t131816\t3\n54\tIMG_6600.jpeg\timage/jpeg\t213857\t3\n49\tIMG_6601.jpeg\timage/jpeg\t148626\t3\n51\tIMG_6602.jpeg\timage/jpeg\t147406\t3\n57\tIMG_6603.jpeg\timage/jpeg\t219494\t3\n52\tIMG_6604.jpeg\timage/jpeg\t204210\t3\n47\tIMG_6605.jpeg\timage/jpeg\t81539\t3\n50\tIMG_6606.jpeg\timage/jpeg\t126154\t3\n56\tIMG_6607.jpeg\timage/jpeg\t136845\t3\n53\tIMG_6608.jpeg\timage/jpeg\t174093\t3\n239\tIMG_6673.jpeg\timage/jpeg\t141218\t3\n237\tIMG_6674.jpeg\timage/jpeg\t111759\t3\n240\tIMG_6677.jpeg\timage/jpeg\t458155\t3\n62\tIMG_6682.jpeg\timage/jpeg\t127633\t3\n145\tIMG_6682.jpeg\timage/jpeg\t127633\t3\n241\tIMG_6683.jpeg\timage/jpeg\t495220\t3\n238\tIMG_6685.jpeg\timage/jpeg\t160020\t3\n66\tIMG_6691.jpeg\timage/jpeg\t369559\t3\n160\tIMG_6691.jpeg\timage/jpeg\t369559\t3\n158\tIMG_6694.jpeg\timage/jpeg\t237487\t3\n58\tIMG_6695.jpeg\timage/jpeg\t68999\t3\n142\tIMG_6695.jpeg\timage/jpeg\t68999\t3\n233\tIMG_6702.jpeg\timage/jpeg\t218530\t3\n231\tIMG_6703.jpeg\timage/jpeg\t329248\t3\n69\tIMG_6703.jpeg\timage/jpeg\t329248\t3\n159\tIMG_6703.jpeg\timage/jpeg\t329248\t3\n74\tIMG_6730.jpeg\timage/jpeg\t125144\t3\n77\tIMG_6743.jpeg\timage/jpeg\t465005\t3\n234\tIMG_6838.jpeg\timage/jpeg\t657334\t3\n75\tIMG_6844.jpeg\timage/jpeg\t260665\t3\n76\tIMG_6845.jpeg\timage/jpeg\t258323\t3\n232\tIMG_6889.jpeg\timage/jpeg\t352266\t3\n150\tIMG_6889.jpeg\timage/jpeg\t352266\t3\n99\tIMG_6929.jpeg\timage/jpeg\t118291\t3\n88\tIMG_6929.jpeg\timage/jpeg\t118291\t3\n95\tIMG_6930.jpeg\timage/jpeg\t81557\t3\n79\tIMG_6930.jpeg\timage/jpeg\t81557\t3\n97\tIMG_6931.jpeg\timage/jpeg\t106177\t3\n83\tIMG_6931.jpeg\timage/jpeg\t106177\t3\n86\tIMG_6932.jpeg\timage/jpeg\t118324\t3\n101\tIMG_6932.jpeg\timage/jpeg\t118324\t3\n81\tIMG_6933.jpeg\timage/jpeg\t103283\t3\n98\tIMG_6933.jpeg\timage/jpeg\t103283\t3\n100\tIMG_6934.jpeg\timage/jpeg\t137869\t3\n93\tIMG_6934.jpeg\timage/jpeg\t137869\t3\n96\tIMG_6935.jpeg\timage/jpeg\t173768\t3\n90\tIMG_6935.jpeg\timage/jpeg\t173768\t3\n209\tIMG_6936.jpeg\timage/jpeg\t96238\t3\n78\tIMG_6936.jpeg\timage/jpeg\t96238\t3\n94\tIMG_6936.jpeg\timage/jpeg\t96238\t3\n224\tIMG_6937.jpeg\timage/jpeg\t165434\t3\n110\tIMG_6937.jpeg\timage/jpeg\t165434\t3\n84\tIMG_6937.jpeg\timage/jpeg\t165434\t3\n82\tIMG_6938.jpeg\timage/jpeg\t179424\t3\n114\tIMG_6938.jpeg\timage/jpeg\t179424\t3\n229\tIMG_6938.jpeg\timage/jpeg\t179424\t3\n91\tIMG_6939.jpeg\timage/jpeg\t168721\t3\n227\tIMG_6939.jpeg\timage/jpeg\t168721\t3\n116\tIMG_6939.jpeg\timage/jpeg\t168721\t3\n80\tIMG_6940.jpeg\timage/jpeg\t170694\t3\n223\tIMG_6940.jpeg\timage/jpeg\t170694\t3\n112\tIMG_6940.jpeg\timage/jpeg\t170694\t3\n87\tIMG_6941.jpeg\timage/jpeg\t166074\t3\n222\tIMG_6941.jpeg\timage/jpeg\t166074\t3\n113\tIMG_6941.jpeg\timage/jpeg\t166074\t3\n228\tIMG_6942.jpeg\timage/jpeg\t178541\t3\n115\tIMG_6942.jpeg\timage/jpeg\t178541\t3\n85\tIMG_6942.jpeg\timage/jpeg\t178541\t3\n111\tIMG_6943.jpeg\timage/jpeg\t187167\t3\n225\tIMG_6943.jpeg\timage/jpeg\t187167\t3\n92\tIMG_6943.jpeg\timage/jpeg\t187167\t3\n89\tIMG_6944.jpeg\timage/jpeg\t142200\t3\n109\tIMG_6944.jpeg\timage/jpeg\t142200\t3\n226\tIMG_6944.jpeg\timage/jpeg\t142200\t3\n117\tIMG_6948.jpeg\timage/jpeg\t272003\t3\n230\tIMG_6948.jpeg\timage/jpeg\t272003\t3\n157\tIMG_7026.jpeg\timage/jpeg\t52951\t3\n179\tIMG_7066.png\timage/png\t76083\t3\n178\tIMG_7068.jpeg\timage/jpeg\t74021\t3\n180\tIMG_7069.jpeg\timage/jpeg\t252667\t3\n181\tIMG_7070.jpeg\timage/jpeg\t309085\t3\n183\tIMG_7070.jpeg\timage/jpeg\t309085\t3\n182\tIMG_7137.jpeg\timage/jpeg\t316609\t3\n201\tIMG_7191.jpeg\timage/jpeg\t62426\t3\n203\tIMG_7247.jpeg\timage/jpeg\t242511\t3\n202\tIMG_7250.jpeg\timage/jpeg\t69638\t3\n207\tIMG_7273.jpeg\timage/jpeg\t282502\t3\n206\tIMG_7274.jpeg\timage/jpeg\t284151\t3\n205\tIMG_7277.jpeg\timage/jpeg\t398327\t3\n251\tINFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t21721\t3\n252\tKICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf\tapplication/pdf\t307827\t3\n246\tMissionVission1.02 copy.pptx\tapplication/vnd.openxmlformats-officedocument.presentationml.presentation\t30634497\t3\n244\tNTD CV 2025.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t45965\t3\n102\tprerome_rome_4cs_case_study.png\timage/png\t1425153\t3\n208\trelays_12000_year_timeline.png\timage/png\t1420129\t3\n156\trelays_12000_year_timeline.png\timage/png\t1420129\t3\n204\triver_plain_perfect.mp4\tvideo/mp4\t1181111\t3\n119\tslide_01_intro_2026.png\timage/png\t996732\t3\n103\tslide_01_intro_cover.png\timage/png\t924334\t3\n126\tslide_01_intro_cover.png\timage/png\t924334\t3\n235\tslide_02_civilizational_relay.png\timage/png\t1161427\t3\n122\tslide_02_civilizational_relay.png\timage/png\t1161427\t3\n105\tslide_02_civilizational_relay.png\timage/png\t1161427\t3\n124\tslide_02_relay_2026.png\timage/png\t1772403\t3\n220\tslide_02_relay_2026.png\timage/png\t1772403\t3\n121\tslide_03_book1_2026.png\timage/png\t1183649\t3\n221\tslide_03_book1_2026.png\timage/png\t1183649\t3\n137\tslide_03_book1_complete_2026.png\timage/png\t1353521\t3\n219\tslide_03_book1_complete_2026.png\timage/png\t1353521\t3\n104\tslide_03_book1_context.png\timage/png\t1002379\t3\n236\tslide_03_book1_context.png\timage/png\t1002379\t3\n123\tslide_03_book1_context.png\timage/png\t1002379\t3\n125\tslide_03_book1_context.png\timage/png\t1002379\t3\n118\tslide_04_vol1_west_2026.png\timage/png\t964159\t3\n120\tslide_05_silk_road_nomad_2026.png\timage/png\t1450427\t3\n131\tslide_06_vol2_east_2026.png\timage/png\t1327079\t3\n210\tslide_06_vol3_2026.png\timage/png\t1087598\t3\n132\tslide_06_vol3_2026.png\timage/png\t1087598\t3\n127\tslide_08_closing_2026.png\timage/png\t1321716\t3\n218\tslide_09_summary_2026.png\timage/png\t1051674\t3\n133\tslide_09_summary_2026.png\timage/png\t1051674\t3\n155\tslide_14_relays_clean.png\timage/png\t973314\t3\n250\tSUPPLEMENT_2_Technology_Diffusion_Final copy.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t28610\t3\n171\tsupplement2_pen_infrastructure_final_corrected.png\timage/png\t1438458\t3\n167\tsupplement3_framework_diagram.png\timage/png\t1656438\t3\n168\tsupplement3_framework_diagram.png\timage/png\t1656438\t3\n174\tsupplement3_master_overview.png\timage/png\t1755028\t3\n177\tsupplement3_master_overview.png\timage/png\t1755028\t3\n172\tsupplement3_relay_aaa_triad.png\timage/png\t1406255\t3\n163\tsupplement3_relay_engine.png\timage/png\t1526471\t3\n162\tsupplement3_relay_fire.png\timage/png\t1374561\t3\n176\tsupplement3_relay_horse.png\timage/png\t1398207\t3\n164\tsupplement3_relay_humans_as_nodes.png\timage/png\t1207560\t3\n169\tsupplement3_relay_loom.png\timage/png\t1536465\t3\n165\tsupplement3_relay_rail.png\timage/png\t1555795\t3\n166\tsupplement3_relay_river.png\timage/png\t1332032\t3\n173\tsupplement3_relay_roads.png\timage/png\t1538855\t3\n175\tsupplement3_relay_ships.png\timage/png\t1533638\t3\n185\tsupplement3_relay_transition.png\timage/png\t1317521\t3\n170\tsupplement3_relay_tree.png\timage/png\t1627978\t3\n193\tsupplement4_connectivity_strategy.png\timage/png\t1515373\t3\n191\tsupplement4_institutional_continuity.png\timage/png\t1480904\t3\n200\tsupplement4_relay_aaa_triad_comparison.png\timage/png\t1486801\t3\n196\tsupplement4_relay_engine_comparison.png\timage/png\t1167733\t3\n192\tsupplement4_relay_fire_comparison.png\timage/png\t1516998\t3\n189\tsupplement4_relay_horse_comparison.png\timage/png\t1300476\t3\n194\tsupplement4_relay_humans_as_nodes_comparison.png\timage/png\t1291657\t3\n199\tsupplement4_relay_loom_comparison.png\timage/png\t1370625\t3\n197\tsupplement4_relay_rail_comparison.png\timage/png\t1304055\t3\n187\tsupplement4_relay_river_comparison.png\timage/png\t1541541\t3\n186\tsupplement4_relay_roads_comparison.png\timage/png\t1233255\t3\n198\tsupplement4_relay_ships_comparison.png\timage/png\t1183953\t3\n195\tsupplement4_relay_transition_orbital_canopy.png\timage/png\t1105355\t3\n190\tsupplement4_relay_tree_comparison.png\timage/png\t1344809\t3\n188\tsupplement4_sector_dominance.png\timage/png\t1340292\t3\n184\tsupplement4_timeline_transformation.png\timage/png\t1545266\t3\n245\tThe BIM Engineers_Brief_Profile_2021.pdf\tapplication/pdf\t6567703\t3\n248\tThe Reality Engine - Kickstarter Video (FINAL).pdf\tapplication/pdf\t141507\t3\n249\tThree_Modes_4Cs_Comprehensive_Analysis copy.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t34181\t3\n107\tthree_modes_timeline_accurate.png\timage/png\t1147239\t3\n212\tthree_timelines_combined_accurate.png\timage/png\t1325744\t3\n211\tthree_timelines_combined_accurate.png\timage/png\t1325744\t3\n136\tthree_timelines_combined_accurate.png\timage/png\t1325744\t3\n134\tthree_timelines_combined_accurate.png\timage/png\t1325744\t3\n130\ttimeline_east_12000yrs.png\timage/png\t1795209\t3\n216\ttimeline_east_12000yrs.png\timage/png\t1795209\t3\n140\ttimeline_east_12000yrs.png\timage/png\t1795209\t3\n141\ttimeline_nomad_12000yrs.png\timage/png\t1523454\t3\n135\ttimeline_nomad_12000yrs.png\timage/png\t1523454\t3\n214\ttimeline_nomad_12000yrs.png\timage/png\t1523454\t3\n128\ttimeline_west_12000yrs.png\timage/png\t1502973\t3\n217\ttimeline_west_12000yrs.png\timage/png\t1502973\t3\n213\ttwelve_relays_complete_timeline.png\timage/png\t1367385\t3\n139\ttwelve_relays_complete_timeline.png\timage/png\t1367385\t3\n",
+  "stderr": "",
+  "execution_time_ms": 1578
+}

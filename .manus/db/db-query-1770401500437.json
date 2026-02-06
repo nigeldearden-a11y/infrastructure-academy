@@ -1,0 +1,17 @@
+{
+  "query": "SELECT COUNT(*) as total_files, SUM(fileSize) as total_bytes FROM assets; SELECT categoryId, COUNT(*) as file_count, SUM(fileSize) as category_bytes FROM assets GROUP BY categoryId ORDER BY categoryId;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2GX11Pnc2Gj5TH4.ab1ece9ffb5d --database kUQZAex2uPvgKcHnt7bmh3 --execute SELECT COUNT(*) as total_files, SUM(fileSize) as total_bytes FROM assets; SELECT categoryId, COUNT(*) as file_count, SUM(fileSize) as category_bytes FROM assets GROUP BY categoryId ORDER BY categoryId;",
+  "rows": [
+    {
+      "total_files": "252",
+      "total_bytes": "217727351"
+    }
+  ],
+  "messages": [
+    "categoryId\tfile_count\tcategory_bytes",
+    "3\t252\t217727351"
+  ],
+  "stdout": "total_files\ttotal_bytes\n252\t217727351\ncategoryId\tfile_count\tcategory_bytes\n3\t252\t217727351\n",
+  "stderr": "",
+  "execution_time_ms": 1800
+}

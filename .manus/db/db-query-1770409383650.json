@@ -1,0 +1,1774 @@
+{
+  "query": "SELECT id, fileName, mimeType, fileSize, createdAt FROM assets ORDER BY id DESC;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2GX11Pnc2Gj5TH4.ab1ece9ffb5d --database kUQZAex2uPvgKcHnt7bmh3 --execute SELECT id, fileName, mimeType, fileSize, createdAt FROM assets ORDER BY id DESC;",
+  "rows": [
+    {
+      "id": "252",
+      "fileName": "KICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf",
+      "mimeType": "application/pdf",
+      "fileSize": "307827",
+      "createdAt": "2026-02-06 18:09:07"
+    },
+    {
+      "id": "251",
+      "fileName": "INFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": "21721",
+      "createdAt": "2026-02-06 18:09:06"
+    },
+    {
+      "id": "250",
+      "fileName": "SUPPLEMENT_2_Technology_Diffusion_Final copy.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": "28610",
+      "createdAt": "2026-02-06 18:09:06"
+    },
+    {
+      "id": "249",
+      "fileName": "Three_Modes_4Cs_Comprehensive_Analysis copy.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": "34181",
+      "createdAt": "2026-02-06 18:09:06"
+    },
+    {
+      "id": "248",
+      "fileName": "The Reality Engine - Kickstarter Video (FINAL).pdf",
+      "mimeType": "application/pdf",
+      "fileSize": "141507",
+      "createdAt": "2026-02-06 18:09:06"
+    },
+    {
+      "id": "247",
+      "fileName": "A4_HARDBACK_LAYOUT_SPECIFICATION copy.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": "32252",
+      "createdAt": "2026-02-06 18:09:05"
+    },
+    {
+      "id": "246",
+      "fileName": "MissionVission1.02 copy.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "fileSize": "30634497",
+      "createdAt": "2026-02-06 18:06:40"
+    },
+    {
+      "id": "245",
+      "fileName": "The BIM Engineers_Brief_Profile_2021.pdf",
+      "mimeType": "application/pdf",
+      "fileSize": "6567703",
+      "createdAt": "2026-02-06 18:06:38"
+    },
+    {
+      "id": "244",
+      "fileName": "NTD CV 2025.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": "45965",
+      "createdAt": "2026-02-06 18:06:37"
+    },
+    {
+      "id": "243",
+      "fileName": "An Infrastructure Odyssey Episode 1 copy.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "fileSize": "31820290",
+      "createdAt": "2026-02-06 18:03:08"
+    },
+    {
+      "id": "242",
+      "fileName": "An Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf",
+      "mimeType": "application/pdf",
+      "fileSize": "702098",
+      "createdAt": "2026-02-06 18:03:05"
+    },
+    {
+      "id": "241",
+      "fileName": "IMG_6683.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "495220",
+      "createdAt": "2026-02-06 18:02:37"
+    },
+    {
+      "id": "240",
+      "fileName": "IMG_6677.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "458155",
+      "createdAt": "2026-02-06 18:02:37"
+    },
+    {
+      "id": "239",
+      "fileName": "IMG_6673.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "141218",
+      "createdAt": "2026-02-06 18:02:36"
+    },
+    {
+      "id": "238",
+      "fileName": "IMG_6685.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "160020",
+      "createdAt": "2026-02-06 18:02:36"
+    },
+    {
+      "id": "237",
+      "fileName": "IMG_6674.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "111759",
+      "createdAt": "2026-02-06 18:02:36"
+    },
+    {
+      "id": "236",
+      "fileName": "slide_03_book1_context.png",
+      "mimeType": "image/png",
+      "fileSize": "1002379",
+      "createdAt": "2026-02-06 18:01:57"
+    },
+    {
+      "id": "235",
+      "fileName": "slide_02_civilizational_relay.png",
+      "mimeType": "image/png",
+      "fileSize": "1161427",
+      "createdAt": "2026-02-06 18:01:57"
+    },
+    {
+      "id": "234",
+      "fileName": "IMG_6838.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "657334",
+      "createdAt": "2026-02-06 18:01:57"
+    },
+    {
+      "id": "233",
+      "fileName": "IMG_6702.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "218530",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "232",
+      "fileName": "IMG_6889.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "352266",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "231",
+      "fileName": "IMG_6703.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "329248",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "230",
+      "fileName": "IMG_6948.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "272003",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "229",
+      "fileName": "IMG_6938.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "179424",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "228",
+      "fileName": "IMG_6942.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "178541",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "227",
+      "fileName": "IMG_6939.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "168721",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "226",
+      "fileName": "IMG_6944.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "142200",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "225",
+      "fileName": "IMG_6943.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "187167",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "224",
+      "fileName": "IMG_6937.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "165434",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "223",
+      "fileName": "IMG_6940.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "170694",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "222",
+      "fileName": "IMG_6941.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "166074",
+      "createdAt": "2026-02-06 18:01:56"
+    },
+    {
+      "id": "221",
+      "fileName": "slide_03_book1_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1183649",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "220",
+      "fileName": "slide_02_relay_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1772403",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "219",
+      "fileName": "slide_03_book1_complete_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1353521",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "218",
+      "fileName": "slide_09_summary_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1051674",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "217",
+      "fileName": "timeline_west_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1502973",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "216",
+      "fileName": "timeline_east_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1795209",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "215",
+      "fileName": "book1_complete_journey.png",
+      "mimeType": "image/png",
+      "fileSize": "1395882",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "214",
+      "fileName": "timeline_nomad_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1523454",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "213",
+      "fileName": "twelve_relays_complete_timeline.png",
+      "mimeType": "image/png",
+      "fileSize": "1367385",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "212",
+      "fileName": "three_timelines_combined_accurate.png",
+      "mimeType": "image/png",
+      "fileSize": "1325744",
+      "createdAt": "2026-02-06 18:01:28"
+    },
+    {
+      "id": "211",
+      "fileName": "three_timelines_combined_accurate.png",
+      "mimeType": "image/png",
+      "fileSize": "1325744",
+      "createdAt": "2026-02-06 18:01:27"
+    },
+    {
+      "id": "210",
+      "fileName": "slide_06_vol3_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1087598",
+      "createdAt": "2026-02-06 18:01:27"
+    },
+    {
+      "id": "209",
+      "fileName": "IMG_6936.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "96238",
+      "createdAt": "2026-02-06 18:01:27"
+    },
+    {
+      "id": "208",
+      "fileName": "relays_12000_year_timeline.png",
+      "mimeType": "image/png",
+      "fileSize": "1420129",
+      "createdAt": "2026-02-06 18:00:42"
+    },
+    {
+      "id": "207",
+      "fileName": "IMG_7273.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "282502",
+      "createdAt": "2026-02-06 18:00:41"
+    },
+    {
+      "id": "206",
+      "fileName": "IMG_7274.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "284151",
+      "createdAt": "2026-02-06 18:00:41"
+    },
+    {
+      "id": "205",
+      "fileName": "IMG_7277.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "398327",
+      "createdAt": "2026-02-06 18:00:41"
+    },
+    {
+      "id": "204",
+      "fileName": "river_plain_perfect.mp4",
+      "mimeType": "video/mp4",
+      "fileSize": "1181111",
+      "createdAt": "2026-02-06 18:00:12"
+    },
+    {
+      "id": "203",
+      "fileName": "IMG_7247.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "242511",
+      "createdAt": "2026-02-06 18:00:11"
+    },
+    {
+      "id": "202",
+      "fileName": "IMG_7250.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "69638",
+      "createdAt": "2026-02-06 18:00:11"
+    },
+    {
+      "id": "201",
+      "fileName": "IMG_7191.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "62426",
+      "createdAt": "2026-02-06 18:00:11"
+    },
+    {
+      "id": "200",
+      "fileName": "supplement4_relay_aaa_triad_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1486801",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "199",
+      "fileName": "supplement4_relay_loom_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1370625",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "198",
+      "fileName": "supplement4_relay_ships_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1183953",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "197",
+      "fileName": "supplement4_relay_rail_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1304055",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "196",
+      "fileName": "supplement4_relay_engine_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1167733",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "195",
+      "fileName": "supplement4_relay_transition_orbital_canopy.png",
+      "mimeType": "image/png",
+      "fileSize": "1105355",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "194",
+      "fileName": "supplement4_relay_humans_as_nodes_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1291657",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "193",
+      "fileName": "supplement4_connectivity_strategy.png",
+      "mimeType": "image/png",
+      "fileSize": "1515373",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "192",
+      "fileName": "supplement4_relay_fire_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1516998",
+      "createdAt": "2026-02-06 17:59:36"
+    },
+    {
+      "id": "191",
+      "fileName": "supplement4_institutional_continuity.png",
+      "mimeType": "image/png",
+      "fileSize": "1480904",
+      "createdAt": "2026-02-06 17:59:35"
+    },
+    {
+      "id": "190",
+      "fileName": "supplement4_relay_tree_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1344809",
+      "createdAt": "2026-02-06 17:59:35"
+    },
+    {
+      "id": "189",
+      "fileName": "supplement4_relay_horse_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1300476",
+      "createdAt": "2026-02-06 17:59:35"
+    },
+    {
+      "id": "188",
+      "fileName": "supplement4_sector_dominance.png",
+      "mimeType": "image/png",
+      "fileSize": "1340292",
+      "createdAt": "2026-02-06 17:59:35"
+    },
+    {
+      "id": "187",
+      "fileName": "supplement4_relay_river_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1541541",
+      "createdAt": "2026-02-06 17:59:35"
+    },
+    {
+      "id": "186",
+      "fileName": "supplement4_relay_roads_comparison.png",
+      "mimeType": "image/png",
+      "fileSize": "1233255",
+      "createdAt": "2026-02-06 17:59:34"
+    },
+    {
+      "id": "185",
+      "fileName": "supplement3_relay_transition.png",
+      "mimeType": "image/png",
+      "fileSize": "1317521",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "184",
+      "fileName": "supplement4_timeline_transformation.png",
+      "mimeType": "image/png",
+      "fileSize": "1545266",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "183",
+      "fileName": "IMG_7070.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "309085",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "182",
+      "fileName": "IMG_7137.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "316609",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "181",
+      "fileName": "IMG_7070.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "309085",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "180",
+      "fileName": "IMG_7069.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "252667",
+      "createdAt": "2026-02-06 17:59:33"
+    },
+    {
+      "id": "179",
+      "fileName": "IMG_7066.png",
+      "mimeType": "image/png",
+      "fileSize": "76083",
+      "createdAt": "2026-02-06 17:59:32"
+    },
+    {
+      "id": "178",
+      "fileName": "IMG_7068.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "74021",
+      "createdAt": "2026-02-06 17:59:32"
+    },
+    {
+      "id": "177",
+      "fileName": "supplement3_master_overview.png",
+      "mimeType": "image/png",
+      "fileSize": "1755028",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "176",
+      "fileName": "supplement3_relay_horse.png",
+      "mimeType": "image/png",
+      "fileSize": "1398207",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "175",
+      "fileName": "supplement3_relay_ships.png",
+      "mimeType": "image/png",
+      "fileSize": "1533638",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "174",
+      "fileName": "supplement3_master_overview.png",
+      "mimeType": "image/png",
+      "fileSize": "1755028",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "173",
+      "fileName": "supplement3_relay_roads.png",
+      "mimeType": "image/png",
+      "fileSize": "1538855",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "172",
+      "fileName": "supplement3_relay_aaa_triad.png",
+      "mimeType": "image/png",
+      "fileSize": "1406255",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "171",
+      "fileName": "supplement2_pen_infrastructure_final_corrected.png",
+      "mimeType": "image/png",
+      "fileSize": "1438458",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "170",
+      "fileName": "supplement3_relay_tree.png",
+      "mimeType": "image/png",
+      "fileSize": "1627978",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "169",
+      "fileName": "supplement3_relay_loom.png",
+      "mimeType": "image/png",
+      "fileSize": "1536465",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "168",
+      "fileName": "supplement3_framework_diagram.png",
+      "mimeType": "image/png",
+      "fileSize": "1656438",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "167",
+      "fileName": "supplement3_framework_diagram.png",
+      "mimeType": "image/png",
+      "fileSize": "1656438",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "166",
+      "fileName": "supplement3_relay_river.png",
+      "mimeType": "image/png",
+      "fileSize": "1332032",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "165",
+      "fileName": "supplement3_relay_rail.png",
+      "mimeType": "image/png",
+      "fileSize": "1555795",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "164",
+      "fileName": "supplement3_relay_humans_as_nodes.png",
+      "mimeType": "image/png",
+      "fileSize": "1207560",
+      "createdAt": "2026-02-06 17:58:29"
+    },
+    {
+      "id": "163",
+      "fileName": "supplement3_relay_engine.png",
+      "mimeType": "image/png",
+      "fileSize": "1526471",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "162",
+      "fileName": "supplement3_relay_fire.png",
+      "mimeType": "image/png",
+      "fileSize": "1374561",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "161",
+      "fileName": "IMG_6513.png",
+      "mimeType": "image/png",
+      "fileSize": "546431",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "160",
+      "fileName": "IMG_6691.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "369559",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "159",
+      "fileName": "IMG_6703.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "329248",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "158",
+      "fileName": "IMG_6694.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "237487",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "157",
+      "fileName": "IMG_7026.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "52951",
+      "createdAt": "2026-02-06 17:58:28"
+    },
+    {
+      "id": "156",
+      "fileName": "relays_12000_year_timeline.png",
+      "mimeType": "image/png",
+      "fileSize": "1420129",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "155",
+      "fileName": "slide_14_relays_clean.png",
+      "mimeType": "image/png",
+      "fileSize": "973314",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "154",
+      "fileName": "IMG_6512.png",
+      "mimeType": "image/png",
+      "fileSize": "596534",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "153",
+      "fileName": "IMG_6180.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "218255",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "152",
+      "fileName": "IMG_6476.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "231277",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "151",
+      "fileName": "IMG_6185.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "256364",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "150",
+      "fileName": "IMG_6889.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "352266",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "149",
+      "fileName": "IMG_6184.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "166101",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "148",
+      "fileName": "IMG_6149.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "209457",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "147",
+      "fileName": "IMG_6258.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "212519",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "146",
+      "fileName": "IMG_6475.avif",
+      "mimeType": "image/avif",
+      "fileSize": "150920",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "145",
+      "fileName": "IMG_6682.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "127633",
+      "createdAt": "2026-02-06 17:57:41"
+    },
+    {
+      "id": "144",
+      "fileName": "IMG_6473.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "88739",
+      "createdAt": "2026-02-06 17:57:40"
+    },
+    {
+      "id": "143",
+      "fileName": "IMG_6474.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "88064",
+      "createdAt": "2026-02-06 17:57:40"
+    },
+    {
+      "id": "142",
+      "fileName": "IMG_6695.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "68999",
+      "createdAt": "2026-02-06 17:57:40"
+    },
+    {
+      "id": "141",
+      "fileName": "timeline_nomad_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1523454",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "140",
+      "fileName": "timeline_east_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1795209",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "139",
+      "fileName": "twelve_relays_complete_timeline.png",
+      "mimeType": "image/png",
+      "fileSize": "1367385",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "138",
+      "fileName": "book1_complete_journey.png",
+      "mimeType": "image/png",
+      "fileSize": "1395882",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "137",
+      "fileName": "slide_03_book1_complete_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1353521",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "136",
+      "fileName": "three_timelines_combined_accurate.png",
+      "mimeType": "image/png",
+      "fileSize": "1325744",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "135",
+      "fileName": "timeline_nomad_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1523454",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "134",
+      "fileName": "three_timelines_combined_accurate.png",
+      "mimeType": "image/png",
+      "fileSize": "1325744",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "133",
+      "fileName": "slide_09_summary_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1051674",
+      "createdAt": "2026-02-06 17:57:14"
+    },
+    {
+      "id": "132",
+      "fileName": "slide_06_vol3_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1087598",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "131",
+      "fileName": "slide_06_vol2_east_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1327079",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "130",
+      "fileName": "timeline_east_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1795209",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "129",
+      "fileName": "book1_journey_final.png",
+      "mimeType": "image/png",
+      "fileSize": "1047245",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "128",
+      "fileName": "timeline_west_12000yrs.png",
+      "mimeType": "image/png",
+      "fileSize": "1502973",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "127",
+      "fileName": "slide_08_closing_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1321716",
+      "createdAt": "2026-02-06 17:57:13"
+    },
+    {
+      "id": "126",
+      "fileName": "slide_01_intro_cover.png",
+      "mimeType": "image/png",
+      "fileSize": "924334",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "125",
+      "fileName": "slide_03_book1_context.png",
+      "mimeType": "image/png",
+      "fileSize": "1002379",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "124",
+      "fileName": "slide_02_relay_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1772403",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "123",
+      "fileName": "slide_03_book1_context.png",
+      "mimeType": "image/png",
+      "fileSize": "1002379",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "122",
+      "fileName": "slide_02_civilizational_relay.png",
+      "mimeType": "image/png",
+      "fileSize": "1161427",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "121",
+      "fileName": "slide_03_book1_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1183649",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "120",
+      "fileName": "slide_05_silk_road_nomad_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "1450427",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "119",
+      "fileName": "slide_01_intro_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "996732",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "118",
+      "fileName": "slide_04_vol1_west_2026.png",
+      "mimeType": "image/png",
+      "fileSize": "964159",
+      "createdAt": "2026-02-06 17:56:37"
+    },
+    {
+      "id": "117",
+      "fileName": "IMG_6948.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "272003",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "116",
+      "fileName": "IMG_6939.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "168721",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "115",
+      "fileName": "IMG_6942.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "178541",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "114",
+      "fileName": "IMG_6938.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "179424",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "113",
+      "fileName": "IMG_6941.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "166074",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "112",
+      "fileName": "IMG_6940.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "170694",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "111",
+      "fileName": "IMG_6943.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "187167",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "110",
+      "fileName": "IMG_6937.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "165434",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "109",
+      "fileName": "IMG_6944.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "142200",
+      "createdAt": "2026-02-06 17:56:36"
+    },
+    {
+      "id": "108",
+      "fileName": "4cs_collapse_cycle.png",
+      "mimeType": "image/png",
+      "fileSize": "1475604",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "107",
+      "fileName": "three_modes_timeline_accurate.png",
+      "mimeType": "image/png",
+      "fileSize": "1147239",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "106",
+      "fileName": "bronze_age_4k2_4cs_case_study.png",
+      "mimeType": "image/png",
+      "fileSize": "1629879",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "105",
+      "fileName": "slide_02_civilizational_relay.png",
+      "mimeType": "image/png",
+      "fileSize": "1161427",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "104",
+      "fileName": "slide_03_book1_context.png",
+      "mimeType": "image/png",
+      "fileSize": "1002379",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "103",
+      "fileName": "slide_01_intro_cover.png",
+      "mimeType": "image/png",
+      "fileSize": "924334",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "102",
+      "fileName": "prerome_rome_4cs_case_study.png",
+      "mimeType": "image/png",
+      "fileSize": "1425153",
+      "createdAt": "2026-02-06 17:55:41"
+    },
+    {
+      "id": "101",
+      "fileName": "IMG_6932.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "118324",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "100",
+      "fileName": "IMG_6934.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "137869",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "99",
+      "fileName": "IMG_6929.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "118291",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "98",
+      "fileName": "IMG_6933.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "103283",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "97",
+      "fileName": "IMG_6931.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "106177",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "96",
+      "fileName": "IMG_6935.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "173768",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "95",
+      "fileName": "IMG_6930.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "81557",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "94",
+      "fileName": "IMG_6936.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "96238",
+      "createdAt": "2026-02-06 17:55:40"
+    },
+    {
+      "id": "93",
+      "fileName": "IMG_6934.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "137869",
+      "createdAt": "2026-02-06 17:54:40"
+    },
+    {
+      "id": "92",
+      "fileName": "IMG_6943.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "187167",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "91",
+      "fileName": "IMG_6939.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "168721",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "90",
+      "fileName": "IMG_6935.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "173768",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "89",
+      "fileName": "IMG_6944.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "142200",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "88",
+      "fileName": "IMG_6929.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "118291",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "87",
+      "fileName": "IMG_6941.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "166074",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "86",
+      "fileName": "IMG_6932.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "118324",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "85",
+      "fileName": "IMG_6942.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "178541",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "84",
+      "fileName": "IMG_6937.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "165434",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "83",
+      "fileName": "IMG_6931.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "106177",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "82",
+      "fileName": "IMG_6938.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "179424",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "81",
+      "fileName": "IMG_6933.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "103283",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "80",
+      "fileName": "IMG_6940.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "170694",
+      "createdAt": "2026-02-06 17:54:39"
+    },
+    {
+      "id": "79",
+      "fileName": "IMG_6930.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "81557",
+      "createdAt": "2026-02-06 17:54:38"
+    },
+    {
+      "id": "78",
+      "fileName": "IMG_6936.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "96238",
+      "createdAt": "2026-02-06 17:54:38"
+    },
+    {
+      "id": "77",
+      "fileName": "IMG_6743.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "465005",
+      "createdAt": "2026-02-06 17:51:28"
+    },
+    {
+      "id": "76",
+      "fileName": "IMG_6845.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "258323",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "75",
+      "fileName": "IMG_6844.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "260665",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "74",
+      "fileName": "IMG_6730.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "125144",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "73",
+      "fileName": "IMG_3231.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "78051",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "72",
+      "fileName": "IMG_3234.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "86096",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "71",
+      "fileName": "IMG_3232.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "69989",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "70",
+      "fileName": "IMG_3233.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "76672",
+      "createdAt": "2026-02-06 17:51:27"
+    },
+    {
+      "id": "69",
+      "fileName": "IMG_6703.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "329248",
+      "createdAt": "2026-02-06 17:50:38"
+    },
+    {
+      "id": "68",
+      "fileName": "IMG_6497.png",
+      "mimeType": "image/png",
+      "fileSize": "283447",
+      "createdAt": "2026-02-06 17:50:38"
+    },
+    {
+      "id": "67",
+      "fileName": "IMG_6498.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "351520",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "66",
+      "fileName": "IMG_6691.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "369559",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "65",
+      "fileName": "IMG_6496.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "253104",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "64",
+      "fileName": "IMG_6508.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "218898",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "63",
+      "fileName": "IMG_6476.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "231277",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "62",
+      "fileName": "IMG_6682.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "127633",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "61",
+      "fileName": "IMG_6475.avif",
+      "mimeType": "image/avif",
+      "fileSize": "150920",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "60",
+      "fileName": "IMG_6473.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "88739",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "59",
+      "fileName": "IMG_6474.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "88064",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "58",
+      "fileName": "IMG_6695.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "68999",
+      "createdAt": "2026-02-06 17:50:37"
+    },
+    {
+      "id": "57",
+      "fileName": "IMG_6603.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "219494",
+      "createdAt": "2026-02-06 17:49:30"
+    },
+    {
+      "id": "56",
+      "fileName": "IMG_6607.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "136845",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "55",
+      "fileName": "IMG_6598.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "163110",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "54",
+      "fileName": "IMG_6600.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "213857",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "53",
+      "fileName": "IMG_6608.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "174093",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "52",
+      "fileName": "IMG_6604.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "204210",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "51",
+      "fileName": "IMG_6602.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "147406",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "50",
+      "fileName": "IMG_6606.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "126154",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "49",
+      "fileName": "IMG_6601.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "148626",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "48",
+      "fileName": "IMG_6599.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "131816",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "47",
+      "fileName": "IMG_6605.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "81539",
+      "createdAt": "2026-02-06 17:49:29"
+    },
+    {
+      "id": "46",
+      "fileName": "IMG_6582.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "186190",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "45",
+      "fileName": "IMG_6589.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "191531",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "44",
+      "fileName": "IMG_6597.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "169587",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "43",
+      "fileName": "IMG_6584.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "158957",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "42",
+      "fileName": "IMG_6585.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "99737",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "41",
+      "fileName": "IMG_6586.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "136578",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "40",
+      "fileName": "IMG_6581.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "119391",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "39",
+      "fileName": "IMG_6595.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "126409",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "38",
+      "fileName": "IMG_6591.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "154659",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "37",
+      "fileName": "IMG_6592.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "129981",
+      "createdAt": "2026-02-06 17:48:44"
+    },
+    {
+      "id": "36",
+      "fileName": "IMG_6580.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "125850",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "35",
+      "fileName": "IMG_6583.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "124308",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "34",
+      "fileName": "IMG_6588.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "140301",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "33",
+      "fileName": "IMG_6596.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "71358",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "32",
+      "fileName": "IMG_6593.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "85482",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "31",
+      "fileName": "IMG_6594.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "79011",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "30",
+      "fileName": "IMG_6590.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "64898",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "29",
+      "fileName": "IMG_6587.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "91928",
+      "createdAt": "2026-02-06 17:48:43"
+    },
+    {
+      "id": "28",
+      "fileName": "IMG_6578.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "211619",
+      "createdAt": "2026-02-06 17:47:50"
+    },
+    {
+      "id": "27",
+      "fileName": "IMG_6571.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "139113",
+      "createdAt": "2026-02-06 17:47:50"
+    },
+    {
+      "id": "26",
+      "fileName": "IMG_6576.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "149631",
+      "createdAt": "2026-02-06 17:47:50"
+    },
+    {
+      "id": "25",
+      "fileName": "IMG_6579.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "105888",
+      "createdAt": "2026-02-06 17:47:50"
+    },
+    {
+      "id": "24",
+      "fileName": "IMG_6570.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "162782",
+      "createdAt": "2026-02-06 17:47:50"
+    },
+    {
+      "id": "23",
+      "fileName": "26ee71a4-4ec9-4efa-ae99-1d4ccc8b7370.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "468521",
+      "createdAt": "2026-02-06 17:47:49"
+    },
+    {
+      "id": "22",
+      "fileName": "0ad8759f-473a-44e2-823d-f1e56e51471c.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "383031",
+      "createdAt": "2026-02-06 17:47:49"
+    },
+    {
+      "id": "21",
+      "fileName": "IMG_6573.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "146868",
+      "createdAt": "2026-02-06 17:47:49"
+    },
+    {
+      "id": "20",
+      "fileName": "IMG_6574.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "105107",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "19",
+      "fileName": "IMG_6577.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "150655",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "18",
+      "fileName": "IMG_6568.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "137935",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "17",
+      "fileName": "IMG_6572.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "80864",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "16",
+      "fileName": "IMG_6575.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "76051",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "15",
+      "fileName": "IMG_6569.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "66737",
+      "createdAt": "2026-02-06 17:47:48"
+    },
+    {
+      "id": "14",
+      "fileName": "cover_page_portrait_v3.png",
+      "mimeType": "image/png",
+      "fileSize": "1188017",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "13",
+      "fileName": "book_cover_v2.png",
+      "mimeType": "image/png",
+      "fileSize": "1288715",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "12",
+      "fileName": "book_cover_v2.png",
+      "mimeType": "image/png",
+      "fileSize": "1288715",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "11",
+      "fileName": "IMG_5725.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "266842",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "10",
+      "fileName": "IMG_5726.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "282801",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "9",
+      "fileName": "IMG_6327.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "246385",
+      "createdAt": "2026-02-06 17:46:57"
+    },
+    {
+      "id": "8",
+      "fileName": "IMG_5777.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "77412",
+      "createdAt": "2026-02-06 17:46:56"
+    },
+    {
+      "id": "7",
+      "fileName": "cover_page_portrait.png",
+      "mimeType": "image/png",
+      "fileSize": "1193041",
+      "createdAt": "2026-02-06 17:46:56"
+    },
+    {
+      "id": "6",
+      "fileName": "cover_page.png",
+      "mimeType": "image/png",
+      "fileSize": "1408715",
+      "createdAt": "2026-02-06 17:46:56"
+    },
+    {
+      "id": "5",
+      "fileName": "IMG_6320.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "539097",
+      "createdAt": "2026-02-06 17:46:56"
+    },
+    {
+      "id": "4",
+      "fileName": "IMG_6325.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "193555",
+      "createdAt": "2026-02-06 17:46:55"
+    },
+    {
+      "id": "3",
+      "fileName": "IMG_6273.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "169018",
+      "createdAt": "2026-02-06 17:46:55"
+    },
+    {
+      "id": "2",
+      "fileName": "IMG_6326.jpeg",
+      "mimeType": "image/jpeg",
+      "fileSize": "184662",
+      "createdAt": "2026-02-06 17:46:55"
+    },
+    {
+      "id": "1",
+      "fileName": "book1_journey_final.png",
+      "mimeType": "image/png",
+      "fileSize": "1047245",
+      "createdAt": "2026-02-06 17:44:06"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tfileName\tmimeType\tfileSize\tcreatedAt\n252\tKICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf\tapplication/pdf\t307827\t2026-02-06 18:09:07\n251\tINFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t21721\t2026-02-06 18:09:06\n250\tSUPPLEMENT_2_Technology_Diffusion_Final copy.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t28610\t2026-02-06 18:09:06\n249\tThree_Modes_4Cs_Comprehensive_Analysis copy.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t34181\t2026-02-06 18:09:06\n248\tThe Reality Engine - Kickstarter Video (FINAL).pdf\tapplication/pdf\t141507\t2026-02-06 18:09:06\n247\tA4_HARDBACK_LAYOUT_SPECIFICATION copy.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t32252\t2026-02-06 18:09:05\n246\tMissionVission1.02 copy.pptx\tapplication/vnd.openxmlformats-officedocument.presentationml.presentation\t30634497\t2026-02-06 18:06:40\n245\tThe BIM Engineers_Brief_Profile_2021.pdf\tapplication/pdf\t6567703\t2026-02-06 18:06:38\n244\tNTD CV 2025.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t45965\t2026-02-06 18:06:37\n243\tAn Infrastructure Odyssey Episode 1 copy.pptx\tapplication/vnd.openxmlformats-officedocument.presentationml.presentation\t31820290\t2026-02-06 18:03:08\n242\tAn Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf\tapplication/pdf\t702098\t2026-02-06 18:03:05\n241\tIMG_6683.jpeg\timage/jpeg\t495220\t2026-02-06 18:02:37\n240\tIMG_6677.jpeg\timage/jpeg\t458155\t2026-02-06 18:02:37\n239\tIMG_6673.jpeg\timage/jpeg\t141218\t2026-02-06 18:02:36\n238\tIMG_6685.jpeg\timage/jpeg\t160020\t2026-02-06 18:02:36\n237\tIMG_6674.jpeg\timage/jpeg\t111759\t2026-02-06 18:02:36\n236\tslide_03_book1_context.png\timage/png\t1002379\t2026-02-06 18:01:57\n235\tslide_02_civilizational_relay.png\timage/png\t1161427\t2026-02-06 18:01:57\n234\tIMG_6838.jpeg\timage/jpeg\t657334\t2026-02-06 18:01:57\n233\tIMG_6702.jpeg\timage/jpeg\t218530\t2026-02-06 18:01:56\n232\tIMG_6889.jpeg\timage/jpeg\t352266\t2026-02-06 18:01:56\n231\tIMG_6703.jpeg\timage/jpeg\t329248\t2026-02-06 18:01:56\n230\tIMG_6948.jpeg\timage/jpeg\t272003\t2026-02-06 18:01:56\n229\tIMG_6938.jpeg\timage/jpeg\t179424\t2026-02-06 18:01:56\n228\tIMG_6942.jpeg\timage/jpeg\t178541\t2026-02-06 18:01:56\n227\tIMG_6939.jpeg\timage/jpeg\t168721\t2026-02-06 18:01:56\n226\tIMG_6944.jpeg\timage/jpeg\t142200\t2026-02-06 18:01:56\n225\tIMG_6943.jpeg\timage/jpeg\t187167\t2026-02-06 18:01:56\n224\tIMG_6937.jpeg\timage/jpeg\t165434\t2026-02-06 18:01:56\n223\tIMG_6940.jpeg\timage/jpeg\t170694\t2026-02-06 18:01:56\n222\tIMG_6941.jpeg\timage/jpeg\t166074\t2026-02-06 18:01:56\n221\tslide_03_book1_2026.png\timage/png\t1183649\t2026-02-06 18:01:28\n220\tslide_02_relay_2026.png\timage/png\t1772403\t2026-02-06 18:01:28\n219\tslide_03_book1_complete_2026.png\timage/png\t1353521\t2026-02-06 18:01:28\n218\tslide_09_summary_2026.png\timage/png\t1051674\t2026-02-06 18:01:28\n217\ttimeline_west_12000yrs.png\timage/png\t1502973\t2026-02-06 18:01:28\n216\ttimeline_east_12000yrs.png\timage/png\t1795209\t2026-02-06 18:01:28\n215\tbook1_complete_journey.png\timage/png\t1395882\t2026-02-06 18:01:28\n214\ttimeline_nomad_12000yrs.png\timage/png\t1523454\t2026-02-06 18:01:28\n213\ttwelve_relays_complete_timeline.png\timage/png\t1367385\t2026-02-06 18:01:28\n212\tthree_timelines_combined_accurate.png\timage/png\t1325744\t2026-02-06 18:01:28\n211\tthree_timelines_combined_accurate.png\timage/png\t1325744\t2026-02-06 18:01:27\n210\tslide_06_vol3_2026.png\timage/png\t1087598\t2026-02-06 18:01:27\n209\tIMG_6936.jpeg\timage/jpeg\t96238\t2026-02-06 18:01:27\n208\trelays_12000_year_timeline.png\timage/png\t1420129\t2026-02-06 18:00:42\n207\tIMG_7273.jpeg\timage/jpeg\t282502\t2026-02-06 18:00:41\n206\tIMG_7274.jpeg\timage/jpeg\t284151\t2026-02-06 18:00:41\n205\tIMG_7277.jpeg\timage/jpeg\t398327\t2026-02-06 18:00:41\n204\triver_plain_perfect.mp4\tvideo/mp4\t1181111\t2026-02-06 18:00:12\n203\tIMG_7247.jpeg\timage/jpeg\t242511\t2026-02-06 18:00:11\n202\tIMG_7250.jpeg\timage/jpeg\t69638\t2026-02-06 18:00:11\n201\tIMG_7191.jpeg\timage/jpeg\t62426\t2026-02-06 18:00:11\n200\tsupplement4_relay_aaa_triad_comparison.png\timage/png\t1486801\t2026-02-06 17:59:36\n199\tsupplement4_relay_loom_comparison.png\timage/png\t1370625\t2026-02-06 17:59:36\n198\tsupplement4_relay_ships_comparison.png\timage/png\t1183953\t2026-02-06 17:59:36\n197\tsupplement4_relay_rail_comparison.png\timage/png\t1304055\t2026-02-06 17:59:36\n196\tsupplement4_relay_engine_comparison.png\timage/png\t1167733\t2026-02-06 17:59:36\n195\tsupplement4_relay_transition_orbital_canopy.png\timage/png\t1105355\t2026-02-06 17:59:36\n194\tsupplement4_relay_humans_as_nodes_comparison.png\timage/png\t1291657\t2026-02-06 17:59:36\n193\tsupplement4_connectivity_strategy.png\timage/png\t1515373\t2026-02-06 17:59:36\n192\tsupplement4_relay_fire_comparison.png\timage/png\t1516998\t2026-02-06 17:59:36\n191\tsupplement4_institutional_continuity.png\timage/png\t1480904\t2026-02-06 17:59:35\n190\tsupplement4_relay_tree_comparison.png\timage/png\t1344809\t2026-02-06 17:59:35\n189\tsupplement4_relay_horse_comparison.png\timage/png\t1300476\t2026-02-06 17:59:35\n188\tsupplement4_sector_dominance.png\timage/png\t1340292\t2026-02-06 17:59:35\n187\tsupplement4_relay_river_comparison.png\timage/png\t1541541\t2026-02-06 17:59:35\n186\tsupplement4_relay_roads_comparison.png\timage/png\t1233255\t2026-02-06 17:59:34\n185\tsupplement3_relay_transition.png\timage/png\t1317521\t2026-02-06 17:59:33\n184\tsupplement4_timeline_transformation.png\timage/png\t1545266\t2026-02-06 17:59:33\n183\tIMG_7070.jpeg\timage/jpeg\t309085\t2026-02-06 17:59:33\n182\tIMG_7137.jpeg\timage/jpeg\t316609\t2026-02-06 17:59:33\n181\tIMG_7070.jpeg\timage/jpeg\t309085\t2026-02-06 17:59:33\n180\tIMG_7069.jpeg\timage/jpeg\t252667\t2026-02-06 17:59:33\n179\tIMG_7066.png\timage/png\t76083\t2026-02-06 17:59:32\n178\tIMG_7068.jpeg\timage/jpeg\t74021\t2026-02-06 17:59:32\n177\tsupplement3_master_overview.png\timage/png\t1755028\t2026-02-06 17:58:29\n176\tsupplement3_relay_horse.png\timage/png\t1398207\t2026-02-06 17:58:29\n175\tsupplement3_relay_ships.png\timage/png\t1533638\t2026-02-06 17:58:29\n174\tsupplement3_master_overview.png\timage/png\t1755028\t2026-02-06 17:58:29\n173\tsupplement3_relay_roads.png\timage/png\t1538855\t2026-02-06 17:58:29\n172\tsupplement3_relay_aaa_triad.png\timage/png\t1406255\t2026-02-06 17:58:29\n171\tsupplement2_pen_infrastructure_final_corrected.png\timage/png\t1438458\t2026-02-06 17:58:29\n170\tsupplement3_relay_tree.png\timage/png\t1627978\t2026-02-06 17:58:29\n169\tsupplement3_relay_loom.png\timage/png\t1536465\t2026-02-06 17:58:29\n168\tsupplement3_framework_diagram.png\timage/png\t1656438\t2026-02-06 17:58:29\n167\tsupplement3_framework_diagram.png\timage/png\t1656438\t2026-02-06 17:58:29\n166\tsupplement3_relay_river.png\timage/png\t1332032\t2026-02-06 17:58:29\n165\tsupplement3_relay_rail.png\timage/png\t1555795\t2026-02-06 17:58:29\n164\tsupplement3_relay_humans_as_nodes.png\timage/png\t1207560\t2026-02-06 17:58:29\n163\tsupplement3_relay_engine.png\timage/png\t1526471\t2026-02-06 17:58:28\n162\tsupplement3_relay_fire.png\timage/png\t1374561\t2026-02-06 17:58:28\n161\tIMG_6513.png\timage/png\t546431\t2026-02-06 17:58:28\n160\tIMG_6691.jpeg\timage/jpeg\t369559\t2026-02-06 17:58:28\n159\tIMG_6703.jpeg\timage/jpeg\t329248\t2026-02-06 17:58:28\n158\tIMG_6694.jpeg\timage/jpeg\t237487\t2026-02-06 17:58:28\n157\tIMG_7026.jpeg\timage/jpeg\t52951\t2026-02-06 17:58:28\n156\trelays_12000_year_timeline.png\timage/png\t1420129\t2026-02-06 17:57:41\n155\tslide_14_relays_clean.png\timage/png\t973314\t2026-02-06 17:57:41\n154\tIMG_6512.png\timage/png\t596534\t2026-02-06 17:57:41\n153\tIMG_6180.jpeg\timage/jpeg\t218255\t2026-02-06 17:57:41\n152\tIMG_6476.jpeg\timage/jpeg\t231277\t2026-02-06 17:57:41\n151\tIMG_6185.jpeg\timage/jpeg\t256364\t2026-02-06 17:57:41\n150\tIMG_6889.jpeg\timage/jpeg\t352266\t2026-02-06 17:57:41\n149\tIMG_6184.jpeg\timage/jpeg\t166101\t2026-02-06 17:57:41\n148\tIMG_6149.jpeg\timage/jpeg\t209457\t2026-02-06 17:57:41\n147\tIMG_6258.jpeg\timage/jpeg\t212519\t2026-02-06 17:57:41\n146\tIMG_6475.avif\timage/avif\t150920\t2026-02-06 17:57:41\n145\tIMG_6682.jpeg\timage/jpeg\t127633\t2026-02-06 17:57:41\n144\tIMG_6473.jpeg\timage/jpeg\t88739\t2026-02-06 17:57:40\n143\tIMG_6474.jpeg\timage/jpeg\t88064\t2026-02-06 17:57:40\n142\tIMG_6695.jpeg\timage/jpeg\t68999\t2026-02-06 17:57:40\n141\ttimeline_nomad_12000yrs.png\timage/png\t1523454\t2026-02-06 17:57:14\n140\ttimeline_east_12000yrs.png\timage/png\t1795209\t2026-02-06 17:57:14\n139\ttwelve_relays_complete_timeline.png\timage/png\t1367385\t2026-02-06 17:57:14\n138\tbook1_complete_journey.png\timage/png\t1395882\t2026-02-06 17:57:14\n137\tslide_03_book1_complete_2026.png\timage/png\t1353521\t2026-02-06 17:57:14\n136\tthree_timelines_combined_accurate.png\timage/png\t1325744\t2026-02-06 17:57:14\n135\ttimeline_nomad_12000yrs.png\timage/png\t1523454\t2026-02-06 17:57:14\n134\tthree_timelines_combined_accurate.png\timage/png\t1325744\t2026-02-06 17:57:14\n133\tslide_09_summary_2026.png\timage/png\t1051674\t2026-02-06 17:57:14\n132\tslide_06_vol3_2026.png\timage/png\t1087598\t2026-02-06 17:57:13\n131\tslide_06_vol2_east_2026.png\timage/png\t1327079\t2026-02-06 17:57:13\n130\ttimeline_east_12000yrs.png\timage/png\t1795209\t2026-02-06 17:57:13\n129\tbook1_journey_final.png\timage/png\t1047245\t2026-02-06 17:57:13\n128\ttimeline_west_12000yrs.png\timage/png\t1502973\t2026-02-06 17:57:13\n127\tslide_08_closing_2026.png\timage/png\t1321716\t2026-02-06 17:57:13\n126\tslide_01_intro_cover.png\timage/png\t924334\t2026-02-06 17:56:37\n125\tslide_03_book1_context.png\timage/png\t1002379\t2026-02-06 17:56:37\n124\tslide_02_relay_2026.png\timage/png\t1772403\t2026-02-06 17:56:37\n123\tslide_03_book1_context.png\timage/png\t1002379\t2026-02-06 17:56:37\n122\tslide_02_civilizational_relay.png\timage/png\t1161427\t2026-02-06 17:56:37\n121\tslide_03_book1_2026.png\timage/png\t1183649\t2026-02-06 17:56:37\n120\tslide_05_silk_road_nomad_2026.png\timage/png\t1450427\t2026-02-06 17:56:37\n119\tslide_01_intro_2026.png\timage/png\t996732\t2026-02-06 17:56:37\n118\tslide_04_vol1_west_2026.png\timage/png\t964159\t2026-02-06 17:56:37\n117\tIMG_6948.jpeg\timage/jpeg\t272003\t2026-02-06 17:56:36\n116\tIMG_6939.jpeg\timage/jpeg\t168721\t2026-02-06 17:56:36\n115\tIMG_6942.jpeg\timage/jpeg\t178541\t2026-02-06 17:56:36\n114\tIMG_6938.jpeg\timage/jpeg\t179424\t2026-02-06 17:56:36\n113\tIMG_6941.jpeg\timage/jpeg\t166074\t2026-02-06 17:56:36\n112\tIMG_6940.jpeg\timage/jpeg\t170694\t2026-02-06 17:56:36\n111\tIMG_6943.jpeg\timage/jpeg\t187167\t2026-02-06 17:56:36\n110\tIMG_6937.jpeg\timage/jpeg\t165434\t2026-02-06 17:56:36\n109\tIMG_6944.jpeg\timage/jpeg\t142200\t2026-02-06 17:56:36\n108\t4cs_collapse_cycle.png\timage/png\t1475604\t2026-02-06 17:55:41\n107\tthree_modes_timeline_accurate.png\timage/png\t1147239\t2026-02-06 17:55:41\n106\tbronze_age_4k2_4cs_case_study.png\timage/png\t1629879\t2026-02-06 17:55:41\n105\tslide_02_civilizational_relay.png\timage/png\t1161427\t2026-02-06 17:55:41\n104\tslide_03_book1_context.png\timage/png\t1002379\t2026-02-06 17:55:41\n103\tslide_01_intro_cover.png\timage/png\t924334\t2026-02-06 17:55:41\n102\tprerome_rome_4cs_case_study.png\timage/png\t1425153\t2026-02-06 17:55:41\n101\tIMG_6932.jpeg\timage/jpeg\t118324\t2026-02-06 17:55:40\n100\tIMG_6934.jpeg\timage/jpeg\t137869\t2026-02-06 17:55:40\n99\tIMG_6929.jpeg\timage/jpeg\t118291\t2026-02-06 17:55:40\n98\tIMG_6933.jpeg\timage/jpeg\t103283\t2026-02-06 17:55:40\n97\tIMG_6931.jpeg\timage/jpeg\t106177\t2026-02-06 17:55:40\n96\tIMG_6935.jpeg\timage/jpeg\t173768\t2026-02-06 17:55:40\n95\tIMG_6930.jpeg\timage/jpeg\t81557\t2026-02-06 17:55:40\n94\tIMG_6936.jpeg\timage/jpeg\t96238\t2026-02-06 17:55:40\n93\tIMG_6934.jpeg\timage/jpeg\t137869\t2026-02-06 17:54:40\n92\tIMG_6943.jpeg\timage/jpeg\t187167\t2026-02-06 17:54:39\n91\tIMG_6939.jpeg\timage/jpeg\t168721\t2026-02-06 17:54:39\n90\tIMG_6935.jpeg\timage/jpeg\t173768\t2026-02-06 17:54:39\n89\tIMG_6944.jpeg\timage/jpeg\t142200\t2026-02-06 17:54:39\n88\tIMG_6929.jpeg\timage/jpeg\t118291\t2026-02-06 17:54:39\n87\tIMG_6941.jpeg\timage/jpeg\t166074\t2026-02-06 17:54:39\n86\tIMG_6932.jpeg\timage/jpeg\t118324\t2026-02-06 17:54:39\n85\tIMG_6942.jpeg\timage/jpeg\t178541\t2026-02-06 17:54:39\n84\tIMG_6937.jpeg\timage/jpeg\t165434\t2026-02-06 17:54:39\n83\tIMG_6931.jpeg\timage/jpeg\t106177\t2026-02-06 17:54:39\n82\tIMG_6938.jpeg\timage/jpeg\t179424\t2026-02-06 17:54:39\n81\tIMG_6933.jpeg\timage/jpeg\t103283\t2026-02-06 17:54:39\n80\tIMG_6940.jpeg\timage/jpeg\t170694\t2026-02-06 17:54:39\n79\tIMG_6930.jpeg\timage/jpeg\t81557\t2026-02-06 17:54:38\n78\tIMG_6936.jpeg\timage/jpeg\t96238\t2026-02-06 17:54:38\n77\tIMG_6743.jpeg\timage/jpeg\t465005\t2026-02-06 17:51:28\n76\tIMG_6845.jpeg\timage/jpeg\t258323\t2026-02-06 17:51:27\n75\tIMG_6844.jpeg\timage/jpeg\t260665\t2026-02-06 17:51:27\n74\tIMG_6730.jpeg\timage/jpeg\t125144\t2026-02-06 17:51:27\n73\tIMG_3231.jpeg\timage/jpeg\t78051\t2026-02-06 17:51:27\n72\tIMG_3234.jpeg\timage/jpeg\t86096\t2026-02-06 17:51:27\n71\tIMG_3232.jpeg\timage/jpeg\t69989\t2026-02-06 17:51:27\n70\tIMG_3233.jpeg\timage/jpeg\t76672\t2026-02-06 17:51:27\n69\tIMG_6703.jpeg\timage/jpeg\t329248\t2026-02-06 17:50:38\n68\tIMG_6497.png\timage/png\t283447\t2026-02-06 17:50:38\n67\tIMG_6498.jpeg\timage/jpeg\t351520\t2026-02-06 17:50:37\n66\tIMG_6691.jpeg\timage/jpeg\t369559\t2026-02-06 17:50:37\n65\tIMG_6496.jpeg\timage/jpeg\t253104\t2026-02-06 17:50:37\n64\tIMG_6508.jpeg\timage/jpeg\t218898\t2026-02-06 17:50:37\n63\tIMG_6476.jpeg\timage/jpeg\t231277\t2026-02-06 17:50:37\n62\tIMG_6682.jpeg\timage/jpeg\t127633\t2026-02-06 17:50:37\n61\tIMG_6475.avif\timage/avif\t150920\t2026-02-06 17:50:37\n60\tIMG_6473.jpeg\timage/jpeg\t88739\t2026-02-06 17:50:37\n59\tIMG_6474.jpeg\timage/jpeg\t88064\t2026-02-06 17:50:37\n58\tIMG_6695.jpeg\timage/jpeg\t68999\t2026-02-06 17:50:37\n57\tIMG_6603.jpeg\timage/jpeg\t219494\t2026-02-06 17:49:30\n56\tIMG_6607.jpeg\timage/jpeg\t136845\t2026-02-06 17:49:29\n55\tIMG_6598.jpeg\timage/jpeg\t163110\t2026-02-06 17:49:29\n54\tIMG_6600.jpeg\timage/jpeg\t213857\t2026-02-06 17:49:29\n53\tIMG_6608.jpeg\timage/jpeg\t174093\t2026-02-06 17:49:29\n52\tIMG_6604.jpeg\timage/jpeg\t204210\t2026-02-06 17:49:29\n51\tIMG_6602.jpeg\timage/jpeg\t147406\t2026-02-06 17:49:29\n50\tIMG_6606.jpeg\timage/jpeg\t126154\t2026-02-06 17:49:29\n49\tIMG_6601.jpeg\timage/jpeg\t148626\t2026-02-06 17:49:29\n48\tIMG_6599.jpeg\timage/jpeg\t131816\t2026-02-06 17:49:29\n47\tIMG_6605.jpeg\timage/jpeg\t81539\t2026-02-06 17:49:29\n46\tIMG_6582.jpeg\timage/jpeg\t186190\t2026-02-06 17:48:44\n45\tIMG_6589.jpeg\timage/jpeg\t191531\t2026-02-06 17:48:44\n44\tIMG_6597.jpeg\timage/jpeg\t169587\t2026-02-06 17:48:44\n43\tIMG_6584.jpeg\timage/jpeg\t158957\t2026-02-06 17:48:44\n42\tIMG_6585.jpeg\timage/jpeg\t99737\t2026-02-06 17:48:44\n41\tIMG_6586.jpeg\timage/jpeg\t136578\t2026-02-06 17:48:44\n40\tIMG_6581.jpeg\timage/jpeg\t119391\t2026-02-06 17:48:44\n39\tIMG_6595.jpeg\timage/jpeg\t126409\t2026-02-06 17:48:44\n38\tIMG_6591.jpeg\timage/jpeg\t154659\t2026-02-06 17:48:44\n37\tIMG_6592.jpeg\timage/jpeg\t129981\t2026-02-06 17:48:44\n36\tIMG_6580.jpeg\timage/jpeg\t125850\t2026-02-06 17:48:43\n35\tIMG_6583.jpeg\timage/jpeg\t124308\t2026-02-06 17:48:43\n34\tIMG_6588.jpeg\timage/jpeg\t140301\t2026-02-06 17:48:43\n33\tIMG_6596.jpeg\timage/jpeg\t71358\t2026-02-06 17:48:43\n32\tIMG_6593.jpeg\timage/jpeg\t85482\t2026-02-06 17:48:43\n31\tIMG_6594.jpeg\timage/jpeg\t79011\t2026-02-06 17:48:43\n30\tIMG_6590.jpeg\timage/jpeg\t64898\t2026-02-06 17:48:43\n29\tIMG_6587.jpeg\timage/jpeg\t91928\t2026-02-06 17:48:43\n28\tIMG_6578.jpeg\timage/jpeg\t211619\t2026-02-06 17:47:50\n27\tIMG_6571.jpeg\timage/jpeg\t139113\t2026-02-06 17:47:50\n26\tIMG_6576.jpeg\timage/jpeg\t149631\t2026-02-06 17:47:50\n25\tIMG_6579.jpeg\timage/jpeg\t105888\t2026-02-06 17:47:50\n24\tIMG_6570.jpeg\timage/jpeg\t162782\t2026-02-06 17:47:50\n23\t26ee71a4-4ec9-4efa-ae99-1d4ccc8b7370.jpeg\timage/jpeg\t468521\t2026-02-06 17:47:49\n22\t0ad8759f-473a-44e2-823d-f1e56e51471c.jpeg\timage/jpeg\t383031\t2026-02-06 17:47:49\n21\tIMG_6573.jpeg\timage/jpeg\t146868\t2026-02-06 17:47:49\n20\tIMG_6574.jpeg\timage/jpeg\t105107\t2026-02-06 17:47:48\n19\tIMG_6577.jpeg\timage/jpeg\t150655\t2026-02-06 17:47:48\n18\tIMG_6568.jpeg\timage/jpeg\t137935\t2026-02-06 17:47:48\n17\tIMG_6572.jpeg\timage/jpeg\t80864\t2026-02-06 17:47:48\n16\tIMG_6575.jpeg\timage/jpeg\t76051\t2026-02-06 17:47:48\n15\tIMG_6569.jpeg\timage/jpeg\t66737\t2026-02-06 17:47:48\n14\tcover_page_portrait_v3.png\timage/png\t1188017\t2026-02-06 17:46:57\n13\tbook_cover_v2.png\timage/png\t1288715\t2026-02-06 17:46:57\n12\tbook_cover_v2.png\timage/png\t1288715\t2026-02-06 17:46:57\n11\tIMG_5725.jpeg\timage/jpeg\t266842\t2026-02-06 17:46:57\n10\tIMG_5726.jpeg\timage/jpeg\t282801\t2026-02-06 17:46:57\n9\tIMG_6327.jpeg\timage/jpeg\t246385\t2026-02-06 17:46:57\n8\tIMG_5777.jpeg\timage/jpeg\t77412\t2026-02-06 17:46:56\n7\tcover_page_portrait.png\timage/png\t1193041\t2026-02-06 17:46:56\n6\tcover_page.png\timage/png\t1408715\t2026-02-06 17:46:56\n5\tIMG_6320.jpeg\timage/jpeg\t539097\t2026-02-06 17:46:56\n4\tIMG_6325.jpeg\timage/jpeg\t193555\t2026-02-06 17:46:55\n3\tIMG_6273.jpeg\timage/jpeg\t169018\t2026-02-06 17:46:55\n2\tIMG_6326.jpeg\timage/jpeg\t184662\t2026-02-06 17:46:55\n1\tbook1_journey_final.png\timage/png\t1047245\t2026-02-06 17:44:06\n",
+  "stderr": "",
+  "execution_time_ms": 1583
+}

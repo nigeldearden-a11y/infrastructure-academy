@@ -4,7 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { getLoginUrl } from "@/const";
-import { Upload, Download, Trash2 } from "lucide-react";
+import { Upload, Download } from "lucide-react";
+import { toast } from "sonner";
 
 interface Asset {
   id: number;
@@ -33,6 +34,7 @@ export default function AssetRepository() {
 
   const categoriesQuery = trpc.assets.getCategories.useQuery();
   const allAssetsQuery = trpc.assets.getAll.useQuery();
+  const uploadMutation = trpc.assets.upload.useMutation();
 
   useEffect(() => {
     if (allAssetsQuery.data) {
@@ -74,8 +76,8 @@ export default function AssetRepository() {
   };
 
   const handleFiles = async (files: FileList) => {
-    if (!selectedCategory && selectedCategory !== 0) {
-      alert("Please select a category first");
+    if (selectedCategory === null) {
+      toast.error("Please select a category first");
       return;
     }
 
@@ -89,31 +91,38 @@ export default function AssetRepository() {
 
         reader.onload = async (e) => {
           try {
-            const content = e.target?.result as ArrayBuffer;
-            const buffer = Buffer.from(content);
+            const content = e.target?.result as string;
+            const base64Content = content.split(',')[1] || content;
 
-            // Note: In a real implementation, you would call the upload mutation here
-            // For now, this is a placeholder that shows the upload flow
-            console.log(`Uploading: ${file.name}`);
-            
+            await uploadMutation.mutateAsync({
+              categoryId: selectedCategory,
+              fileName: file.name,
+              fileContent: base64Content,
+              mimeType: file.type,
+              description: `Uploaded on ${new Date().toLocaleDateString()}`,
+            });
+
             uploaded++;
             setUploadProgress(Math.round((uploaded / files.length) * 100));
+            toast.success(`Uploaded: ${file.name}`);
           } catch (error) {
             console.error(`Error uploading ${file.name}:`, error);
+            toast.error(`Failed to upload ${file.name}`);
           }
         };
 
-        reader.readAsArrayBuffer(file);
+        reader.readAsDataURL(file);
       }
 
-      // Refresh assets after upload
       setTimeout(() => {
         allAssetsQuery.refetch();
         setIsUploading(false);
         setUploadProgress(0);
+        toast.success("All files uploaded successfully!");
       }, 1000);
     } catch (error) {
       console.error("Upload error:", error);
+      toast.error("Upload failed");
       setIsUploading(false);
     }
   };
@@ -152,9 +161,9 @@ export default function AssetRepository() {
         {/* Categories */}
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-yellow-400 mb-4">Categories</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 overflow-y-auto">
             <Card
-              className={`p-4 cursor-pointer transition border-2 ${
+              className={`p-4 cursor-pointer transition border-2 flex-shrink-0 ${
                 selectedCategory === null
                   ? "bg-slate-700 border-yellow-400"
                   : "bg-slate-800 border-slate-600 hover:border-yellow-400"
@@ -167,15 +176,15 @@ export default function AssetRepository() {
             {categoriesQuery.data?.map((category: AssetCategory) => (
               <Card
                 key={category.id}
-                className={`p-4 cursor-pointer transition border-2 ${
+                className={`p-4 cursor-pointer transition border-2 flex-shrink-0 ${
                   selectedCategory === category.id
                     ? "bg-slate-700 border-yellow-400"
                     : "bg-slate-800 border-slate-600 hover:border-yellow-400"
                 }`}
                 onClick={() => setSelectedCategory(category.id)}
               >
-                <h3 className="text-yellow-400 font-bold">{category.name}</h3>
-                <p className="text-gray-400 text-sm">{category.description}</p>
+                <h3 className="text-yellow-400 font-bold text-sm">{category.name}</h3>
+                <p className="text-gray-400 text-xs">{category.description}</p>
               </Card>
             ))}
           </div>
@@ -229,38 +238,27 @@ export default function AssetRepository() {
               <p className="text-gray-300">No assets uploaded yet</p>
             </Card>
           ) : (
-            <div className="space-y-2">
+            <div className="space-y-2 max-h-96 overflow-y-auto">
               {assets.map((asset) => (
                 <Card
                   key={asset.id}
                   className="p-4 bg-slate-800 border-slate-600 hover:bg-slate-700 transition flex items-center justify-between"
                 >
-                  <div className="flex-1">
-                    <h3 className="text-yellow-400 font-semibold">{asset.fileName}</h3>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-yellow-400 font-semibold truncate">{asset.fileName}</h3>
                     <div className="text-gray-400 text-sm mt-1">
                       <span>{formatFileSize(asset.fileSize)}</span>
                       <span className="mx-2">•</span>
                       <span>{formatDate(asset.createdAt)}</span>
-                      {asset.mimeType && (
-                        <>
-                          <span className="mx-2">•</span>
-                          <span>{asset.mimeType}</span>
-                        </>
-                      )}
                     </div>
-                    {asset.description && (
-                      <p className="text-gray-400 text-sm mt-2">{asset.description}</p>
-                    )}
                   </div>
-                  <div className="flex gap-2 ml-4">
-                    <Button
-                      onClick={() => window.open(asset.fileUrl, "_blank")}
-                      className="bg-yellow-400 text-slate-900 hover:bg-yellow-300"
-                      size="sm"
-                    >
-                      <Download className="w-4 h-4" />
-                    </Button>
-                  </div>
+                  <Button
+                    onClick={() => window.open(asset.fileUrl, "_blank")}
+                    className="bg-yellow-400 text-slate-900 hover:bg-yellow-300 ml-4 flex-shrink-0"
+                    size="sm"
+                  >
+                    <Download className="w-4 h-4" />
+                  </Button>
                 </Card>
               ))}
             </div>

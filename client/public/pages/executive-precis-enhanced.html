@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Executive Précis - Infrastructure Academy">
+    <title>Executive Précis - Infrastructure Academy</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .relay-card-enhanced {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-lg);
+            margin: var(--spacing-xl) 0;
+            padding: var(--spacing-lg);
+            border: 2px solid var(--color-accent-gold);
+            border-radius: 8px;
+            background: rgba(15, 31, 58, 0.8);
+        }
+
+        .relay-card-enhanced img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid var(--color-accent-gold);
+            object-fit: cover;
+        }
+
+        .relay-card-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .relay-card-content h3 {
+            color: var(--color-accent-gold);
+            font-size: 1.8rem;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .relay-card-content p {
+            line-height: 1.8;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .relay-summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+            margin-top: var(--spacing-md);
+        }
+
+        .relay-summary-table th,
+        .relay-summary-table td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--color-accent-gold);
+        }
+
+        .relay-summary-table th {
+            background-color: rgba(255, 215, 0, 0.1);
+            color: var(--color-accent-gold);
+            font-weight: bold;
+        }
+
+        .relay-summary-table tr:hover {
+            background-color: rgba(255, 215, 0, 0.05);
+        }
+
+        @media (max-width: 768px) {
+            .relay-card-enhanced {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .relay-grid-overview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--spacing-lg);
+            margin: var(--spacing-xl) 0;
+        }
+
+        .relay-overview-card {
+            padding: var(--spacing-md);
+            border: 2px solid var(--color-accent-gold);
+            border-radius: 8px;
+            background: rgba(15, 31, 58, 0.8);
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .relay-overview-card:hover {
+            background: rgba(255, 215, 0, 0.1);
+            transform: translateY(-5px);
+        }
+
+        .relay-overview-card .relay-number {
+            font-size: 2rem;
+            color: var(--color-accent-gold);
+            font-weight: bold;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .relay-overview-card .relay-name {
+            font-size: 1.4rem;
+            color: var(--color-accent-gold);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .relay-overview-card .relay-subtitle {
+            font-size: 0.9rem;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-title">INFRASTRUCTURE ACADEMY</div>
+            <div class="header-subtitle">An Infrastructure Odyssey: Book 1 - Calories to Consciousness</div>
+            <nav>
+                <a href="../index.html">HOME</a>
+                <a href="executive-precis.html" class="active">EXEC PRÉCIS</a>
+                <a href="framework.html">FRAMEWORK</a>
+                <a href="resources.html">RESOURCES</a>
+                <a href="about-author.html">AUTHOR</a>
+                <a href="../volumes/volume1/index.html">VOL.1: PERSPECTIVE</a>
+                <a href="../volumes/volume2/index.html">VOL.2: GUIDE</a>
+                <a href="supplements.html">SUPPLEMENTS</a>
+                <a href="../volumes/volume3/index.html">VOL.3: GAME</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container text-center">
+            <h1>EXECUTIVE PRÉCIS</h1>
+            <p style="font-size: 1.1rem; margin-bottom: var(--spacing-lg);">
+                Cinematic Overview of An Infrastructure Odyssey
+            </p>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <!-- Executive Summary Section -->
+        <div class="container">
+            <h2 style="text-align: center;">EXECUTIVE SUMMARY</h2>
+            <div class="content-box" style="margin-top: var(--spacing-lg);">
+                <p style="font-size: 1.05rem; line-height: 1.9;">
+                    An Infrastructure Odyssey presents a 12,000-year journey through human civilization viewed through the lens of infrastructure. This civilizational masterclass examines how five great webs of civilization—Energy, Knowledge, Exchange, Power, and Consciousness—have evolved through twelve pivotal civilizational relays, from Fire to Programmable Humans. The framework explores how infrastructure enables continuity, unification, and resilience while examining the perennial threats that lead to civilizational collapse.
+                </p>
+            </div>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <!-- The 12 Civilizational Relays - Overview Grid -->
+        <div class="container">
+            <h2 style="text-align: center;">THE 12 CIVILIZATIONAL RELAYS</h2>
+            <div class="relay-grid-overview" style="margin-top: var(--spacing-xl);">
+                <div class="relay-overview-card">
+                    <div class="relay-number">🔥</div>
+                    <div class="relay-name">FIRE</div>
+                    <div class="relay-subtitle">The Primal Spark<br><small>Energy Mastery</small></div>
+                </div>
+                <div class="relay-overview-card">
+                    <div class="relay-number">🌳</div>
+                    <div class="relay-name">TREE</div>
+                    <div class="relay-subtitle">The First Canopy<br><small>Atmosphere & Agriculture</small></div>
+                </div>
+                <div class="relay-overview-card">
+                    <div class="relay-number">💧</div>
+                    <div class="relay-name">RIVER</div>
+                    <div class="relay-subtitle">The Lifeblood<br><small>Water Management</small></div>
+                </div>
+                <div class="relay-overview-card">
+                    <div class="relay-number">🐴</div>
+                    <div class="relay-name">HORSE</div>
+                    <div class="relay-subtitle">The Great Connector<br><small>Mobility & Nomadism</small></div>
+                </div>
+                <div class="relay-overview-card">
+                    <div class="relay-number">🛣️</div>
+                    <div class="relay-name">ROADS</div>
+                    <div class="relay-subtitle">The Arterial Network<br><small>Infrastructure of Velocity</small></div>
+                </div>
+                <div class="relay-overview-card">
+                    <div class="relay-number">⛵</div>
+                    <div class="relay-name">SHIPS</div>
+                    <div class="relay-subtitle">The Maritime Revolution<br><small>Oceans as Superhighways</small></div>
+                </div>
+                <div class="relay-overview-card">
+                    <div class="relay-number">🚂</div>
+                    <div class="relay-name">RAIL</div>
+                    <div class="relay-subtitle">The Iron Age<br><small>The Iron Pulse</small></div>
+                </div>
+                <div class="relay-overview-card">
+                    <div class="relay-number">🧵</div>
+                    <div class="relay-name">LOOM</div>
+                    <div class="relay-subtitle">The Social Fabric<br><small>The Binary Birth</small></div>
+                </div>
+                <div class="relay-overview-card">
+                    <div class="relay-number">⚙️</div>
+                    <div class="relay-name">ENGINE</div>
+                    <div class="relay-subtitle">The Power Surge<br><small>The Relentless Fire</small></div>
+                </div>
+                <div class="relay-overview-card">
+                    <div class="relay-number">🚗</div>
+                    <div class="relay-name">AAA TRIAD</div>
+                    <div class="relay-subtitle">Automobile, Aviation & Airwaves<br><small>Triple Revolution</small></div>
+                </div>
+                <div class="relay-overview-card">
+                    <div class="relay-number">🌐</div>
+                    <div class="relay-name">HUMANS AS NODES</div>
+                    <div class="relay-subtitle">The Information Age<br><small>The Biological Relay</small></div>
+                </div>
+                <div class="relay-overview-card">
+                    <div class="relay-number">♾️</div>
+                    <div class="relay-name">CONSCIOUSNESS</div>
+                    <div class="relay-subtitle">The Torus<br><small>The Infinite Loop</small></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <!-- The 5 Great Webs -->
+        <div class="container">
+            <h2 style="text-align: center;">THE 5 GREAT WEBS OF CIVILIZATION</h2>
+            <div class="card-grid" style="margin-top: var(--spacing-xl);">
+                <div class="content-box">
+                    <h3 style="color: var(--color-accent-gold); text-align: center;">1. ENERGY WEB</h3>
+                    <p style="text-align: center;">Power generation, distribution, and consumption systems that enable all human activity.</p>
+                </div>
+                <div class="content-box">
+                    <h3 style="color: var(--color-accent-gold); text-align: center;">2. KNOWLEDGE WEB</h3>
+                    <p style="text-align: center;">Information systems, education, and learning frameworks that preserve and transmit knowledge.</p>
+                </div>
+                <div class="content-box">
+                    <h3 style="color: var(--color-accent-gold); text-align: center;">3. EXCHANGE WEB</h3>
+                    <p style="text-align: center;">Trade, commerce, and economic systems that enable value creation and distribution.</p>
+                </div>
+                <div class="content-box">
+                    <h3 style="color: var(--color-accent-gold); text-align: center;">4. POWER WEB</h3>
+                    <p style="text-align: center;">Political systems, governance, and control structures that organize societies.</p>
+                </div>
+                <div class="content-box" style="grid-column: 1 / -1;">
+                    <h3 style="color: var(--color-accent-gold); text-align: center;">5. CONSCIOUSNESS WEB</h3>
+                    <p style="text-align: center;">Culture, art, philosophy, and meaning-making systems that define civilizational identity.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <!-- The 4 Framing Pillars -->
+        <div class="container">
+            <h2 style="text-align: center;">THE 4 FRAMING PILLARS</h2>
+            <div class="card-grid" style="margin-top: var(--spacing-xl);">
+                <div class="content-box">
+                    <h3 style="color: var(--color-accent-gold); text-align: center;">INFRASTRUCTURE</h3>
+                    <p style="text-align: center;">Physical systems and built environment that enable civilization.</p>
+                </div>
+                <div class="content-box">
+                    <h3 style="color: var(--color-accent-gold); text-align: center;">CONTINUITY</h3>
+                    <p style="text-align: center;">Knowledge preservation and transmission across generations.</p>
+                </div>
+                <div class="content-box">
+                    <h3 style="color: var(--color-accent-gold); text-align: center;">UNIFICATION</h3>
+                    <p style="text-align: center;">Integration and connection of systems and peoples.</p>
+                </div>
+                <div class="content-box">
+                    <h3 style="color: var(--color-accent-gold); text-align: center;">THREATS</h3>
+                    <p style="text-align: center;">Collapse patterns and renewal cycles that shape civilizations.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <!-- Navigation to Volumes -->
+        <div class="container">
+            <h2 style="text-align: center;">EXPLORE THE COMPLETE WORK</h2>
+            <div class="card-grid" style="margin-top: var(--spacing-xl);">
+                <div class="card">
+                    <div class="card-title">VOL.1: PERSPECTIVE</div>
+                    <div class="card-subtitle">The Story</div>
+                    <p style="font-size: 0.9rem; margin: var(--spacing-md) 0;">Narrative foundation and historical context through 12 civilizational relays</p>
+                    <a href="../volumes/volume1/index.html" class="btn">READ PERSPECTIVE</a>
+                </div>
+                <div class="card">
+                    <div class="card-title">VOL.2: GUIDE</div>
+                    <div class="card-subtitle">The Framework</div>
+                    <p style="font-size: 0.9rem; margin: var(--spacing-md) 0;">Practical application of civilizational infrastructure principles</p>
+                    <a href="../volumes/volume2/index.html" class="btn">READ GUIDE</a>
+                </div>
+                <div class="card">
+                    <div class="card-title">VOL.3: GAME</div>
+                    <div class="card-subtitle">The Reality Engine</div>
+                    <p style="font-size: 0.9rem; margin: var(--spacing-md) 0;">Interactive exploration of civilizational systems and dynamics</p>
+                    <a href="../volumes/volume3/index.html" class="btn">PLAY GAME</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <!-- Footer Navigation -->
+        <div class="container text-center" style="margin-bottom: var(--spacing-xl);">
+            <p style="font-size: 0.9rem; color: #aaa;">
+                <a href="executive-precis.html" style="color: var(--color-accent-gold);">← Back to Original</a> | 
+                <a href="../index.html" style="color: var(--color-accent-gold);">Home →</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Infrastructure Academy. All rights reserved.</p>
+            <p>An Infrastructure Odyssey: Calories to Consciousness</p>
+        </div>
+    </footer>
+
+    <script>
+        // Add interactivity to relay cards
+        document.querySelectorAll('.relay-overview-card').forEach(card => {
+            card.addEventListener('click', function() {
+                const relayName = this.querySelector('.relay-name').textContent;
+                console.log('Clicked on relay:', relayName);
+                // Could add navigation or modal here
+            });
+        });
+    </script>
+</body>
+</html>

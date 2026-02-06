@@ -1,0 +1,38 @@
+{
+  "query": "SELECT mimeType, COUNT(*) as count FROM assets GROUP BY mimeType ORDER BY count DESC;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2GX11Pnc2Gj5TH4.ab1ece9ffb5d --database kUQZAex2uPvgKcHnt7bmh3 --execute SELECT mimeType, COUNT(*) as count FROM assets GROUP BY mimeType ORDER BY count DESC;",
+  "rows": [
+    {
+      "mimeType": "image/jpeg",
+      "count": "147"
+    },
+    {
+      "mimeType": "image/png",
+      "count": "91"
+    },
+    {
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "count": "5"
+    },
+    {
+      "mimeType": "application/pdf",
+      "count": "4"
+    },
+    {
+      "mimeType": "image/avif",
+      "count": "2"
+    },
+    {
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "count": "2"
+    },
+    {
+      "mimeType": "video/mp4",
+      "count": "1"
+    }
+  ],
+  "messages": [],
+  "stdout": "mimeType\tcount\nimage/jpeg\t147\nimage/png\t91\napplication/vnd.openxmlformats-officedocument.wordprocessingml.document\t5\napplication/pdf\t4\nimage/avif\t2\napplication/vnd.openxmlformats-officedocument.presentationml.presentation\t2\nvideo/mp4\t1\n",
+  "stderr": "",
+  "execution_time_ms": 1589
+}

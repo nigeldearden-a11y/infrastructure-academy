@@ -1,0 +1,76 @@
+{
+  "query": "SELECT id, fileName, fileUrl, mimeType FROM assets WHERE mimeType IN ('application/pdf', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/msword', 'text/plain', 'application/vnd.openxmlformats-officedocument.presentationml.presentation') ORDER BY id ASC;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2GX11Pnc2Gj5TH4.ab1ece9ffb5d --database kUQZAex2uPvgKcHnt7bmh3 --execute SELECT id, fileName, fileUrl, mimeType FROM assets WHERE mimeType IN ('application/pdf', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/msword', 'text/plain', 'application/vnd.openxmlformats-officedocument.presentationml.presentation') ORDER BY id ASC;",
+  "rows": [
+    {
+      "id": "242",
+      "fileName": "An Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400983068-An Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "243",
+      "fileName": "An Infrastructure Odyssey Episode 1 copy.pptx",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400983076-An Infrastructure Odyssey Episode 1 copy.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    {
+      "id": "244",
+      "fileName": "NTD CV 2025.docx",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401195749-NTD CV 2025.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "id": "245",
+      "fileName": "The BIM Engineers_Brief_Profile_2021.pdf",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401195750-The BIM Engineers_Brief_Profile_2021.pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "246",
+      "fileName": "MissionVission1.02 copy.pptx",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401195758-MissionVission1.02 copy.pptx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    {
+      "id": "247",
+      "fileName": "A4_HARDBACK_LAYOUT_SPECIFICATION copy.docx",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344447-A4_HARDBACK_LAYOUT_SPECIFICATION copy.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "id": "248",
+      "fileName": "The Reality Engine - Kickstarter Video (FINAL).pdf",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344446-The Reality Engine - Kickstarter Video (FINAL).pdf",
+      "mimeType": "application/pdf"
+    },
+    {
+      "id": "249",
+      "fileName": "Three_Modes_4Cs_Comprehensive_Analysis copy.docx",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344445-Three_Modes_4Cs_Comprehensive_Analysis copy.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "id": "250",
+      "fileName": "SUPPLEMENT_2_Technology_Diffusion_Final copy.docx",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344448-SUPPLEMENT_2_Technology_Diffusion_Final copy.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "id": "251",
+      "fileName": "INFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344448-INFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "id": "252",
+      "fileName": "KICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf",
+      "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344447-KICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf",
+      "mimeType": "application/pdf"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tfileName\tfileUrl\tmimeType\n242\tAn Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400983068-An Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf\tapplication/pdf\n243\tAn Infrastructure Odyssey Episode 1 copy.pptx\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400983076-An Infrastructure Odyssey Episode 1 copy.pptx\tapplication/vnd.openxmlformats-officedocument.presentationml.presentation\n244\tNTD CV 2025.docx\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401195749-NTD CV 2025.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\n245\tThe BIM Engineers_Brief_Profile_2021.pdf\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401195750-The BIM Engineers_Brief_Profile_2021.pdf\tapplication/pdf\n246\tMissionVission1.02 copy.pptx\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401195758-MissionVission1.02 copy.pptx\tapplication/vnd.openxmlformats-officedocument.presentationml.presentation\n247\tA4_HARDBACK_LAYOUT_SPECIFICATION copy.docx\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344447-A4_HARDBACK_LAYOUT_SPECIFICATION copy.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\n248\tThe Reality Engine - Kickstarter Video (FINAL).pdf\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344446-The Reality Engine - Kickstarter Video (FINAL).pdf\tapplication/pdf\n249\tThree_Modes_4Cs_Comprehensive_Analysis copy.docx\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344445-Three_Modes_4Cs_Comprehensive_Analysis copy.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\n250\tSUPPLEMENT_2_Technology_Diffusion_Final copy.docx\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344448-SUPPLEMENT_2_Technology_Diffusion_Final copy.docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\n251\tINFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344448-INFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx\tapplication/vnd.openxmlformats-officedocument.wordprocessingml.document\n252\tKICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf\thttps://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344447-KICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf\tapplication/pdf\n",
+  "stderr": "",
+  "execution_time_ms": 1638
+}
