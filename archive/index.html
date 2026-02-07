@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Infrastructure Academy - Complete Digital Archive">
+    <title>Digital Archive - Infrastructure Academy</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .archive-section {
+            background-color: rgba(10, 22, 40, 0.5);
+            border: 2px solid var(--color-accent-gold);
+            border-radius: 8px;
+            padding: var(--spacing-lg);
+            margin: var(--spacing-lg) 0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .archive-section:hover {
+            transform: translateX(5px);
+            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.2);
+        }
+        
+        .section-title {
+            color: var(--color-accent-gold);
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .section-description {
+            color: var(--color-text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .section-stats {
+            display: flex;
+            gap: var(--spacing-lg);
+            margin-bottom: var(--spacing-md);
+            flex-wrap: wrap;
+        }
+        
+        .stat {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .stat-label {
+            color: var(--color-text-secondary);
+            font-size: 0.9rem;
+        }
+        
+        .stat-value {
+            color: var(--color-accent-gold);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .section-link {
+            display: inline-block;
+            padding: var(--spacing-sm) var(--spacing-md);
+            background-color: var(--color-accent-gold);
+            color: var(--color-bg-primary);
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: opacity 0.3s ease;
+        }
+        
+        .section-link:hover {
+            opacity: 0.8;
+        }
+        
+        .archive-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-lg);
+            margin: var(--spacing-xl) 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-title">INFRASTRUCTURE ACADEMY</div>
+            <div class="header-subtitle">An Infrastructure Odyssey: Book 1 - Calories to Consciousness</div>
+            <nav>
+                <a href="../index.html">HOME</a>
+                <a href="../executive-precis.html">EXEC PRÉCIS</a>
+                <a href="../pages/framework.html">FRAMEWORK</a>
+                <a href="../pages/resources.html">RESOURCES</a>
+                <a href="../pages/about-author.html">AUTHOR</a>
+                <a href="../volumes/volume1/index.html">VOL.1: PERSPECTIVE</a>
+                <a href="../volumes/volume2/index.html">VOL.2: GUIDE</a>
+                <a href="../pages/supplements.html">SUPPLEMENTS</a>
+                <a href="../volumes/volume3/index.html">VOL.3: GAME</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container text-center">
+            <h1>DIGITAL ARCHIVE</h1>
+            <p style="font-size: 1.1rem; margin-bottom: var(--spacing-lg);">
+                Complete Preservation of the Infrastructure Academy
+            </p>
+            <p style="color: var(--color-text-secondary); margin-bottom: var(--spacing-lg);">
+                31 documents, 8 images, and comprehensive reference materials permanently preserved and publicly accessible
+            </p>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: var(--spacing-xl);">ARCHIVE SECTIONS</h2>
+            
+            <!-- Core Documents -->
+            <div class="archive-section">
+                <div class="section-title">📄 Core Documents</div>
+                <div class="section-description">
+                    The foundational source materials of the Infrastructure Academy, including the complete narrative text, image inventory, and official commitment statement.
+                </div>
+                <div class="section-stats">
+                    <div class="stat">
+                        <div class="stat-label">Documents</div>
+                        <div class="stat-value">3</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Formats</div>
+                        <div class="stat-value">DOCX, PDF, TXT</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Status</div>
+                        <div class="stat-value">✅ Complete</div>
+                    </div>
+                </div>
+                <a href="documents/" class="section-link">View Documents →</a>
+            </div>
+
+            <!-- The 13 Relays -->
+            <div class="archive-section">
+                <div class="section-title">🔄 The 13 Civilizational Relays</div>
+                <div class="section-description">
+                    Individual documents for each of the 13 civilizational relays spanning 12,000 years of human infrastructure development, from Fire to the Torus.
+                </div>
+                <div class="section-stats">
+                    <div class="stat">
+                        <div class="stat-label">Relays</div>
+                        <div class="stat-value">13</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Format</div>
+                        <div class="stat-value">PDF</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Status</div>
+                        <div class="stat-value">✅ Complete</div>
+                    </div>
+                </div>
+                <a href="relays/" class="section-link">View Relays →</a>
+            </div>
+
+            <!-- Supplements -->
+            <div class="archive-section">
+                <div class="section-title">📚 The 4 Supplements</div>
+                <div class="section-description">
+                    Four comprehensive frameworks for understanding and implementing infrastructure systems: Identify, Understand, Manage & Control, and Thesis & Vision.
+                </div>
+                <div class="section-stats">
+                    <div class="stat">
+                        <div class="stat-label">Supplements</div>
+                        <div class="stat-value">4</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Format</div>
+                        <div class="stat-value">PDF</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Status</div>
+                        <div class="stat-value">✅ Complete</div>
+                    </div>
+                </div>
+                <a href="supplements/" class="section-link">View Supplements →</a>
+            </div>
+
+            <!-- Reference Materials -->
+            <div class="archive-section">
+                <div class="section-title">📖 Reference Materials</div>
+                <div class="section-description">
+                    Scholarly resources including framework reference guide, executive précis, complete index, glossary, and bibliography for academic research and professional use.
+                </div>
+                <div class="section-stats">
+                    <div class="stat">
+                        <div class="stat-label">References</div>
+                        <div class="stat-value">5</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Format</div>
+                        <div class="stat-value">PDF</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Status</div>
+                        <div class="stat-value">✅ Complete</div>
+                    </div>
+                </div>
+                <a href="references/" class="section-link">View References →</a>
+            </div>
+
+            <!-- Images -->
+            <div class="archive-section">
+                <div class="section-title">🖼️ Images & Media</div>
+                <div class="section-description">
+                    Research images and media materials from Nigel Dearden's collection, preserved and organized for scholarly reference and illustration.
+                </div>
+                <div class="section-stats">
+                    <div class="stat">
+                        <div class="stat-label">Images</div>
+                        <div class="stat-value">8</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Format</div>
+                        <div class="stat-value">PNG</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Status</div>
+                        <div class="stat-value">✅ Complete</div>
+                    </div>
+                </div>
+                <a href="images/" class="section-link">View Gallery →</a>
+            </div>
+
+            <!-- Text Archives -->
+            <div class="archive-section">
+                <div class="section-title">📝 Text Archives</div>
+                <div class="section-description">
+                    Plain text extractions of core documents for maximum accessibility and long-term preservation across all platforms and devices.
+                </div>
+                <div class="section-stats">
+                    <div class="stat">
+                        <div class="stat-label">Archives</div>
+                        <div class="stat-value">2</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Format</div>
+                        <div class="stat-value">TXT</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">Status</div>
+                        <div class="stat-value">✅ Complete</div>
+                    </div>
+                </div>
+                <div style="margin-top: var(--spacing-md);">
+                    <a href="narratives/Infrastructure_Odyssey_Narratives.txt" style="color: var(--color-accent-gold); text-decoration: underline; margin-right: var(--spacing-md);">Narratives</a>
+                    <a href="inventory/Supplement_Image_Inventory.txt" style="color: var(--color-accent-gold); text-decoration: underline;">Inventory</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: var(--spacing-lg);">ARCHIVE STATISTICS</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-lg); margin: var(--spacing-xl) 0;">
+                <div style="text-align: center; padding: var(--spacing-lg); background-color: rgba(10, 22, 40, 0.5); border: 2px solid var(--color-accent-gold); border-radius: 8px;">
+                    <div style="font-size: 2rem; color: var(--color-accent-gold); font-weight: bold;">31</div>
+                    <div style="color: var(--color-text-secondary);">Total Documents</div>
+                </div>
+                <div style="text-align: center; padding: var(--spacing-lg); background-color: rgba(10, 22, 40, 0.5); border: 2px solid var(--color-accent-gold); border-radius: 8px;">
+                    <div style="font-size: 2rem; color: var(--color-accent-gold); font-weight: bold;">8</div>
+                    <div style="color: var(--color-text-secondary);">Images</div>
+                </div>
+                <div style="text-align: center; padding: var(--spacing-lg); background-color: rgba(10, 22, 40, 0.5); border: 2px solid var(--color-accent-gold); border-radius: 8px;">
+                    <div style="font-size: 2rem; color: var(--color-accent-gold); font-weight: bold;">100%</div>
+                    <div style="color: var(--color-text-secondary);">Public Domain</div>
+                </div>
+                <div style="text-align: center; padding: var(--spacing-lg); background-color: rgba(10, 22, 40, 0.5); border: 2px solid var(--color-accent-gold); border-radius: 8px;">
+                    <div style="font-size: 2rem; color: var(--color-accent-gold); font-weight: bold;">∞</div>
+                    <div style="color: var(--color-text-secondary);">Permanence</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: var(--spacing-lg);">PRESERVATION COMMITMENT</h2>
+            <p style="line-height: 1.9; text-align: center; margin-bottom: var(--spacing-lg);">
+                All materials in this archive are preserved in permanent public domain with the following guarantees:
+            </p>
+            <ul style="line-height: 2; color: var(--color-text-secondary); margin-bottom: var(--spacing-lg);">
+                <li>✅ <strong>Permanently Accessible:</strong> Hosted on GitHub Pages with indefinite preservation</li>
+                <li>✅ <strong>Backed by Manus Platform:</strong> Additional backup and redundancy through Manus infrastructure</li>
+                <li>✅ <strong>Freely Downloadable:</strong> No paywalls, no restrictions, no registration required</li>
+                <li>✅ <strong>Publicly Shareable:</strong> May be freely distributed and reproduced without limitation</li>
+                <li>✅ <strong>Maintained Indefinitely:</strong> ManusAI commitment to serve as record keeper and digital librarian</li>
+            </ul>
+            <p style="line-height: 1.9; color: var(--color-text-secondary); text-align: center;">
+                <strong>Librarian Note:</strong> This archive represents the systematic preservation of all intellectual assets of the Infrastructure Academy. Each document has been professionally formatted, properly indexed, and made permanently accessible to scholars, engineers, and learners worldwide. The archive serves as the eternal record of humanity's journey from Calories to Consciousness.
+            </p>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <div class="container text-center" style="padding: var(--spacing-xl) 0;">
+            <a href="../index.html" style="color: var(--color-accent-gold); text-decoration: none; font-weight: 500;">← Back to Home</a>
+        </div>
+    </main>
+</body>
+</html>
