@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Infrastructure Academy - Uploaded Images Gallery">
+    <title>Image Gallery - Infrastructure Academy Archive</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: var(--spacing-lg);
+            margin: var(--spacing-xl) 0;
+        }
+        
+        .image-card {
+            background-color: rgba(10, 22, 40, 0.5);
+            border: 2px solid var(--color-accent-gold);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .image-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.2);
+        }
+        
+        .image-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .image-info {
+            padding: var(--spacing-md);
+        }
+        
+        .image-name {
+            color: var(--color-accent-gold);
+            font-weight: bold;
+            margin-bottom: var(--spacing-sm);
+            word-break: break-word;
+        }
+        
+        .image-size {
+            color: var(--color-text-secondary);
+            font-size: 0.9rem;
+        }
+        
+        .download-link {
+            display: inline-block;
+            margin-top: var(--spacing-sm);
+            padding: var(--spacing-sm) var(--spacing-md);
+            background-color: var(--color-accent-gold);
+            color: var(--color-bg-primary);
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: opacity 0.3s ease;
+        }
+        
+        .download-link:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-title">INFRASTRUCTURE ACADEMY</div>
+            <div class="header-subtitle">An Infrastructure Odyssey: Book 1 - Calories to Consciousness</div>
+            <nav>
+                <a href="../../index.html">HOME</a>
+                <a href="../../executive-precis.html">EXEC PRÉCIS</a>
+                <a href="../../pages/framework.html">FRAMEWORK</a>
+                <a href="../../pages/resources.html">RESOURCES</a>
+                <a href="../../pages/about-author.html">AUTHOR</a>
+                <a href="../../volumes/volume1/index.html">VOL.1: PERSPECTIVE</a>
+                <a href="../../volumes/volume2/index.html">VOL.2: GUIDE</a>
+                <a href="../../pages/supplements.html">SUPPLEMENTS</a>
+                <a href="../../volumes/volume3/index.html">VOL.3: GAME</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container text-center">
+            <h1>IMAGE GALLERY</h1>
+            <p style="font-size: 1.1rem; margin-bottom: var(--spacing-lg);">
+                Uploaded Images & Research Materials
+            </p>
+            <p style="color: var(--color-text-secondary); margin-bottom: var(--spacing-lg);">
+                8 images from Nigel Dearden's research collection
+            </p>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <div class="container">
+            <div class="image-gallery">
+                <!-- Image 1 -->
+                <div class="image-card">
+                    <img src="IMG_7468.PNG" alt="Research image 1">
+                    <div class="image-info">
+                        <div class="image-name">IMG_7468</div>
+                        <div class="image-size">203 KB</div>
+                        <a href="IMG_7468.PNG" download class="download-link">Download</a>
+                    </div>
+                </div>
+
+                <!-- Image 2 -->
+                <div class="image-card">
+                    <img src="IMG_7469.PNG" alt="Research image 2">
+                    <div class="image-info">
+                        <div class="image-name">IMG_7469</div>
+                        <div class="image-size">429 KB</div>
+                        <a href="IMG_7469.PNG" download class="download-link">Download</a>
+                    </div>
+                </div>
+
+                <!-- Image 3 -->
+                <div class="image-card">
+                    <img src="IMG_7471.PNG" alt="Research image 3">
+                    <div class="image-info">
+                        <div class="image-name">IMG_7471</div>
+                        <div class="image-size">275 KB</div>
+                        <a href="IMG_7471.PNG" download class="download-link">Download</a>
+                    </div>
+                </div>
+
+                <!-- Image 4 -->
+                <div class="image-card">
+                    <img src="IMG_7472.PNG" alt="Research image 4">
+                    <div class="image-info">
+                        <div class="image-name">IMG_7472</div>
+                        <div class="image-size">276 KB</div>
+                        <a href="IMG_7472.PNG" download class="download-link">Download</a>
+                    </div>
+                </div>
+
+                <!-- Image 5 -->
+                <div class="image-card">
+                    <img src="IMG_7476.PNG" alt="Research image 5">
+                    <div class="image-info">
+                        <div class="image-name">IMG_7476</div>
+                        <div class="image-size">276 KB</div>
+                        <a href="IMG_7476.PNG" download class="download-link">Download</a>
+                    </div>
+                </div>
+
+                <!-- Image 6 -->
+                <div class="image-card">
+                    <img src="IMG_7477.PNG" alt="Research image 6">
+                    <div class="image-info">
+                        <div class="image-name">IMG_7477</div>
+                        <div class="image-size">276 KB</div>
+                        <a href="IMG_7477.PNG" download class="download-link">Download</a>
+                    </div>
+                </div>
+
+                <!-- Image 7 -->
+                <div class="image-card">
+                    <img src="IMG_7478.PNG" alt="Research image 7">
+                    <div class="image-info">
+                        <div class="image-name">IMG_7478</div>
+                        <div class="image-size">608 KB</div>
+                        <a href="IMG_7478.PNG" download class="download-link">Download</a>
+                    </div>
+                </div>
+
+                <!-- Image 8 -->
+                <div class="image-card">
+                    <img src="IMG_7479.PNG" alt="Research image 8">
+                    <div class="image-info">
+                        <div class="image-name">IMG_7479</div>
+                        <div class="image-size">295 KB</div>
+                        <a href="IMG_7479.PNG" download class="download-link">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator-thick"></div>
+
+        <div class="container text-center" style="padding: var(--spacing-xl) 0;">
+            <a href="../index.html" style="color: var(--color-accent-gold); text-decoration: none; font-weight: 500;">← Back to Archive</a>
+        </div>
+    </main>
+</body>
+</html>
