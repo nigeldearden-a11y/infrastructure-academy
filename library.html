@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Document Library - Infrastructure Academy">
+    <title>Document Library - Infrastructure Academy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .library-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .library-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .library-header h1 {
+            font-size: 2.5rem;
+            color: var(--color-accent-gold);
+            margin-bottom: 10px;
+        }
+        
+        .library-header p {
+            font-size: 1.1rem;
+            color: var(--color-text-secondary);
+        }
+        
+        .document-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .document-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background: var(--color-bg-secondary);
+            border-left: 4px solid var(--color-accent-gold);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .document-row:hover {
+            background: var(--color-bg-tertiary);
+            transform: translateX(5px);
+        }
+        
+        .document-info h3 {
+            font-size: 1.2rem;
+            color: var(--color-accent-gold);
+            margin: 0 0 5px 0;
+        }
+        
+        .document-info p {
+            margin: 0;
+            color: var(--color-text-secondary);
+            font-size: 0.95rem;
+        }
+        
+        .download-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: var(--color-accent-gold);
+            color: var(--color-bg-primary);
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .download-link:hover {
+            background: var(--color-accent-gold-light);
+            transform: scale(1.05);
+        }
+        
+        .separator {
+            height: 1px;
+            background: var(--color-border);
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-title">INFRASTRUCTURE ACADEMY</div>
+            <div class="header-subtitle">An Infrastructure Odyssey: Book 1 - Calories to Consciousness</div>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="executive-precis.html">EXEC PRÉCIS</a>
+                <a href="pages/framework.html">FRAMEWORK</a>
+                <a href="pages/resources.html">RESOURCES</a>
+                <a href="pages/about-author.html">AUTHOR</a>
+                <a href="volumes/volume1/index.html">VOL.1: PERSPECTIVE</a>
+                <a href="volumes/volume2/index.html">VOL.2: GUIDE</a>
+                <a href="pages/supplements.html">SUPPLEMENTS</a>
+                <a href="volumes/volume3/index.html">VOL.3: GAME</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="library-container">
+            <div class="library-header">
+                <h1>📚 Document Library</h1>
+                <p>Download all supporting materials and primary documents</p>
+            </div>
+
+            <div class="document-list">
+                <!-- Book 1 Vol 1 -->
+                <div class="document-row">
+                    <div class="document-info">
+                        <h3>Book 1 Vol 1: The Perspective</h3>
+                        <p>The Story • 66 pages • PDF (324 KB)</p>
+                    </div>
+                    <a href="https://nigeldearden-a11y.github.io/infrastructure-academy/Book1_Vol1_ThePerspective.pdf" class="download-link" download>Download PDF</a>
+                </div>
+
+                <!-- Book 1 Vol 2 -->
+                <div class="document-row">
+                    <div class="document-info">
+                        <h3>Book 1 Vol 2: The Guide</h3>
+                        <p>The Compendium • 84 pages • PDF (874 KB)</p>
+                    </div>
+                    <a href="https://nigeldearden-a11y.github.io/infrastructure-academy/Book1_Vol2_TheGuide.pdf" class="download-link" download>Download PDF</a>
+                </div>
+
+                <!-- ManusAI Commitment -->
+                <div class="document-row">
+                    <div class="document-info">
+                        <h3>ManusAI Commitment</h3>
+                        <p>Official Statement • 4 pages • PDF & DOCX</p>
+                    </div>
+                    <div style="display: flex; gap: 10px;">
+                        <a href="https://nigeldearden-a11y.github.io/infrastructure-academy/archive/documents/ManusAI_Commitment.pdf" class="download-link" download>PDF</a>
+                        <a href="https://nigeldearden-a11y.github.io/infrastructure-academy/archive/documents/ManusAICommitmenttotheInfrastructureAcademyProjectcopy.docx" class="download-link" download>DOCX</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div style="text-align: center; color: var(--color-text-secondary); padding: 20px;">
+                <p>All documents are permanently archived and available for download</p>
+                <p style="font-size: 0.9rem; margin-top: 10px;">Last updated: February 6, 2026</p>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
