@@ -117,7 +117,34 @@
     </div>
     
     <div class="documents-container">
-        <div class="document-list" id="documents"></div>
+        <div class="document-list">
+            <div class="document-card">
+                <div class="document-info">
+                    <div class="document-name">Book 1 Vol 1: The Perspective</div>
+                    <div class="document-type">The Story • 66 pages • PDF</div>
+                </div>
+                <a href="/infrastructure-academy/Book1_Vol1_ThePerspective.pdf" class="document-link">Download</a>
+            </div>
+            
+            <div class="document-card">
+                <div class="document-info">
+                    <div class="document-name">Book 1 Vol 2: The Guide</div>
+                    <div class="document-type">The Compendium • 84 pages • PDF</div>
+                </div>
+                <a href="/infrastructure-academy/Book1_Vol2_TheGuide.pdf" class="document-link">Download</a>
+            </div>
+            
+            <div class="document-card">
+                <div class="document-info">
+                    <div class="document-name">ManusAI Commitment</div>
+                    <div class="document-type">Official Statement • 4 pages</div>
+                </div>
+                <div style="display: flex; gap: 10px;">
+                    <a href="/infrastructure-academy/archive/documents/ManusAI_Commitment.pdf" class="document-link">PDF</a>
+                    <a href="/infrastructure-academy/archive/documents/ManusAICommitmenttotheInfrastructureAcademyProjectcopy.docx" class="document-link">DOCX</a>
+                </div>
+            </div>
+        </div>
     </div>
     
     <div class="footer">
@@ -126,6 +153,9 @@
     </div>
     
     <script>
+        // Documents list - add more as needed
+        const documents = [];
+        /*
         const documents = [{"id": 242, "categoryId": 3, "fileName": "An Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf", "fileKey": "assets/1/1770400983068-An Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf", "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400983068-An Infrastructure Odyssey: Complete Presentation - Episode 1: Calories to Consciousness.pdf", "fileSize": 702098, "mimeType": "application/pdf", "description": "Uploaded on 07/02/2026", "uploadedBy": 1, "createdAt": "2026-02-06T18:03:05.000Z", "updatedAt": "2026-02-06T18:03:05.000Z", "imgCode": "AST-242", "type": "document", "category": "Images"}, {"id": 243, "categoryId": 3, "fileName": "An Infrastructure Odyssey Episode 1 copy.pptx", "fileKey": "assets/1/1770400983076-An Infrastructure Odyssey Episode 1 copy.pptx", "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770400983076-An Infrastructure Odyssey Episode 1 copy.pptx", "fileSize": 31820290, "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation", "description": "Uploaded on 07/02/2026", "uploadedBy": 1, "createdAt": "2026-02-06T18:03:08.000Z", "updatedAt": "2026-02-06T18:03:08.000Z", "imgCode": "AST-243", "type": "document", "category": "Images"}, {"id": 244, "categoryId": 3, "fileName": "NTD CV 2025.docx", "fileKey": "assets/1/1770401195749-NTD CV 2025.docx", "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401195749-NTD CV 2025.docx", "fileSize": 45965, "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "description": "Uploaded on 07/02/2026", "uploadedBy": 1, "createdAt": "2026-02-06T18:06:37.000Z", "updatedAt": "2026-02-06T18:06:37.000Z", "imgCode": "AST-244", "type": "document", "category": "Images"}, {"id": 245, "categoryId": 3, "fileName": "The BIM Engineers_Brief_Profile_2021.pdf", "fileKey": "assets/1/1770401195750-The BIM Engineers_Brief_Profile_2021.pdf", "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401195750-The BIM Engineers_Brief_Profile_2021.pdf", "fileSize": 6567703, "mimeType": "application/pdf", "description": "Uploaded on 07/02/2026", "uploadedBy": 1, "createdAt": "2026-02-06T18:06:38.000Z", "updatedAt": "2026-02-06T18:06:38.000Z", "imgCode": "AST-245", "type": "document", "category": "Images"}, {"id": 246, "categoryId": 3, "fileName": "MissionVission1.02 copy.pptx", "fileKey": "assets/1/1770401195758-MissionVission1.02 copy.pptx", "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401195758-MissionVission1.02 copy.pptx", "fileSize": 30634497, "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation", "description": "Uploaded on 07/02/2026", "uploadedBy": 1, "createdAt": "2026-02-06T18:06:40.000Z", "updatedAt": "2026-02-06T18:06:40.000Z", "imgCode": "AST-246", "type": "document", "category": "Images"}, {"id": 247, "categoryId": 3, "fileName": "A4_HARDBACK_LAYOUT_SPECIFICATION copy.docx", "fileKey": "assets/1/1770401344447-A4_HARDBACK_LAYOUT_SPECIFICATION copy.docx", "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344447-A4_HARDBACK_LAYOUT_SPECIFICATION copy.docx", "fileSize": 32252, "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "description": "Uploaded on 07/02/2026", "uploadedBy": 1, "createdAt": "2026-02-06T18:09:05.000Z", "updatedAt": "2026-02-06T18:09:05.000Z", "imgCode": "AST-247", "type": "document", "category": "Images"}, {"id": 248, "categoryId": 3, "fileName": "The Reality Engine - Kickstarter Video (FINAL).pdf", "fileKey": "assets/1/1770401344446-The Reality Engine - Kickstarter Video (FINAL).pdf", "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344446-The Reality Engine - Kickstarter Video (FINAL).pdf", "fileSize": 141507, "mimeType": "application/pdf", "description": "Uploaded on 07/02/2026", "uploadedBy": 1, "createdAt": "2026-02-06T18:09:06.000Z", "updatedAt": "2026-02-06T18:09:06.000Z", "imgCode": "AST-248", "type": "document", "category": "Images"}, {"id": 249, "categoryId": 3, "fileName": "Three_Modes_4Cs_Comprehensive_Analysis copy.docx", "fileKey": "assets/1/1770401344445-Three_Modes_4Cs_Comprehensive_Analysis copy.docx", "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344445-Three_Modes_4Cs_Comprehensive_Analysis copy.docx", "fileSize": 34181, "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "description": "Uploaded on 07/02/2026", "uploadedBy": 1, "createdAt": "2026-02-06T18:09:06.000Z", "updatedAt": "2026-02-06T18:09:06.000Z", "imgCode": "AST-249", "type": "document", "category": "Images"}, {"id": 250, "categoryId": 3, "fileName": "SUPPLEMENT_2_Technology_Diffusion_Final copy.docx", "fileKey": "assets/1/1770401344448-SUPPLEMENT_2_Technology_Diffusion_Final copy.docx", "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344448-SUPPLEMENT_2_Technology_Diffusion_Final copy.docx", "fileSize": 28610, "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "description": "Uploaded on 07/02/2026", "uploadedBy": 1, "createdAt": "2026-02-06T18:09:06.000Z", "updatedAt": "2026-02-06T18:09:06.000Z", "imgCode": "AST-250", "type": "document", "category": "Images"}, {"id": 251, "categoryId": 3, "fileName": "INFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx", "fileKey": "assets/1/1770401344448-INFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx", "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344448-INFRASTRUCTURE_ODYSSEY_COMPLETE_STRUCTURE copy(1).docx", "fileSize": 21721, "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "description": "Uploaded on 07/02/2026", "uploadedBy": 1, "createdAt": "2026-02-06T18:09:06.000Z", "updatedAt": "2026-02-06T18:09:06.000Z", "imgCode": "AST-251", "type": "document", "category": "Images"}, {"id": 252, "categoryId": 3, "fileName": "KICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf", "fileKey": "assets/1/1770401344447-KICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf", "fileUrl": "https://d2xsxph8kpxj0f.cloudfront.net/310419663030220481/kUQZAex2uPvgKcHnt7bmh3/assets/1/1770401344447-KICKSTARTER_CAMPAIGN_BRIEF_V2 copy.pdf", "fileSize": 307827, "mimeType": "application/pdf", "description": "Uploaded on 07/02/2026", "uploadedBy": 1, "createdAt": "2026-02-06T18:09:07.000Z", "updatedAt": "2026-02-06T18:09:07.000Z", "imgCode": "AST-252", "type": "document", "category": "Images"}];
         
         function renderDocuments() {
